@@ -1,0 +1,2871 @@
+2017-09-14 12:03:40 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2017-09-14 12:03:40 Dash Core version v0.12.1.5 (2017-04-05 19:30:08 +0300)
+2017-09-14 12:03:40 InitParameterInteraction: parameter interaction: -whitelistforcerelay=1 -> setting -whitelistrelay=1
+2017-09-14 12:03:40 Using BerkeleyDB version Berkeley DB 4.8.30: (April  9, 2010)
+2017-09-14 12:03:40 Default data directory /.dashcore
+2017-09-14 12:03:40 Using data directory /data/node-alice/regtest
+2017-09-14 12:03:40 Using config file /data/node-alice/dash.conf
+2017-09-14 12:03:40 Using at most 125 connections (1048576 file descriptors available)
+2017-09-14 12:03:40 Using 2 threads for script verification
+2017-09-14 12:03:40 HTTP: creating work queue of depth 16
+2017-09-14 12:03:40 Config options rpcuser and rpcpassword will soon be deprecated. Locally-run instances may remove rpcuser to use cookie-based auth, or may be replaced with rpcauth. Please see share/rpcuser for rpcauth auth generation.
+2017-09-14 12:03:40 HTTP: starting 4 worker threads
+2017-09-14 12:03:40 Creating backup folder /data/node-alice/regtest/backups
+2017-09-14 12:03:40 Using wallet wallet.dat
+2017-09-14 12:03:40 init message: Verifying wallet...
+2017-09-14 12:03:40 CDBEnv::Open: LogDir=/data/node-alice/regtest/database ErrorFile=/data/node-alice/regtest/db.log
+2017-09-14 12:03:40 scheduler thread start
+2017-09-14 12:03:40 Bound to [::]:18003
+2017-09-14 12:03:40 Bound to 0.0.0.0:18003
+2017-09-14 12:03:40 Cache configuration:
+2017-09-14 12:03:40 * Using 12.5MiB for block index database
+2017-09-14 12:03:40 * Using 29.9MiB for chain state database
+2017-09-14 12:03:40 * Using 57.6MiB for in-memory UTXO set
+2017-09-14 12:03:40 init message: Loading block index...
+2017-09-14 12:03:40 Opening LevelDB in /data/node-alice/regtest/blocks/index
+2017-09-14 12:03:40 Opened LevelDB successfully
+2017-09-14 12:03:40 Using obfuscation key for /data/node-alice/regtest/blocks/index: 0000000000000000
+2017-09-14 12:03:40 Opening LevelDB in /data/node-alice/regtest/chainstate
+2017-09-14 12:03:40 Opened LevelDB successfully
+2017-09-14 12:03:40 Wrote new obfuscate key for /data/node-alice/regtest/chainstate: 05d63f42b2fe7be2
+2017-09-14 12:03:40 Using obfuscation key for /data/node-alice/regtest/chainstate: 05d63f42b2fe7be2
+2017-09-14 12:03:40 LoadBlockIndexDB: last block file = 0
+2017-09-14 12:03:40 LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=0, size=0, heights=0...0, time=1970-01-01...1970-01-01)
+2017-09-14 12:03:40 Checking all blk files are present...
+2017-09-14 12:03:40 LoadBlockIndexDB: transaction index enabled
+2017-09-14 12:03:40 LoadBlockIndexDB: address index disabled
+2017-09-14 12:03:40 LoadBlockIndexDB: timestamp index disabled
+2017-09-14 12:03:40 LoadBlockIndexDB: spent index disabled
+2017-09-14 12:03:40 Initializing databases...
+2017-09-14 12:03:40 Pre-allocating up to position 0x1000000 in blk00000.dat
+2017-09-14 12:03:40 UpdateTip: new best=000008ca1832a4baf228eb1553c03d3a2c8e02399550dd6ea8d65cec3ef23d2e  height=0  log2_work=1  tx=1  date=2014-12-04 17:15:37 progress=1.000000  cache=0.0MiB(0tx)
+2017-09-14 12:03:40 init message: Verifying blocks...
+2017-09-14 12:03:40  block index             112ms
+2017-09-14 12:03:40 init message: Loading wallet...
+2017-09-14 12:03:40 nKeysLeftSinceAutoBackup: 0
+2017-09-14 12:03:40 nFileVersion = 120105
+2017-09-14 12:03:40 Keys: 0 plaintext, 0 encrypted, 0 w/ metadata, 0 total
+2017-09-14 12:03:40 Performing wallet upgrade to 61000
+2017-09-14 12:03:40 keypool added key 1, size=1
+2017-09-14 12:03:40 init message: Loading wallet... (0.10 %)
+2017-09-14 12:03:40 keypool added key 2, size=2
+2017-09-14 12:03:40 init message: Loading wallet... (0.20 %)
+2017-09-14 12:03:40 keypool added key 3, size=3
+2017-09-14 12:03:40 init message: Loading wallet... (0.30 %)
+2017-09-14 12:03:41 keypool added key 4, size=4
+2017-09-14 12:03:41 init message: Loading wallet... (0.40 %)
+2017-09-14 12:03:41 keypool added key 5, size=5
+2017-09-14 12:03:41 init message: Loading wallet... (0.50 %)
+2017-09-14 12:03:41 keypool added key 6, size=6
+2017-09-14 12:03:41 init message: Loading wallet... (0.60 %)
+2017-09-14 12:03:41 keypool added key 7, size=7
+2017-09-14 12:03:41 init message: Loading wallet... (0.70 %)
+2017-09-14 12:03:41 keypool added key 8, size=8
+2017-09-14 12:03:41 init message: Loading wallet... (0.80 %)
+2017-09-14 12:03:41 keypool added key 9, size=9
+2017-09-14 12:03:41 init message: Loading wallet... (0.90 %)
+2017-09-14 12:03:41 keypool added key 10, size=10
+2017-09-14 12:03:41 init message: Loading wallet... (1.00 %)
+2017-09-14 12:03:41 keypool added key 11, size=11
+2017-09-14 12:03:41 init message: Loading wallet... (1.10 %)
+2017-09-14 12:03:41 keypool added key 12, size=12
+2017-09-14 12:03:41 init message: Loading wallet... (1.20 %)
+2017-09-14 12:03:41 keypool added key 13, size=13
+2017-09-14 12:03:41 init message: Loading wallet... (1.30 %)
+2017-09-14 12:03:41 keypool added key 14, size=14
+2017-09-14 12:03:41 init message: Loading wallet... (1.40 %)
+2017-09-14 12:03:41 keypool added key 15, size=15
+2017-09-14 12:03:41 init message: Loading wallet... (1.50 %)
+2017-09-14 12:03:41 keypool added key 16, size=16
+2017-09-14 12:03:41 init message: Loading wallet... (1.60 %)
+2017-09-14 12:03:41 keypool added key 17, size=17
+2017-09-14 12:03:41 init message: Loading wallet... (1.70 %)
+2017-09-14 12:03:41 keypool added key 18, size=18
+2017-09-14 12:03:41 init message: Loading wallet... (1.80 %)
+2017-09-14 12:03:41 keypool added key 19, size=19
+2017-09-14 12:03:41 init message: Loading wallet... (1.90 %)
+2017-09-14 12:03:41 keypool added key 20, size=20
+2017-09-14 12:03:41 init message: Loading wallet... (2.00 %)
+2017-09-14 12:03:41 keypool added key 21, size=21
+2017-09-14 12:03:41 init message: Loading wallet... (2.10 %)
+2017-09-14 12:03:41 keypool added key 22, size=22
+2017-09-14 12:03:41 init message: Loading wallet... (2.20 %)
+2017-09-14 12:03:41 keypool added key 23, size=23
+2017-09-14 12:03:41 init message: Loading wallet... (2.30 %)
+2017-09-14 12:03:41 keypool added key 24, size=24
+2017-09-14 12:03:41 init message: Loading wallet... (2.40 %)
+2017-09-14 12:03:41 keypool added key 25, size=25
+2017-09-14 12:03:41 init message: Loading wallet... (2.50 %)
+2017-09-14 12:03:41 keypool added key 26, size=26
+2017-09-14 12:03:41 init message: Loading wallet... (2.60 %)
+2017-09-14 12:03:41 keypool added key 27, size=27
+2017-09-14 12:03:41 init message: Loading wallet... (2.70 %)
+2017-09-14 12:03:41 keypool added key 28, size=28
+2017-09-14 12:03:41 init message: Loading wallet... (2.80 %)
+2017-09-14 12:03:41 keypool added key 29, size=29
+2017-09-14 12:03:41 init message: Loading wallet... (2.90 %)
+2017-09-14 12:03:41 keypool added key 30, size=30
+2017-09-14 12:03:41 init message: Loading wallet... (3.00 %)
+2017-09-14 12:03:41 keypool added key 31, size=31
+2017-09-14 12:03:41 init message: Loading wallet... (3.10 %)
+2017-09-14 12:03:41 keypool added key 32, size=32
+2017-09-14 12:03:41 init message: Loading wallet... (3.20 %)
+2017-09-14 12:03:41 keypool added key 33, size=33
+2017-09-14 12:03:41 init message: Loading wallet... (3.30 %)
+2017-09-14 12:03:41 keypool added key 34, size=34
+2017-09-14 12:03:41 init message: Loading wallet... (3.40 %)
+2017-09-14 12:03:41 keypool added key 35, size=35
+2017-09-14 12:03:41 init message: Loading wallet... (3.50 %)
+2017-09-14 12:03:41 keypool added key 36, size=36
+2017-09-14 12:03:41 init message: Loading wallet... (3.60 %)
+2017-09-14 12:03:41 keypool added key 37, size=37
+2017-09-14 12:03:41 init message: Loading wallet... (3.70 %)
+2017-09-14 12:03:41 keypool added key 38, size=38
+2017-09-14 12:03:41 init message: Loading wallet... (3.80 %)
+2017-09-14 12:03:41 keypool added key 39, size=39
+2017-09-14 12:03:41 init message: Loading wallet... (3.90 %)
+2017-09-14 12:03:41 keypool added key 40, size=40
+2017-09-14 12:03:41 init message: Loading wallet... (4.00 %)
+2017-09-14 12:03:41 keypool added key 41, size=41
+2017-09-14 12:03:41 init message: Loading wallet... (4.10 %)
+2017-09-14 12:03:41 keypool added key 42, size=42
+2017-09-14 12:03:41 init message: Loading wallet... (4.20 %)
+2017-09-14 12:03:41 keypool added key 43, size=43
+2017-09-14 12:03:41 init message: Loading wallet... (4.30 %)
+2017-09-14 12:03:41 keypool added key 44, size=44
+2017-09-14 12:03:41 init message: Loading wallet... (4.40 %)
+2017-09-14 12:03:41 keypool added key 45, size=45
+2017-09-14 12:03:41 init message: Loading wallet... (4.50 %)
+2017-09-14 12:03:41 keypool added key 46, size=46
+2017-09-14 12:03:41 init message: Loading wallet... (4.60 %)
+2017-09-14 12:03:41 keypool added key 47, size=47
+2017-09-14 12:03:41 init message: Loading wallet... (4.70 %)
+2017-09-14 12:03:41 keypool added key 48, size=48
+2017-09-14 12:03:41 init message: Loading wallet... (4.80 %)
+2017-09-14 12:03:41 keypool added key 49, size=49
+2017-09-14 12:03:41 init message: Loading wallet... (4.90 %)
+2017-09-14 12:03:41 keypool added key 50, size=50
+2017-09-14 12:03:41 init message: Loading wallet... (5.00 %)
+2017-09-14 12:03:41 keypool added key 51, size=51
+2017-09-14 12:03:41 init message: Loading wallet... (5.09 %)
+2017-09-14 12:03:41 keypool added key 52, size=52
+2017-09-14 12:03:41 init message: Loading wallet... (5.19 %)
+2017-09-14 12:03:41 keypool added key 53, size=53
+2017-09-14 12:03:41 init message: Loading wallet... (5.29 %)
+2017-09-14 12:03:41 keypool added key 54, size=54
+2017-09-14 12:03:41 init message: Loading wallet... (5.39 %)
+2017-09-14 12:03:41 keypool added key 55, size=55
+2017-09-14 12:03:41 init message: Loading wallet... (5.49 %)
+2017-09-14 12:03:41 keypool added key 56, size=56
+2017-09-14 12:03:41 init message: Loading wallet... (5.59 %)
+2017-09-14 12:03:41 keypool added key 57, size=57
+2017-09-14 12:03:41 init message: Loading wallet... (5.69 %)
+2017-09-14 12:03:42 keypool added key 58, size=58
+2017-09-14 12:03:42 init message: Loading wallet... (5.79 %)
+2017-09-14 12:03:42 keypool added key 59, size=59
+2017-09-14 12:03:42 init message: Loading wallet... (5.89 %)
+2017-09-14 12:03:42 keypool added key 60, size=60
+2017-09-14 12:03:42 init message: Loading wallet... (5.99 %)
+2017-09-14 12:03:42 keypool added key 61, size=61
+2017-09-14 12:03:42 init message: Loading wallet... (6.09 %)
+2017-09-14 12:03:42 keypool added key 62, size=62
+2017-09-14 12:03:42 init message: Loading wallet... (6.19 %)
+2017-09-14 12:03:42 keypool added key 63, size=63
+2017-09-14 12:03:42 init message: Loading wallet... (6.29 %)
+2017-09-14 12:03:42 keypool added key 64, size=64
+2017-09-14 12:03:42 init message: Loading wallet... (6.39 %)
+2017-09-14 12:03:42 keypool added key 65, size=65
+2017-09-14 12:03:42 init message: Loading wallet... (6.49 %)
+2017-09-14 12:03:42 keypool added key 66, size=66
+2017-09-14 12:03:42 init message: Loading wallet... (6.59 %)
+2017-09-14 12:03:42 keypool added key 67, size=67
+2017-09-14 12:03:42 init message: Loading wallet... (6.69 %)
+2017-09-14 12:03:42 keypool added key 68, size=68
+2017-09-14 12:03:42 init message: Loading wallet... (6.79 %)
+2017-09-14 12:03:42 keypool added key 69, size=69
+2017-09-14 12:03:42 init message: Loading wallet... (6.89 %)
+2017-09-14 12:03:42 keypool added key 70, size=70
+2017-09-14 12:03:42 init message: Loading wallet... (6.99 %)
+2017-09-14 12:03:42 keypool added key 71, size=71
+2017-09-14 12:03:42 init message: Loading wallet... (7.09 %)
+2017-09-14 12:03:42 keypool added key 72, size=72
+2017-09-14 12:03:42 init message: Loading wallet... (7.19 %)
+2017-09-14 12:03:42 keypool added key 73, size=73
+2017-09-14 12:03:42 init message: Loading wallet... (7.29 %)
+2017-09-14 12:03:42 keypool added key 74, size=74
+2017-09-14 12:03:42 init message: Loading wallet... (7.39 %)
+2017-09-14 12:03:42 keypool added key 75, size=75
+2017-09-14 12:03:42 init message: Loading wallet... (7.49 %)
+2017-09-14 12:03:42 keypool added key 76, size=76
+2017-09-14 12:03:42 init message: Loading wallet... (7.59 %)
+2017-09-14 12:03:42 keypool added key 77, size=77
+2017-09-14 12:03:42 init message: Loading wallet... (7.69 %)
+2017-09-14 12:03:42 keypool added key 78, size=78
+2017-09-14 12:03:42 init message: Loading wallet... (7.79 %)
+2017-09-14 12:03:42 keypool added key 79, size=79
+2017-09-14 12:03:42 init message: Loading wallet... (7.89 %)
+2017-09-14 12:03:42 keypool added key 80, size=80
+2017-09-14 12:03:42 init message: Loading wallet... (7.99 %)
+2017-09-14 12:03:42 keypool added key 81, size=81
+2017-09-14 12:03:42 init message: Loading wallet... (8.09 %)
+2017-09-14 12:03:42 keypool added key 82, size=82
+2017-09-14 12:03:42 init message: Loading wallet... (8.19 %)
+2017-09-14 12:03:42 keypool added key 83, size=83
+2017-09-14 12:03:42 init message: Loading wallet... (8.29 %)
+2017-09-14 12:03:42 keypool added key 84, size=84
+2017-09-14 12:03:42 init message: Loading wallet... (8.39 %)
+2017-09-14 12:03:42 keypool added key 85, size=85
+2017-09-14 12:03:42 init message: Loading wallet... (8.49 %)
+2017-09-14 12:03:42 keypool added key 86, size=86
+2017-09-14 12:03:42 init message: Loading wallet... (8.59 %)
+2017-09-14 12:03:42 keypool added key 87, size=87
+2017-09-14 12:03:42 init message: Loading wallet... (8.69 %)
+2017-09-14 12:03:42 keypool added key 88, size=88
+2017-09-14 12:03:42 init message: Loading wallet... (8.79 %)
+2017-09-14 12:03:42 keypool added key 89, size=89
+2017-09-14 12:03:42 init message: Loading wallet... (8.89 %)
+2017-09-14 12:03:42 keypool added key 90, size=90
+2017-09-14 12:03:42 init message: Loading wallet... (8.99 %)
+2017-09-14 12:03:42 keypool added key 91, size=91
+2017-09-14 12:03:42 init message: Loading wallet... (9.09 %)
+2017-09-14 12:03:42 keypool added key 92, size=92
+2017-09-14 12:03:42 init message: Loading wallet... (9.19 %)
+2017-09-14 12:03:42 keypool added key 93, size=93
+2017-09-14 12:03:42 init message: Loading wallet... (9.29 %)
+2017-09-14 12:03:42 keypool added key 94, size=94
+2017-09-14 12:03:42 init message: Loading wallet... (9.39 %)
+2017-09-14 12:03:42 keypool added key 95, size=95
+2017-09-14 12:03:42 init message: Loading wallet... (9.49 %)
+2017-09-14 12:03:42 keypool added key 96, size=96
+2017-09-14 12:03:42 init message: Loading wallet... (9.59 %)
+2017-09-14 12:03:42 keypool added key 97, size=97
+2017-09-14 12:03:42 init message: Loading wallet... (9.69 %)
+2017-09-14 12:03:42 keypool added key 98, size=98
+2017-09-14 12:03:42 init message: Loading wallet... (9.79 %)
+2017-09-14 12:03:42 keypool added key 99, size=99
+2017-09-14 12:03:42 init message: Loading wallet... (9.89 %)
+2017-09-14 12:03:42 keypool added key 100, size=100
+2017-09-14 12:03:42 init message: Loading wallet... (9.99 %)
+2017-09-14 12:03:42 keypool added key 101, size=101
+2017-09-14 12:03:42 init message: Loading wallet... (10.09 %)
+2017-09-14 12:03:42 keypool added key 102, size=102
+2017-09-14 12:03:42 init message: Loading wallet... (10.19 %)
+2017-09-14 12:03:42 keypool added key 103, size=103
+2017-09-14 12:03:42 init message: Loading wallet... (10.29 %)
+2017-09-14 12:03:42 keypool added key 104, size=104
+2017-09-14 12:03:42 init message: Loading wallet... (10.39 %)
+2017-09-14 12:03:42 keypool added key 105, size=105
+2017-09-14 12:03:42 init message: Loading wallet... (10.49 %)
+2017-09-14 12:03:42 keypool added key 106, size=106
+2017-09-14 12:03:42 init message: Loading wallet... (10.59 %)
+2017-09-14 12:03:42 keypool added key 107, size=107
+2017-09-14 12:03:42 init message: Loading wallet... (10.69 %)
+2017-09-14 12:03:42 keypool added key 108, size=108
+2017-09-14 12:03:42 init message: Loading wallet... (10.79 %)
+2017-09-14 12:03:42 keypool added key 109, size=109
+2017-09-14 12:03:42 init message: Loading wallet... (10.89 %)
+2017-09-14 12:03:42 keypool added key 110, size=110
+2017-09-14 12:03:42 init message: Loading wallet... (10.99 %)
+2017-09-14 12:03:42 keypool added key 111, size=111
+2017-09-14 12:03:42 init message: Loading wallet... (11.09 %)
+2017-09-14 12:03:42 keypool added key 112, size=112
+2017-09-14 12:03:42 init message: Loading wallet... (11.19 %)
+2017-09-14 12:03:43 keypool added key 113, size=113
+2017-09-14 12:03:43 init message: Loading wallet... (11.29 %)
+2017-09-14 12:03:43 keypool added key 114, size=114
+2017-09-14 12:03:43 init message: Loading wallet... (11.39 %)
+2017-09-14 12:03:43 keypool added key 115, size=115
+2017-09-14 12:03:43 init message: Loading wallet... (11.49 %)
+2017-09-14 12:03:43 keypool added key 116, size=116
+2017-09-14 12:03:43 init message: Loading wallet... (11.59 %)
+2017-09-14 12:03:43 keypool added key 117, size=117
+2017-09-14 12:03:43 init message: Loading wallet... (11.69 %)
+2017-09-14 12:03:43 keypool added key 118, size=118
+2017-09-14 12:03:43 init message: Loading wallet... (11.79 %)
+2017-09-14 12:03:43 keypool added key 119, size=119
+2017-09-14 12:03:43 init message: Loading wallet... (11.89 %)
+2017-09-14 12:03:43 keypool added key 120, size=120
+2017-09-14 12:03:43 init message: Loading wallet... (11.99 %)
+2017-09-14 12:03:43 keypool added key 121, size=121
+2017-09-14 12:03:43 init message: Loading wallet... (12.09 %)
+2017-09-14 12:03:43 keypool added key 122, size=122
+2017-09-14 12:03:43 init message: Loading wallet... (12.19 %)
+2017-09-14 12:03:43 keypool added key 123, size=123
+2017-09-14 12:03:43 init message: Loading wallet... (12.29 %)
+2017-09-14 12:03:43 keypool added key 124, size=124
+2017-09-14 12:03:43 init message: Loading wallet... (12.39 %)
+2017-09-14 12:03:43 keypool added key 125, size=125
+2017-09-14 12:03:43 init message: Loading wallet... (12.49 %)
+2017-09-14 12:03:43 keypool added key 126, size=126
+2017-09-14 12:03:43 init message: Loading wallet... (12.59 %)
+2017-09-14 12:03:43 keypool added key 127, size=127
+2017-09-14 12:03:43 init message: Loading wallet... (12.69 %)
+2017-09-14 12:03:43 keypool added key 128, size=128
+2017-09-14 12:03:43 init message: Loading wallet... (12.79 %)
+2017-09-14 12:03:43 keypool added key 129, size=129
+2017-09-14 12:03:43 init message: Loading wallet... (12.89 %)
+2017-09-14 12:03:43 keypool added key 130, size=130
+2017-09-14 12:03:43 init message: Loading wallet... (12.99 %)
+2017-09-14 12:03:43 keypool added key 131, size=131
+2017-09-14 12:03:43 init message: Loading wallet... (13.09 %)
+2017-09-14 12:03:43 keypool added key 132, size=132
+2017-09-14 12:03:43 init message: Loading wallet... (13.19 %)
+2017-09-14 12:03:43 keypool added key 133, size=133
+2017-09-14 12:03:43 init message: Loading wallet... (13.29 %)
+2017-09-14 12:03:43 keypool added key 134, size=134
+2017-09-14 12:03:43 init message: Loading wallet... (13.39 %)
+2017-09-14 12:03:43 keypool added key 135, size=135
+2017-09-14 12:03:43 init message: Loading wallet... (13.49 %)
+2017-09-14 12:03:43 keypool added key 136, size=136
+2017-09-14 12:03:43 init message: Loading wallet... (13.59 %)
+2017-09-14 12:03:43 keypool added key 137, size=137
+2017-09-14 12:03:43 init message: Loading wallet... (13.69 %)
+2017-09-14 12:03:43 keypool added key 138, size=138
+2017-09-14 12:03:43 init message: Loading wallet... (13.79 %)
+2017-09-14 12:03:43 keypool added key 139, size=139
+2017-09-14 12:03:43 init message: Loading wallet... (13.89 %)
+2017-09-14 12:03:43 keypool added key 140, size=140
+2017-09-14 12:03:43 init message: Loading wallet... (13.99 %)
+2017-09-14 12:03:43 keypool added key 141, size=141
+2017-09-14 12:03:43 init message: Loading wallet... (14.09 %)
+2017-09-14 12:03:43 keypool added key 142, size=142
+2017-09-14 12:03:43 init message: Loading wallet... (14.19 %)
+2017-09-14 12:03:43 keypool added key 143, size=143
+2017-09-14 12:03:43 init message: Loading wallet... (14.29 %)
+2017-09-14 12:03:43 keypool added key 144, size=144
+2017-09-14 12:03:43 init message: Loading wallet... (14.39 %)
+2017-09-14 12:03:43 keypool added key 145, size=145
+2017-09-14 12:03:43 init message: Loading wallet... (14.49 %)
+2017-09-14 12:03:43 keypool added key 146, size=146
+2017-09-14 12:03:43 init message: Loading wallet... (14.59 %)
+2017-09-14 12:03:43 keypool added key 147, size=147
+2017-09-14 12:03:43 init message: Loading wallet... (14.69 %)
+2017-09-14 12:03:43 keypool added key 148, size=148
+2017-09-14 12:03:43 init message: Loading wallet... (14.79 %)
+2017-09-14 12:03:43 keypool added key 149, size=149
+2017-09-14 12:03:43 init message: Loading wallet... (14.89 %)
+2017-09-14 12:03:43 keypool added key 150, size=150
+2017-09-14 12:03:43 init message: Loading wallet... (14.99 %)
+2017-09-14 12:03:43 keypool added key 151, size=151
+2017-09-14 12:03:43 init message: Loading wallet... (15.08 %)
+2017-09-14 12:03:43 keypool added key 152, size=152
+2017-09-14 12:03:43 init message: Loading wallet... (15.18 %)
+2017-09-14 12:03:43 keypool added key 153, size=153
+2017-09-14 12:03:43 init message: Loading wallet... (15.28 %)
+2017-09-14 12:03:43 keypool added key 154, size=154
+2017-09-14 12:03:43 init message: Loading wallet... (15.38 %)
+2017-09-14 12:03:43 keypool added key 155, size=155
+2017-09-14 12:03:43 init message: Loading wallet... (15.48 %)
+2017-09-14 12:03:43 keypool added key 156, size=156
+2017-09-14 12:03:43 init message: Loading wallet... (15.58 %)
+2017-09-14 12:03:43 keypool added key 157, size=157
+2017-09-14 12:03:43 init message: Loading wallet... (15.68 %)
+2017-09-14 12:03:43 keypool added key 158, size=158
+2017-09-14 12:03:43 init message: Loading wallet... (15.78 %)
+2017-09-14 12:03:43 keypool added key 159, size=159
+2017-09-14 12:03:43 init message: Loading wallet... (15.88 %)
+2017-09-14 12:03:43 keypool added key 160, size=160
+2017-09-14 12:03:43 init message: Loading wallet... (15.98 %)
+2017-09-14 12:03:43 keypool added key 161, size=161
+2017-09-14 12:03:43 init message: Loading wallet... (16.08 %)
+2017-09-14 12:03:43 keypool added key 162, size=162
+2017-09-14 12:03:43 init message: Loading wallet... (16.18 %)
+2017-09-14 12:03:43 keypool added key 163, size=163
+2017-09-14 12:03:43 init message: Loading wallet... (16.28 %)
+2017-09-14 12:03:43 keypool added key 164, size=164
+2017-09-14 12:03:43 init message: Loading wallet... (16.38 %)
+2017-09-14 12:03:43 keypool added key 165, size=165
+2017-09-14 12:03:43 init message: Loading wallet... (16.48 %)
+2017-09-14 12:03:43 keypool added key 166, size=166
+2017-09-14 12:03:43 init message: Loading wallet... (16.58 %)
+2017-09-14 12:03:43 keypool added key 167, size=167
+2017-09-14 12:03:43 init message: Loading wallet... (16.68 %)
+2017-09-14 12:03:43 keypool added key 168, size=168
+2017-09-14 12:03:43 init message: Loading wallet... (16.78 %)
+2017-09-14 12:03:43 keypool added key 169, size=169
+2017-09-14 12:03:43 init message: Loading wallet... (16.88 %)
+2017-09-14 12:03:44 keypool added key 170, size=170
+2017-09-14 12:03:44 init message: Loading wallet... (16.98 %)
+2017-09-14 12:03:44 keypool added key 171, size=171
+2017-09-14 12:03:44 init message: Loading wallet... (17.08 %)
+2017-09-14 12:03:44 keypool added key 172, size=172
+2017-09-14 12:03:44 init message: Loading wallet... (17.18 %)
+2017-09-14 12:03:44 keypool added key 173, size=173
+2017-09-14 12:03:44 init message: Loading wallet... (17.28 %)
+2017-09-14 12:03:44 keypool added key 174, size=174
+2017-09-14 12:03:44 init message: Loading wallet... (17.38 %)
+2017-09-14 12:03:44 keypool added key 175, size=175
+2017-09-14 12:03:44 init message: Loading wallet... (17.48 %)
+2017-09-14 12:03:44 keypool added key 176, size=176
+2017-09-14 12:03:44 init message: Loading wallet... (17.58 %)
+2017-09-14 12:03:44 keypool added key 177, size=177
+2017-09-14 12:03:44 init message: Loading wallet... (17.68 %)
+2017-09-14 12:03:44 keypool added key 178, size=178
+2017-09-14 12:03:44 init message: Loading wallet... (17.78 %)
+2017-09-14 12:03:44 keypool added key 179, size=179
+2017-09-14 12:03:44 init message: Loading wallet... (17.88 %)
+2017-09-14 12:03:44 keypool added key 180, size=180
+2017-09-14 12:03:44 init message: Loading wallet... (17.98 %)
+2017-09-14 12:03:44 keypool added key 181, size=181
+2017-09-14 12:03:44 init message: Loading wallet... (18.08 %)
+2017-09-14 12:03:44 keypool added key 182, size=182
+2017-09-14 12:03:44 init message: Loading wallet... (18.18 %)
+2017-09-14 12:03:44 keypool added key 183, size=183
+2017-09-14 12:03:44 init message: Loading wallet... (18.28 %)
+2017-09-14 12:03:44 keypool added key 184, size=184
+2017-09-14 12:03:44 init message: Loading wallet... (18.38 %)
+2017-09-14 12:03:44 keypool added key 185, size=185
+2017-09-14 12:03:44 init message: Loading wallet... (18.48 %)
+2017-09-14 12:03:44 keypool added key 186, size=186
+2017-09-14 12:03:44 init message: Loading wallet... (18.58 %)
+2017-09-14 12:03:44 keypool added key 187, size=187
+2017-09-14 12:03:44 init message: Loading wallet... (18.68 %)
+2017-09-14 12:03:44 keypool added key 188, size=188
+2017-09-14 12:03:44 init message: Loading wallet... (18.78 %)
+2017-09-14 12:03:44 keypool added key 189, size=189
+2017-09-14 12:03:44 init message: Loading wallet... (18.88 %)
+2017-09-14 12:03:44 keypool added key 190, size=190
+2017-09-14 12:03:44 init message: Loading wallet... (18.98 %)
+2017-09-14 12:03:44 keypool added key 191, size=191
+2017-09-14 12:03:44 init message: Loading wallet... (19.08 %)
+2017-09-14 12:03:44 keypool added key 192, size=192
+2017-09-14 12:03:44 init message: Loading wallet... (19.18 %)
+2017-09-14 12:03:44 keypool added key 193, size=193
+2017-09-14 12:03:44 init message: Loading wallet... (19.28 %)
+2017-09-14 12:03:44 keypool added key 194, size=194
+2017-09-14 12:03:44 init message: Loading wallet... (19.38 %)
+2017-09-14 12:03:44 keypool added key 195, size=195
+2017-09-14 12:03:44 init message: Loading wallet... (19.48 %)
+2017-09-14 12:03:44 keypool added key 196, size=196
+2017-09-14 12:03:44 init message: Loading wallet... (19.58 %)
+2017-09-14 12:03:44 keypool added key 197, size=197
+2017-09-14 12:03:44 init message: Loading wallet... (19.68 %)
+2017-09-14 12:03:44 keypool added key 198, size=198
+2017-09-14 12:03:44 init message: Loading wallet... (19.78 %)
+2017-09-14 12:03:44 keypool added key 199, size=199
+2017-09-14 12:03:44 init message: Loading wallet... (19.88 %)
+2017-09-14 12:03:44 keypool added key 200, size=200
+2017-09-14 12:03:44 init message: Loading wallet... (19.98 %)
+2017-09-14 12:03:44 keypool added key 201, size=201
+2017-09-14 12:03:44 init message: Loading wallet... (20.08 %)
+2017-09-14 12:03:44 keypool added key 202, size=202
+2017-09-14 12:03:44 init message: Loading wallet... (20.18 %)
+2017-09-14 12:03:44 keypool added key 203, size=203
+2017-09-14 12:03:44 init message: Loading wallet... (20.28 %)
+2017-09-14 12:03:44 keypool added key 204, size=204
+2017-09-14 12:03:44 init message: Loading wallet... (20.38 %)
+2017-09-14 12:03:44 keypool added key 205, size=205
+2017-09-14 12:03:44 init message: Loading wallet... (20.48 %)
+2017-09-14 12:03:44 keypool added key 206, size=206
+2017-09-14 12:03:44 init message: Loading wallet... (20.58 %)
+2017-09-14 12:03:44 keypool added key 207, size=207
+2017-09-14 12:03:44 init message: Loading wallet... (20.68 %)
+2017-09-14 12:03:44 keypool added key 208, size=208
+2017-09-14 12:03:44 init message: Loading wallet... (20.78 %)
+2017-09-14 12:03:44 keypool added key 209, size=209
+2017-09-14 12:03:44 init message: Loading wallet... (20.88 %)
+2017-09-14 12:03:44 keypool added key 210, size=210
+2017-09-14 12:03:44 init message: Loading wallet... (20.98 %)
+2017-09-14 12:03:44 keypool added key 211, size=211
+2017-09-14 12:03:44 init message: Loading wallet... (21.08 %)
+2017-09-14 12:03:44 keypool added key 212, size=212
+2017-09-14 12:03:44 init message: Loading wallet... (21.18 %)
+2017-09-14 12:03:44 keypool added key 213, size=213
+2017-09-14 12:03:44 init message: Loading wallet... (21.28 %)
+2017-09-14 12:03:44 keypool added key 214, size=214
+2017-09-14 12:03:44 init message: Loading wallet... (21.38 %)
+2017-09-14 12:03:44 keypool added key 215, size=215
+2017-09-14 12:03:44 init message: Loading wallet... (21.48 %)
+2017-09-14 12:03:44 keypool added key 216, size=216
+2017-09-14 12:03:44 init message: Loading wallet... (21.58 %)
+2017-09-14 12:03:44 keypool added key 217, size=217
+2017-09-14 12:03:44 init message: Loading wallet... (21.68 %)
+2017-09-14 12:03:44 keypool added key 218, size=218
+2017-09-14 12:03:44 init message: Loading wallet... (21.78 %)
+2017-09-14 12:03:44 keypool added key 219, size=219
+2017-09-14 12:03:44 init message: Loading wallet... (21.88 %)
+2017-09-14 12:03:44 keypool added key 220, size=220
+2017-09-14 12:03:44 init message: Loading wallet... (21.98 %)
+2017-09-14 12:03:45 keypool added key 221, size=221
+2017-09-14 12:03:45 init message: Loading wallet... (22.08 %)
+2017-09-14 12:03:45 keypool added key 222, size=222
+2017-09-14 12:03:45 init message: Loading wallet... (22.18 %)
+2017-09-14 12:03:45 keypool added key 223, size=223
+2017-09-14 12:03:45 init message: Loading wallet... (22.28 %)
+2017-09-14 12:03:45 keypool added key 224, size=224
+2017-09-14 12:03:45 init message: Loading wallet... (22.38 %)
+2017-09-14 12:03:45 keypool added key 225, size=225
+2017-09-14 12:03:45 init message: Loading wallet... (22.48 %)
+2017-09-14 12:03:45 keypool added key 226, size=226
+2017-09-14 12:03:45 init message: Loading wallet... (22.58 %)
+2017-09-14 12:03:45 keypool added key 227, size=227
+2017-09-14 12:03:45 init message: Loading wallet... (22.68 %)
+2017-09-14 12:03:45 keypool added key 228, size=228
+2017-09-14 12:03:45 init message: Loading wallet... (22.78 %)
+2017-09-14 12:03:45 keypool added key 229, size=229
+2017-09-14 12:03:45 init message: Loading wallet... (22.88 %)
+2017-09-14 12:03:45 keypool added key 230, size=230
+2017-09-14 12:03:45 init message: Loading wallet... (22.98 %)
+2017-09-14 12:03:45 keypool added key 231, size=231
+2017-09-14 12:03:45 init message: Loading wallet... (23.08 %)
+2017-09-14 12:03:45 keypool added key 232, size=232
+2017-09-14 12:03:45 init message: Loading wallet... (23.18 %)
+2017-09-14 12:03:45 keypool added key 233, size=233
+2017-09-14 12:03:45 init message: Loading wallet... (23.28 %)
+2017-09-14 12:03:45 keypool added key 234, size=234
+2017-09-14 12:03:45 init message: Loading wallet... (23.38 %)
+2017-09-14 12:03:45 keypool added key 235, size=235
+2017-09-14 12:03:45 init message: Loading wallet... (23.48 %)
+2017-09-14 12:03:45 keypool added key 236, size=236
+2017-09-14 12:03:45 init message: Loading wallet... (23.58 %)
+2017-09-14 12:03:45 keypool added key 237, size=237
+2017-09-14 12:03:45 init message: Loading wallet... (23.68 %)
+2017-09-14 12:03:45 keypool added key 238, size=238
+2017-09-14 12:03:45 init message: Loading wallet... (23.78 %)
+2017-09-14 12:03:45 keypool added key 239, size=239
+2017-09-14 12:03:45 init message: Loading wallet... (23.88 %)
+2017-09-14 12:03:45 keypool added key 240, size=240
+2017-09-14 12:03:45 init message: Loading wallet... (23.98 %)
+2017-09-14 12:03:45 keypool added key 241, size=241
+2017-09-14 12:03:45 init message: Loading wallet... (24.08 %)
+2017-09-14 12:03:45 keypool added key 242, size=242
+2017-09-14 12:03:45 init message: Loading wallet... (24.18 %)
+2017-09-14 12:03:47 keypool added key 243, size=243
+2017-09-14 12:03:47 init message: Loading wallet... (24.28 %)
+2017-09-14 12:03:47 keypool added key 244, size=244
+2017-09-14 12:03:47 init message: Loading wallet... (24.38 %)
+2017-09-14 12:03:47 keypool added key 245, size=245
+2017-09-14 12:03:47 init message: Loading wallet... (24.48 %)
+2017-09-14 12:03:47 keypool added key 246, size=246
+2017-09-14 12:03:47 init message: Loading wallet... (24.58 %)
+2017-09-14 12:03:47 keypool added key 247, size=247
+2017-09-14 12:03:47 init message: Loading wallet... (24.68 %)
+2017-09-14 12:03:47 keypool added key 248, size=248
+2017-09-14 12:03:47 init message: Loading wallet... (24.78 %)
+2017-09-14 12:03:47 keypool added key 249, size=249
+2017-09-14 12:03:47 init message: Loading wallet... (24.88 %)
+2017-09-14 12:03:47 keypool added key 250, size=250
+2017-09-14 12:03:47 init message: Loading wallet... (24.98 %)
+2017-09-14 12:03:47 keypool added key 251, size=251
+2017-09-14 12:03:47 init message: Loading wallet... (25.07 %)
+2017-09-14 12:03:47 keypool added key 252, size=252
+2017-09-14 12:03:47 init message: Loading wallet... (25.17 %)
+2017-09-14 12:03:47 keypool added key 253, size=253
+2017-09-14 12:03:47 init message: Loading wallet... (25.27 %)
+2017-09-14 12:03:47 keypool added key 254, size=254
+2017-09-14 12:03:47 init message: Loading wallet... (25.37 %)
+2017-09-14 12:03:47 keypool added key 255, size=255
+2017-09-14 12:03:47 init message: Loading wallet... (25.47 %)
+2017-09-14 12:03:47 keypool added key 256, size=256
+2017-09-14 12:03:47 init message: Loading wallet... (25.57 %)
+2017-09-14 12:03:47 keypool added key 257, size=257
+2017-09-14 12:03:47 init message: Loading wallet... (25.67 %)
+2017-09-14 12:03:47 keypool added key 258, size=258
+2017-09-14 12:03:47 init message: Loading wallet... (25.77 %)
+2017-09-14 12:03:47 keypool added key 259, size=259
+2017-09-14 12:03:47 init message: Loading wallet... (25.87 %)
+2017-09-14 12:03:47 keypool added key 260, size=260
+2017-09-14 12:03:47 init message: Loading wallet... (25.97 %)
+2017-09-14 12:03:47 keypool added key 261, size=261
+2017-09-14 12:03:47 init message: Loading wallet... (26.07 %)
+2017-09-14 12:03:47 keypool added key 262, size=262
+2017-09-14 12:03:47 init message: Loading wallet... (26.17 %)
+2017-09-14 12:03:47 keypool added key 263, size=263
+2017-09-14 12:03:47 init message: Loading wallet... (26.27 %)
+2017-09-14 12:03:47 keypool added key 264, size=264
+2017-09-14 12:03:47 init message: Loading wallet... (26.37 %)
+2017-09-14 12:03:47 keypool added key 265, size=265
+2017-09-14 12:03:47 init message: Loading wallet... (26.47 %)
+2017-09-14 12:03:47 keypool added key 266, size=266
+2017-09-14 12:03:47 init message: Loading wallet... (26.57 %)
+2017-09-14 12:03:47 keypool added key 267, size=267
+2017-09-14 12:03:47 init message: Loading wallet... (26.67 %)
+2017-09-14 12:03:47 keypool added key 268, size=268
+2017-09-14 12:03:47 init message: Loading wallet... (26.77 %)
+2017-09-14 12:03:47 keypool added key 269, size=269
+2017-09-14 12:03:47 init message: Loading wallet... (26.87 %)
+2017-09-14 12:03:47 keypool added key 270, size=270
+2017-09-14 12:03:47 init message: Loading wallet... (26.97 %)
+2017-09-14 12:03:47 keypool added key 271, size=271
+2017-09-14 12:03:47 init message: Loading wallet... (27.07 %)
+2017-09-14 12:03:47 keypool added key 272, size=272
+2017-09-14 12:03:47 init message: Loading wallet... (27.17 %)
+2017-09-14 12:03:47 keypool added key 273, size=273
+2017-09-14 12:03:47 init message: Loading wallet... (27.27 %)
+2017-09-14 12:03:47 keypool added key 274, size=274
+2017-09-14 12:03:47 init message: Loading wallet... (27.37 %)
+2017-09-14 12:03:47 keypool added key 275, size=275
+2017-09-14 12:03:47 init message: Loading wallet... (27.47 %)
+2017-09-14 12:03:47 keypool added key 276, size=276
+2017-09-14 12:03:47 init message: Loading wallet... (27.57 %)
+2017-09-14 12:03:47 keypool added key 277, size=277
+2017-09-14 12:03:47 init message: Loading wallet... (27.67 %)
+2017-09-14 12:03:47 keypool added key 278, size=278
+2017-09-14 12:03:47 init message: Loading wallet... (27.77 %)
+2017-09-14 12:03:48 keypool added key 279, size=279
+2017-09-14 12:03:48 init message: Loading wallet... (27.87 %)
+2017-09-14 12:03:48 keypool added key 280, size=280
+2017-09-14 12:03:48 init message: Loading wallet... (27.97 %)
+2017-09-14 12:03:48 keypool added key 281, size=281
+2017-09-14 12:03:48 init message: Loading wallet... (28.07 %)
+2017-09-14 12:03:48 keypool added key 282, size=282
+2017-09-14 12:03:48 init message: Loading wallet... (28.17 %)
+2017-09-14 12:03:48 keypool added key 283, size=283
+2017-09-14 12:03:48 init message: Loading wallet... (28.27 %)
+2017-09-14 12:03:48 keypool added key 284, size=284
+2017-09-14 12:03:48 init message: Loading wallet... (28.37 %)
+2017-09-14 12:03:48 keypool added key 285, size=285
+2017-09-14 12:03:48 init message: Loading wallet... (28.47 %)
+2017-09-14 12:03:48 keypool added key 286, size=286
+2017-09-14 12:03:48 init message: Loading wallet... (28.57 %)
+2017-09-14 12:03:48 keypool added key 287, size=287
+2017-09-14 12:03:48 init message: Loading wallet... (28.67 %)
+2017-09-14 12:03:48 keypool added key 288, size=288
+2017-09-14 12:03:48 init message: Loading wallet... (28.77 %)
+2017-09-14 12:03:48 keypool added key 289, size=289
+2017-09-14 12:03:48 init message: Loading wallet... (28.87 %)
+2017-09-14 12:03:48 keypool added key 290, size=290
+2017-09-14 12:03:48 init message: Loading wallet... (28.97 %)
+2017-09-14 12:03:48 keypool added key 291, size=291
+2017-09-14 12:03:48 init message: Loading wallet... (29.07 %)
+2017-09-14 12:03:48 keypool added key 292, size=292
+2017-09-14 12:03:48 init message: Loading wallet... (29.17 %)
+2017-09-14 12:03:48 keypool added key 293, size=293
+2017-09-14 12:03:48 init message: Loading wallet... (29.27 %)
+2017-09-14 12:03:48 keypool added key 294, size=294
+2017-09-14 12:03:48 init message: Loading wallet... (29.37 %)
+2017-09-14 12:03:48 keypool added key 295, size=295
+2017-09-14 12:03:48 init message: Loading wallet... (29.47 %)
+2017-09-14 12:03:48 keypool added key 296, size=296
+2017-09-14 12:03:48 init message: Loading wallet... (29.57 %)
+2017-09-14 12:03:48 keypool added key 297, size=297
+2017-09-14 12:03:48 init message: Loading wallet... (29.67 %)
+2017-09-14 12:03:48 keypool added key 298, size=298
+2017-09-14 12:03:48 init message: Loading wallet... (29.77 %)
+2017-09-14 12:03:48 keypool added key 299, size=299
+2017-09-14 12:03:48 init message: Loading wallet... (29.87 %)
+2017-09-14 12:03:48 keypool added key 300, size=300
+2017-09-14 12:03:48 init message: Loading wallet... (29.97 %)
+2017-09-14 12:03:48 keypool added key 301, size=301
+2017-09-14 12:03:48 init message: Loading wallet... (30.07 %)
+2017-09-14 12:03:48 keypool added key 302, size=302
+2017-09-14 12:03:48 init message: Loading wallet... (30.17 %)
+2017-09-14 12:03:48 keypool added key 303, size=303
+2017-09-14 12:03:48 init message: Loading wallet... (30.27 %)
+2017-09-14 12:03:48 keypool added key 304, size=304
+2017-09-14 12:03:48 init message: Loading wallet... (30.37 %)
+2017-09-14 12:03:48 keypool added key 305, size=305
+2017-09-14 12:03:48 init message: Loading wallet... (30.47 %)
+2017-09-14 12:03:48 keypool added key 306, size=306
+2017-09-14 12:03:48 init message: Loading wallet... (30.57 %)
+2017-09-14 12:03:48 keypool added key 307, size=307
+2017-09-14 12:03:48 init message: Loading wallet... (30.67 %)
+2017-09-14 12:03:48 keypool added key 308, size=308
+2017-09-14 12:03:48 init message: Loading wallet... (30.77 %)
+2017-09-14 12:03:48 keypool added key 309, size=309
+2017-09-14 12:03:48 init message: Loading wallet... (30.87 %)
+2017-09-14 12:03:48 keypool added key 310, size=310
+2017-09-14 12:03:48 init message: Loading wallet... (30.97 %)
+2017-09-14 12:03:48 keypool added key 311, size=311
+2017-09-14 12:03:48 init message: Loading wallet... (31.07 %)
+2017-09-14 12:03:48 keypool added key 312, size=312
+2017-09-14 12:03:48 init message: Loading wallet... (31.17 %)
+2017-09-14 12:03:48 keypool added key 313, size=313
+2017-09-14 12:03:48 init message: Loading wallet... (31.27 %)
+2017-09-14 12:03:48 keypool added key 314, size=314
+2017-09-14 12:03:48 init message: Loading wallet... (31.37 %)
+2017-09-14 12:03:48 keypool added key 315, size=315
+2017-09-14 12:03:48 init message: Loading wallet... (31.47 %)
+2017-09-14 12:03:48 keypool added key 316, size=316
+2017-09-14 12:03:48 init message: Loading wallet... (31.57 %)
+2017-09-14 12:03:48 keypool added key 317, size=317
+2017-09-14 12:03:48 init message: Loading wallet... (31.67 %)
+2017-09-14 12:03:48 keypool added key 318, size=318
+2017-09-14 12:03:48 init message: Loading wallet... (31.77 %)
+2017-09-14 12:03:48 keypool added key 319, size=319
+2017-09-14 12:03:48 init message: Loading wallet... (31.87 %)
+2017-09-14 12:03:48 keypool added key 320, size=320
+2017-09-14 12:03:48 init message: Loading wallet... (31.97 %)
+2017-09-14 12:03:48 keypool added key 321, size=321
+2017-09-14 12:03:48 init message: Loading wallet... (32.07 %)
+2017-09-14 12:03:48 keypool added key 322, size=322
+2017-09-14 12:03:48 init message: Loading wallet... (32.17 %)
+2017-09-14 12:03:48 keypool added key 323, size=323
+2017-09-14 12:03:48 init message: Loading wallet... (32.27 %)
+2017-09-14 12:03:48 keypool added key 324, size=324
+2017-09-14 12:03:48 init message: Loading wallet... (32.37 %)
+2017-09-14 12:03:48 keypool added key 325, size=325
+2017-09-14 12:03:48 init message: Loading wallet... (32.47 %)
+2017-09-14 12:03:48 keypool added key 326, size=326
+2017-09-14 12:03:48 init message: Loading wallet... (32.57 %)
+2017-09-14 12:03:48 keypool added key 327, size=327
+2017-09-14 12:03:48 init message: Loading wallet... (32.67 %)
+2017-09-14 12:03:48 keypool added key 328, size=328
+2017-09-14 12:03:48 init message: Loading wallet... (32.77 %)
+2017-09-14 12:03:48 keypool added key 329, size=329
+2017-09-14 12:03:48 init message: Loading wallet... (32.87 %)
+2017-09-14 12:03:48 keypool added key 330, size=330
+2017-09-14 12:03:48 init message: Loading wallet... (32.97 %)
+2017-09-14 12:03:48 keypool added key 331, size=331
+2017-09-14 12:03:48 init message: Loading wallet... (33.07 %)
+2017-09-14 12:03:48 keypool added key 332, size=332
+2017-09-14 12:03:48 init message: Loading wallet... (33.17 %)
+2017-09-14 12:03:48 keypool added key 333, size=333
+2017-09-14 12:03:48 init message: Loading wallet... (33.27 %)
+2017-09-14 12:03:49 keypool added key 334, size=334
+2017-09-14 12:03:49 init message: Loading wallet... (33.37 %)
+2017-09-14 12:03:49 keypool added key 335, size=335
+2017-09-14 12:03:49 init message: Loading wallet... (33.47 %)
+2017-09-14 12:03:49 keypool added key 336, size=336
+2017-09-14 12:03:49 init message: Loading wallet... (33.57 %)
+2017-09-14 12:03:49 keypool added key 337, size=337
+2017-09-14 12:03:49 init message: Loading wallet... (33.67 %)
+2017-09-14 12:03:49 keypool added key 338, size=338
+2017-09-14 12:03:49 init message: Loading wallet... (33.77 %)
+2017-09-14 12:03:49 keypool added key 339, size=339
+2017-09-14 12:03:49 init message: Loading wallet... (33.87 %)
+2017-09-14 12:03:49 keypool added key 340, size=340
+2017-09-14 12:03:49 init message: Loading wallet... (33.97 %)
+2017-09-14 12:03:49 keypool added key 341, size=341
+2017-09-14 12:03:49 init message: Loading wallet... (34.07 %)
+2017-09-14 12:03:49 keypool added key 342, size=342
+2017-09-14 12:03:49 init message: Loading wallet... (34.17 %)
+2017-09-14 12:03:49 keypool added key 343, size=343
+2017-09-14 12:03:49 init message: Loading wallet... (34.27 %)
+2017-09-14 12:03:49 keypool added key 344, size=344
+2017-09-14 12:03:49 init message: Loading wallet... (34.37 %)
+2017-09-14 12:03:49 keypool added key 345, size=345
+2017-09-14 12:03:49 init message: Loading wallet... (34.47 %)
+2017-09-14 12:03:49 keypool added key 346, size=346
+2017-09-14 12:03:49 init message: Loading wallet... (34.57 %)
+2017-09-14 12:03:49 keypool added key 347, size=347
+2017-09-14 12:03:49 init message: Loading wallet... (34.67 %)
+2017-09-14 12:03:49 keypool added key 348, size=348
+2017-09-14 12:03:49 init message: Loading wallet... (34.77 %)
+2017-09-14 12:03:49 keypool added key 349, size=349
+2017-09-14 12:03:49 init message: Loading wallet... (34.87 %)
+2017-09-14 12:03:49 keypool added key 350, size=350
+2017-09-14 12:03:49 init message: Loading wallet... (34.97 %)
+2017-09-14 12:03:49 keypool added key 351, size=351
+2017-09-14 12:03:49 init message: Loading wallet... (35.06 %)
+2017-09-14 12:03:49 keypool added key 352, size=352
+2017-09-14 12:03:49 init message: Loading wallet... (35.16 %)
+2017-09-14 12:03:49 keypool added key 353, size=353
+2017-09-14 12:03:49 init message: Loading wallet... (35.26 %)
+2017-09-14 12:03:49 keypool added key 354, size=354
+2017-09-14 12:03:49 init message: Loading wallet... (35.36 %)
+2017-09-14 12:03:49 keypool added key 355, size=355
+2017-09-14 12:03:49 init message: Loading wallet... (35.46 %)
+2017-09-14 12:03:49 keypool added key 356, size=356
+2017-09-14 12:03:49 init message: Loading wallet... (35.56 %)
+2017-09-14 12:03:49 keypool added key 357, size=357
+2017-09-14 12:03:49 init message: Loading wallet... (35.66 %)
+2017-09-14 12:03:49 keypool added key 358, size=358
+2017-09-14 12:03:49 init message: Loading wallet... (35.76 %)
+2017-09-14 12:03:49 keypool added key 359, size=359
+2017-09-14 12:03:49 init message: Loading wallet... (35.86 %)
+2017-09-14 12:03:49 keypool added key 360, size=360
+2017-09-14 12:03:49 init message: Loading wallet... (35.96 %)
+2017-09-14 12:03:49 keypool added key 361, size=361
+2017-09-14 12:03:49 init message: Loading wallet... (36.06 %)
+2017-09-14 12:03:49 keypool added key 362, size=362
+2017-09-14 12:03:49 init message: Loading wallet... (36.16 %)
+2017-09-14 12:03:49 keypool added key 363, size=363
+2017-09-14 12:03:49 init message: Loading wallet... (36.26 %)
+2017-09-14 12:03:49 keypool added key 364, size=364
+2017-09-14 12:03:49 init message: Loading wallet... (36.36 %)
+2017-09-14 12:03:49 keypool added key 365, size=365
+2017-09-14 12:03:49 init message: Loading wallet... (36.46 %)
+2017-09-14 12:03:49 keypool added key 366, size=366
+2017-09-14 12:03:49 init message: Loading wallet... (36.56 %)
+2017-09-14 12:03:49 keypool added key 367, size=367
+2017-09-14 12:03:49 init message: Loading wallet... (36.66 %)
+2017-09-14 12:03:49 keypool added key 368, size=368
+2017-09-14 12:03:49 init message: Loading wallet... (36.76 %)
+2017-09-14 12:03:49 keypool added key 369, size=369
+2017-09-14 12:03:49 init message: Loading wallet... (36.86 %)
+2017-09-14 12:03:49 keypool added key 370, size=370
+2017-09-14 12:03:49 init message: Loading wallet... (36.96 %)
+2017-09-14 12:03:49 keypool added key 371, size=371
+2017-09-14 12:03:49 init message: Loading wallet... (37.06 %)
+2017-09-14 12:03:49 keypool added key 372, size=372
+2017-09-14 12:03:49 init message: Loading wallet... (37.16 %)
+2017-09-14 12:03:49 keypool added key 373, size=373
+2017-09-14 12:03:49 init message: Loading wallet... (37.26 %)
+2017-09-14 12:03:49 keypool added key 374, size=374
+2017-09-14 12:03:49 init message: Loading wallet... (37.36 %)
+2017-09-14 12:03:49 keypool added key 375, size=375
+2017-09-14 12:03:49 init message: Loading wallet... (37.46 %)
+2017-09-14 12:03:49 keypool added key 376, size=376
+2017-09-14 12:03:49 init message: Loading wallet... (37.56 %)
+2017-09-14 12:03:49 keypool added key 377, size=377
+2017-09-14 12:03:49 init message: Loading wallet... (37.66 %)
+2017-09-14 12:03:49 keypool added key 378, size=378
+2017-09-14 12:03:49 init message: Loading wallet... (37.76 %)
+2017-09-14 12:03:49 keypool added key 379, size=379
+2017-09-14 12:03:49 init message: Loading wallet... (37.86 %)
+2017-09-14 12:03:49 keypool added key 380, size=380
+2017-09-14 12:03:49 init message: Loading wallet... (37.96 %)
+2017-09-14 12:03:49 keypool added key 381, size=381
+2017-09-14 12:03:49 init message: Loading wallet... (38.06 %)
+2017-09-14 12:03:49 keypool added key 382, size=382
+2017-09-14 12:03:49 init message: Loading wallet... (38.16 %)
+2017-09-14 12:03:49 keypool added key 383, size=383
+2017-09-14 12:03:49 init message: Loading wallet... (38.26 %)
+2017-09-14 12:03:49 keypool added key 384, size=384
+2017-09-14 12:03:49 init message: Loading wallet... (38.36 %)
+2017-09-14 12:03:49 keypool added key 385, size=385
+2017-09-14 12:03:49 init message: Loading wallet... (38.46 %)
+2017-09-14 12:03:49 keypool added key 386, size=386
+2017-09-14 12:03:49 init message: Loading wallet... (38.56 %)
+2017-09-14 12:03:50 keypool added key 387, size=387
+2017-09-14 12:03:50 init message: Loading wallet... (38.66 %)
+2017-09-14 12:03:50 keypool added key 388, size=388
+2017-09-14 12:03:50 init message: Loading wallet... (38.76 %)
+2017-09-14 12:03:50 keypool added key 389, size=389
+2017-09-14 12:03:50 init message: Loading wallet... (38.86 %)
+2017-09-14 12:03:50 keypool added key 390, size=390
+2017-09-14 12:03:50 init message: Loading wallet... (38.96 %)
+2017-09-14 12:03:50 keypool added key 391, size=391
+2017-09-14 12:03:50 init message: Loading wallet... (39.06 %)
+2017-09-14 12:03:50 keypool added key 392, size=392
+2017-09-14 12:03:50 init message: Loading wallet... (39.16 %)
+2017-09-14 12:03:50 keypool added key 393, size=393
+2017-09-14 12:03:50 init message: Loading wallet... (39.26 %)
+2017-09-14 12:03:50 keypool added key 394, size=394
+2017-09-14 12:03:50 init message: Loading wallet... (39.36 %)
+2017-09-14 12:03:50 keypool added key 395, size=395
+2017-09-14 12:03:50 init message: Loading wallet... (39.46 %)
+2017-09-14 12:03:50 keypool added key 396, size=396
+2017-09-14 12:03:50 init message: Loading wallet... (39.56 %)
+2017-09-14 12:03:50 keypool added key 397, size=397
+2017-09-14 12:03:50 init message: Loading wallet... (39.66 %)
+2017-09-14 12:03:50 keypool added key 398, size=398
+2017-09-14 12:03:50 init message: Loading wallet... (39.76 %)
+2017-09-14 12:03:50 keypool added key 399, size=399
+2017-09-14 12:03:50 init message: Loading wallet... (39.86 %)
+2017-09-14 12:03:50 keypool added key 400, size=400
+2017-09-14 12:03:50 init message: Loading wallet... (39.96 %)
+2017-09-14 12:03:50 keypool added key 401, size=401
+2017-09-14 12:03:50 init message: Loading wallet... (40.06 %)
+2017-09-14 12:03:50 keypool added key 402, size=402
+2017-09-14 12:03:50 init message: Loading wallet... (40.16 %)
+2017-09-14 12:03:50 keypool added key 403, size=403
+2017-09-14 12:03:50 init message: Loading wallet... (40.26 %)
+2017-09-14 12:03:50 keypool added key 404, size=404
+2017-09-14 12:03:50 init message: Loading wallet... (40.36 %)
+2017-09-14 12:03:50 keypool added key 405, size=405
+2017-09-14 12:03:50 init message: Loading wallet... (40.46 %)
+2017-09-14 12:03:50 keypool added key 406, size=406
+2017-09-14 12:03:50 init message: Loading wallet... (40.56 %)
+2017-09-14 12:03:50 keypool added key 407, size=407
+2017-09-14 12:03:50 init message: Loading wallet... (40.66 %)
+2017-09-14 12:03:50 keypool added key 408, size=408
+2017-09-14 12:03:50 init message: Loading wallet... (40.76 %)
+2017-09-14 12:03:50 keypool added key 409, size=409
+2017-09-14 12:03:50 init message: Loading wallet... (40.86 %)
+2017-09-14 12:03:50 keypool added key 410, size=410
+2017-09-14 12:03:50 init message: Loading wallet... (40.96 %)
+2017-09-14 12:03:50 keypool added key 411, size=411
+2017-09-14 12:03:50 init message: Loading wallet... (41.06 %)
+2017-09-14 12:03:50 keypool added key 412, size=412
+2017-09-14 12:03:50 init message: Loading wallet... (41.16 %)
+2017-09-14 12:03:50 keypool added key 413, size=413
+2017-09-14 12:03:50 init message: Loading wallet... (41.26 %)
+2017-09-14 12:03:50 keypool added key 414, size=414
+2017-09-14 12:03:50 init message: Loading wallet... (41.36 %)
+2017-09-14 12:03:50 keypool added key 415, size=415
+2017-09-14 12:03:50 init message: Loading wallet... (41.46 %)
+2017-09-14 12:03:50 keypool added key 416, size=416
+2017-09-14 12:03:50 init message: Loading wallet... (41.56 %)
+2017-09-14 12:03:50 keypool added key 417, size=417
+2017-09-14 12:03:50 init message: Loading wallet... (41.66 %)
+2017-09-14 12:03:50 keypool added key 418, size=418
+2017-09-14 12:03:50 init message: Loading wallet... (41.76 %)
+2017-09-14 12:03:50 keypool added key 419, size=419
+2017-09-14 12:03:50 init message: Loading wallet... (41.86 %)
+2017-09-14 12:03:50 keypool added key 420, size=420
+2017-09-14 12:03:50 init message: Loading wallet... (41.96 %)
+2017-09-14 12:03:50 keypool added key 421, size=421
+2017-09-14 12:03:50 init message: Loading wallet... (42.06 %)
+2017-09-14 12:03:50 keypool added key 422, size=422
+2017-09-14 12:03:50 init message: Loading wallet... (42.16 %)
+2017-09-14 12:03:50 keypool added key 423, size=423
+2017-09-14 12:03:50 init message: Loading wallet... (42.26 %)
+2017-09-14 12:03:50 keypool added key 424, size=424
+2017-09-14 12:03:50 init message: Loading wallet... (42.36 %)
+2017-09-14 12:03:50 keypool added key 425, size=425
+2017-09-14 12:03:50 init message: Loading wallet... (42.46 %)
+2017-09-14 12:03:50 keypool added key 426, size=426
+2017-09-14 12:03:50 init message: Loading wallet... (42.56 %)
+2017-09-14 12:03:50 keypool added key 427, size=427
+2017-09-14 12:03:50 init message: Loading wallet... (42.66 %)
+2017-09-14 12:03:50 keypool added key 428, size=428
+2017-09-14 12:03:50 init message: Loading wallet... (42.76 %)
+2017-09-14 12:03:50 keypool added key 429, size=429
+2017-09-14 12:03:50 init message: Loading wallet... (42.86 %)
+2017-09-14 12:03:50 keypool added key 430, size=430
+2017-09-14 12:03:50 init message: Loading wallet... (42.96 %)
+2017-09-14 12:03:50 keypool added key 431, size=431
+2017-09-14 12:03:50 init message: Loading wallet... (43.06 %)
+2017-09-14 12:03:50 keypool added key 432, size=432
+2017-09-14 12:03:50 init message: Loading wallet... (43.16 %)
+2017-09-14 12:03:50 keypool added key 433, size=433
+2017-09-14 12:03:50 init message: Loading wallet... (43.26 %)
+2017-09-14 12:03:50 keypool added key 434, size=434
+2017-09-14 12:03:50 init message: Loading wallet... (43.36 %)
+2017-09-14 12:03:50 keypool added key 435, size=435
+2017-09-14 12:03:50 init message: Loading wallet... (43.46 %)
+2017-09-14 12:03:50 keypool added key 436, size=436
+2017-09-14 12:03:50 init message: Loading wallet... (43.56 %)
+2017-09-14 12:03:50 keypool added key 437, size=437
+2017-09-14 12:03:50 init message: Loading wallet... (43.66 %)
+2017-09-14 12:03:50 keypool added key 438, size=438
+2017-09-14 12:03:50 init message: Loading wallet... (43.76 %)
+2017-09-14 12:03:50 keypool added key 439, size=439
+2017-09-14 12:03:50 init message: Loading wallet... (43.86 %)
+2017-09-14 12:03:50 keypool added key 440, size=440
+2017-09-14 12:03:50 init message: Loading wallet... (43.96 %)
+2017-09-14 12:03:50 keypool added key 441, size=441
+2017-09-14 12:03:50 init message: Loading wallet... (44.06 %)
+2017-09-14 12:03:51 keypool added key 442, size=442
+2017-09-14 12:03:51 init message: Loading wallet... (44.16 %)
+2017-09-14 12:03:51 keypool added key 443, size=443
+2017-09-14 12:03:51 init message: Loading wallet... (44.26 %)
+2017-09-14 12:03:51 keypool added key 444, size=444
+2017-09-14 12:03:51 init message: Loading wallet... (44.36 %)
+2017-09-14 12:03:51 keypool added key 445, size=445
+2017-09-14 12:03:51 init message: Loading wallet... (44.46 %)
+2017-09-14 12:03:51 keypool added key 446, size=446
+2017-09-14 12:03:51 init message: Loading wallet... (44.56 %)
+2017-09-14 12:03:51 keypool added key 447, size=447
+2017-09-14 12:03:51 init message: Loading wallet... (44.66 %)
+2017-09-14 12:03:51 keypool added key 448, size=448
+2017-09-14 12:03:51 init message: Loading wallet... (44.76 %)
+2017-09-14 12:03:51 keypool added key 449, size=449
+2017-09-14 12:03:51 init message: Loading wallet... (44.86 %)
+2017-09-14 12:03:51 keypool added key 450, size=450
+2017-09-14 12:03:51 init message: Loading wallet... (44.96 %)
+2017-09-14 12:03:51 keypool added key 451, size=451
+2017-09-14 12:03:51 init message: Loading wallet... (45.05 %)
+2017-09-14 12:03:51 keypool added key 452, size=452
+2017-09-14 12:03:51 init message: Loading wallet... (45.15 %)
+2017-09-14 12:03:51 keypool added key 453, size=453
+2017-09-14 12:03:51 init message: Loading wallet... (45.25 %)
+2017-09-14 12:03:51 keypool added key 454, size=454
+2017-09-14 12:03:51 init message: Loading wallet... (45.35 %)
+2017-09-14 12:03:51 keypool added key 455, size=455
+2017-09-14 12:03:51 init message: Loading wallet... (45.45 %)
+2017-09-14 12:03:51 keypool added key 456, size=456
+2017-09-14 12:03:51 init message: Loading wallet... (45.55 %)
+2017-09-14 12:03:51 keypool added key 457, size=457
+2017-09-14 12:03:51 init message: Loading wallet... (45.65 %)
+2017-09-14 12:03:51 keypool added key 458, size=458
+2017-09-14 12:03:51 init message: Loading wallet... (45.75 %)
+2017-09-14 12:03:51 keypool added key 459, size=459
+2017-09-14 12:03:51 init message: Loading wallet... (45.85 %)
+2017-09-14 12:03:51 keypool added key 460, size=460
+2017-09-14 12:03:51 init message: Loading wallet... (45.95 %)
+2017-09-14 12:03:51 keypool added key 461, size=461
+2017-09-14 12:03:51 init message: Loading wallet... (46.05 %)
+2017-09-14 12:03:51 keypool added key 462, size=462
+2017-09-14 12:03:51 init message: Loading wallet... (46.15 %)
+2017-09-14 12:03:51 keypool added key 463, size=463
+2017-09-14 12:03:51 init message: Loading wallet... (46.25 %)
+2017-09-14 12:03:51 keypool added key 464, size=464
+2017-09-14 12:03:51 init message: Loading wallet... (46.35 %)
+2017-09-14 12:03:51 keypool added key 465, size=465
+2017-09-14 12:03:51 init message: Loading wallet... (46.45 %)
+2017-09-14 12:03:51 keypool added key 466, size=466
+2017-09-14 12:03:51 init message: Loading wallet... (46.55 %)
+2017-09-14 12:03:51 keypool added key 467, size=467
+2017-09-14 12:03:51 init message: Loading wallet... (46.65 %)
+2017-09-14 12:03:51 keypool added key 468, size=468
+2017-09-14 12:03:51 init message: Loading wallet... (46.75 %)
+2017-09-14 12:03:51 keypool added key 469, size=469
+2017-09-14 12:03:51 init message: Loading wallet... (46.85 %)
+2017-09-14 12:03:51 keypool added key 470, size=470
+2017-09-14 12:03:51 init message: Loading wallet... (46.95 %)
+2017-09-14 12:03:51 keypool added key 471, size=471
+2017-09-14 12:03:51 init message: Loading wallet... (47.05 %)
+2017-09-14 12:03:51 keypool added key 472, size=472
+2017-09-14 12:03:51 init message: Loading wallet... (47.15 %)
+2017-09-14 12:03:51 keypool added key 473, size=473
+2017-09-14 12:03:51 init message: Loading wallet... (47.25 %)
+2017-09-14 12:03:51 keypool added key 474, size=474
+2017-09-14 12:03:51 init message: Loading wallet... (47.35 %)
+2017-09-14 12:03:51 keypool added key 475, size=475
+2017-09-14 12:03:51 init message: Loading wallet... (47.45 %)
+2017-09-14 12:03:51 keypool added key 476, size=476
+2017-09-14 12:03:51 init message: Loading wallet... (47.55 %)
+2017-09-14 12:03:51 keypool added key 477, size=477
+2017-09-14 12:03:51 init message: Loading wallet... (47.65 %)
+2017-09-14 12:03:51 keypool added key 478, size=478
+2017-09-14 12:03:51 init message: Loading wallet... (47.75 %)
+2017-09-14 12:03:51 keypool added key 479, size=479
+2017-09-14 12:03:51 init message: Loading wallet... (47.85 %)
+2017-09-14 12:03:51 keypool added key 480, size=480
+2017-09-14 12:03:51 init message: Loading wallet... (47.95 %)
+2017-09-14 12:03:51 keypool added key 481, size=481
+2017-09-14 12:03:51 init message: Loading wallet... (48.05 %)
+2017-09-14 12:03:51 keypool added key 482, size=482
+2017-09-14 12:03:51 init message: Loading wallet... (48.15 %)
+2017-09-14 12:03:51 keypool added key 483, size=483
+2017-09-14 12:03:51 init message: Loading wallet... (48.25 %)
+2017-09-14 12:03:51 keypool added key 484, size=484
+2017-09-14 12:03:51 init message: Loading wallet... (48.35 %)
+2017-09-14 12:03:51 keypool added key 485, size=485
+2017-09-14 12:03:51 init message: Loading wallet... (48.45 %)
+2017-09-14 12:03:51 keypool added key 486, size=486
+2017-09-14 12:03:51 init message: Loading wallet... (48.55 %)
+2017-09-14 12:03:51 keypool added key 487, size=487
+2017-09-14 12:03:51 init message: Loading wallet... (48.65 %)
+2017-09-14 12:03:51 keypool added key 488, size=488
+2017-09-14 12:03:51 init message: Loading wallet... (48.75 %)
+2017-09-14 12:03:51 keypool added key 489, size=489
+2017-09-14 12:03:51 init message: Loading wallet... (48.85 %)
+2017-09-14 12:03:51 keypool added key 490, size=490
+2017-09-14 12:03:51 init message: Loading wallet... (48.95 %)
+2017-09-14 12:03:51 keypool added key 491, size=491
+2017-09-14 12:03:51 init message: Loading wallet... (49.05 %)
+2017-09-14 12:03:51 keypool added key 492, size=492
+2017-09-14 12:03:51 init message: Loading wallet... (49.15 %)
+2017-09-14 12:03:51 keypool added key 493, size=493
+2017-09-14 12:03:51 init message: Loading wallet... (49.25 %)
+2017-09-14 12:03:51 keypool added key 494, size=494
+2017-09-14 12:03:51 init message: Loading wallet... (49.35 %)
+2017-09-14 12:03:51 keypool added key 495, size=495
+2017-09-14 12:03:51 init message: Loading wallet... (49.45 %)
+2017-09-14 12:03:51 keypool added key 496, size=496
+2017-09-14 12:03:51 init message: Loading wallet... (49.55 %)
+2017-09-14 12:03:52 keypool added key 497, size=497
+2017-09-14 12:03:52 init message: Loading wallet... (49.65 %)
+2017-09-14 12:03:52 keypool added key 498, size=498
+2017-09-14 12:03:52 init message: Loading wallet... (49.75 %)
+2017-09-14 12:03:52 keypool added key 499, size=499
+2017-09-14 12:03:52 init message: Loading wallet... (49.85 %)
+2017-09-14 12:03:52 keypool added key 500, size=500
+2017-09-14 12:03:52 init message: Loading wallet... (49.95 %)
+2017-09-14 12:03:52 keypool added key 501, size=501
+2017-09-14 12:03:52 init message: Loading wallet... (50.05 %)
+2017-09-14 12:03:52 keypool added key 502, size=502
+2017-09-14 12:03:52 init message: Loading wallet... (50.15 %)
+2017-09-14 12:03:52 keypool added key 503, size=503
+2017-09-14 12:03:52 init message: Loading wallet... (50.25 %)
+2017-09-14 12:03:52 keypool added key 504, size=504
+2017-09-14 12:03:52 init message: Loading wallet... (50.35 %)
+2017-09-14 12:03:52 keypool added key 505, size=505
+2017-09-14 12:03:52 init message: Loading wallet... (50.45 %)
+2017-09-14 12:03:52 keypool added key 506, size=506
+2017-09-14 12:03:52 init message: Loading wallet... (50.55 %)
+2017-09-14 12:03:52 keypool added key 507, size=507
+2017-09-14 12:03:52 init message: Loading wallet... (50.65 %)
+2017-09-14 12:03:52 keypool added key 508, size=508
+2017-09-14 12:03:52 init message: Loading wallet... (50.75 %)
+2017-09-14 12:03:52 keypool added key 509, size=509
+2017-09-14 12:03:52 init message: Loading wallet... (50.85 %)
+2017-09-14 12:03:52 keypool added key 510, size=510
+2017-09-14 12:03:52 init message: Loading wallet... (50.95 %)
+2017-09-14 12:03:52 keypool added key 511, size=511
+2017-09-14 12:03:52 init message: Loading wallet... (51.05 %)
+2017-09-14 12:03:52 keypool added key 512, size=512
+2017-09-14 12:03:52 init message: Loading wallet... (51.15 %)
+2017-09-14 12:03:52 keypool added key 513, size=513
+2017-09-14 12:03:52 init message: Loading wallet... (51.25 %)
+2017-09-14 12:03:52 keypool added key 514, size=514
+2017-09-14 12:03:52 init message: Loading wallet... (51.35 %)
+2017-09-14 12:03:52 keypool added key 515, size=515
+2017-09-14 12:03:52 init message: Loading wallet... (51.45 %)
+2017-09-14 12:03:52 keypool added key 516, size=516
+2017-09-14 12:03:52 init message: Loading wallet... (51.55 %)
+2017-09-14 12:03:52 keypool added key 517, size=517
+2017-09-14 12:03:52 init message: Loading wallet... (51.65 %)
+2017-09-14 12:03:52 keypool added key 518, size=518
+2017-09-14 12:03:52 init message: Loading wallet... (51.75 %)
+2017-09-14 12:03:52 keypool added key 519, size=519
+2017-09-14 12:03:52 init message: Loading wallet... (51.85 %)
+2017-09-14 12:03:52 keypool added key 520, size=520
+2017-09-14 12:03:52 init message: Loading wallet... (51.95 %)
+2017-09-14 12:03:52 keypool added key 521, size=521
+2017-09-14 12:03:52 init message: Loading wallet... (52.05 %)
+2017-09-14 12:03:52 keypool added key 522, size=522
+2017-09-14 12:03:52 init message: Loading wallet... (52.15 %)
+2017-09-14 12:03:52 keypool added key 523, size=523
+2017-09-14 12:03:52 init message: Loading wallet... (52.25 %)
+2017-09-14 12:03:52 keypool added key 524, size=524
+2017-09-14 12:03:52 init message: Loading wallet... (52.35 %)
+2017-09-14 12:03:52 keypool added key 525, size=525
+2017-09-14 12:03:52 init message: Loading wallet... (52.45 %)
+2017-09-14 12:03:52 keypool added key 526, size=526
+2017-09-14 12:03:52 init message: Loading wallet... (52.55 %)
+2017-09-14 12:03:52 keypool added key 527, size=527
+2017-09-14 12:03:52 init message: Loading wallet... (52.65 %)
+2017-09-14 12:03:52 keypool added key 528, size=528
+2017-09-14 12:03:52 init message: Loading wallet... (52.75 %)
+2017-09-14 12:03:52 keypool added key 529, size=529
+2017-09-14 12:03:52 init message: Loading wallet... (52.85 %)
+2017-09-14 12:03:52 keypool added key 530, size=530
+2017-09-14 12:03:52 init message: Loading wallet... (52.95 %)
+2017-09-14 12:03:52 keypool added key 531, size=531
+2017-09-14 12:03:52 init message: Loading wallet... (53.05 %)
+2017-09-14 12:03:52 keypool added key 532, size=532
+2017-09-14 12:03:52 init message: Loading wallet... (53.15 %)
+2017-09-14 12:03:52 keypool added key 533, size=533
+2017-09-14 12:03:52 init message: Loading wallet... (53.25 %)
+2017-09-14 12:03:52 keypool added key 534, size=534
+2017-09-14 12:03:52 init message: Loading wallet... (53.35 %)
+2017-09-14 12:03:52 keypool added key 535, size=535
+2017-09-14 12:03:52 init message: Loading wallet... (53.45 %)
+2017-09-14 12:03:52 keypool added key 536, size=536
+2017-09-14 12:03:52 init message: Loading wallet... (53.55 %)
+2017-09-14 12:03:52 keypool added key 537, size=537
+2017-09-14 12:03:52 init message: Loading wallet... (53.65 %)
+2017-09-14 12:03:52 keypool added key 538, size=538
+2017-09-14 12:03:52 init message: Loading wallet... (53.75 %)
+2017-09-14 12:03:52 keypool added key 539, size=539
+2017-09-14 12:03:52 init message: Loading wallet... (53.85 %)
+2017-09-14 12:03:52 keypool added key 540, size=540
+2017-09-14 12:03:52 init message: Loading wallet... (53.95 %)
+2017-09-14 12:03:52 keypool added key 541, size=541
+2017-09-14 12:03:52 init message: Loading wallet... (54.05 %)
+2017-09-14 12:03:52 keypool added key 542, size=542
+2017-09-14 12:03:52 init message: Loading wallet... (54.15 %)
+2017-09-14 12:03:52 keypool added key 543, size=543
+2017-09-14 12:03:52 init message: Loading wallet... (54.25 %)
+2017-09-14 12:03:52 keypool added key 544, size=544
+2017-09-14 12:03:52 init message: Loading wallet... (54.35 %)
+2017-09-14 12:03:52 keypool added key 545, size=545
+2017-09-14 12:03:52 init message: Loading wallet... (54.45 %)
+2017-09-14 12:03:52 keypool added key 546, size=546
+2017-09-14 12:03:52 init message: Loading wallet... (54.55 %)
+2017-09-14 12:03:52 keypool added key 547, size=547
+2017-09-14 12:03:52 init message: Loading wallet... (54.65 %)
+2017-09-14 12:03:52 keypool added key 548, size=548
+2017-09-14 12:03:52 init message: Loading wallet... (54.75 %)
+2017-09-14 12:03:52 keypool added key 549, size=549
+2017-09-14 12:03:52 init message: Loading wallet... (54.85 %)
+2017-09-14 12:03:53 keypool added key 550, size=550
+2017-09-14 12:03:53 init message: Loading wallet... (54.95 %)
+2017-09-14 12:03:53 keypool added key 551, size=551
+2017-09-14 12:03:53 init message: Loading wallet... (55.04 %)
+2017-09-14 12:03:53 keypool added key 552, size=552
+2017-09-14 12:03:53 init message: Loading wallet... (55.14 %)
+2017-09-14 12:03:53 keypool added key 553, size=553
+2017-09-14 12:03:53 init message: Loading wallet... (55.24 %)
+2017-09-14 12:03:53 keypool added key 554, size=554
+2017-09-14 12:03:53 init message: Loading wallet... (55.34 %)
+2017-09-14 12:03:53 keypool added key 555, size=555
+2017-09-14 12:03:53 init message: Loading wallet... (55.44 %)
+2017-09-14 12:03:53 keypool added key 556, size=556
+2017-09-14 12:03:53 init message: Loading wallet... (55.54 %)
+2017-09-14 12:03:53 keypool added key 557, size=557
+2017-09-14 12:03:53 init message: Loading wallet... (55.64 %)
+2017-09-14 12:03:53 keypool added key 558, size=558
+2017-09-14 12:03:53 init message: Loading wallet... (55.74 %)
+2017-09-14 12:03:53 keypool added key 559, size=559
+2017-09-14 12:03:53 init message: Loading wallet... (55.84 %)
+2017-09-14 12:03:53 keypool added key 560, size=560
+2017-09-14 12:03:53 init message: Loading wallet... (55.94 %)
+2017-09-14 12:03:53 keypool added key 561, size=561
+2017-09-14 12:03:53 init message: Loading wallet... (56.04 %)
+2017-09-14 12:03:53 keypool added key 562, size=562
+2017-09-14 12:03:53 init message: Loading wallet... (56.14 %)
+2017-09-14 12:03:53 keypool added key 563, size=563
+2017-09-14 12:03:53 init message: Loading wallet... (56.24 %)
+2017-09-14 12:03:53 keypool added key 564, size=564
+2017-09-14 12:03:53 init message: Loading wallet... (56.34 %)
+2017-09-14 12:03:53 keypool added key 565, size=565
+2017-09-14 12:03:53 init message: Loading wallet... (56.44 %)
+2017-09-14 12:03:53 keypool added key 566, size=566
+2017-09-14 12:03:53 init message: Loading wallet... (56.54 %)
+2017-09-14 12:03:53 keypool added key 567, size=567
+2017-09-14 12:03:53 init message: Loading wallet... (56.64 %)
+2017-09-14 12:03:53 keypool added key 568, size=568
+2017-09-14 12:03:53 init message: Loading wallet... (56.74 %)
+2017-09-14 12:03:53 keypool added key 569, size=569
+2017-09-14 12:03:53 init message: Loading wallet... (56.84 %)
+2017-09-14 12:03:53 keypool added key 570, size=570
+2017-09-14 12:03:53 init message: Loading wallet... (56.94 %)
+2017-09-14 12:03:53 keypool added key 571, size=571
+2017-09-14 12:03:53 init message: Loading wallet... (57.04 %)
+2017-09-14 12:03:53 keypool added key 572, size=572
+2017-09-14 12:03:53 init message: Loading wallet... (57.14 %)
+2017-09-14 12:03:53 keypool added key 573, size=573
+2017-09-14 12:03:53 init message: Loading wallet... (57.24 %)
+2017-09-14 12:03:53 keypool added key 574, size=574
+2017-09-14 12:03:53 init message: Loading wallet... (57.34 %)
+2017-09-14 12:03:53 keypool added key 575, size=575
+2017-09-14 12:03:53 init message: Loading wallet... (57.44 %)
+2017-09-14 12:03:53 keypool added key 576, size=576
+2017-09-14 12:03:53 init message: Loading wallet... (57.54 %)
+2017-09-14 12:03:53 keypool added key 577, size=577
+2017-09-14 12:03:53 init message: Loading wallet... (57.64 %)
+2017-09-14 12:03:53 keypool added key 578, size=578
+2017-09-14 12:03:53 init message: Loading wallet... (57.74 %)
+2017-09-14 12:03:53 keypool added key 579, size=579
+2017-09-14 12:03:53 init message: Loading wallet... (57.84 %)
+2017-09-14 12:03:53 keypool added key 580, size=580
+2017-09-14 12:03:53 init message: Loading wallet... (57.94 %)
+2017-09-14 12:03:53 keypool added key 581, size=581
+2017-09-14 12:03:53 init message: Loading wallet... (58.04 %)
+2017-09-14 12:03:53 keypool added key 582, size=582
+2017-09-14 12:03:53 init message: Loading wallet... (58.14 %)
+2017-09-14 12:03:53 keypool added key 583, size=583
+2017-09-14 12:03:53 init message: Loading wallet... (58.24 %)
+2017-09-14 12:03:53 keypool added key 584, size=584
+2017-09-14 12:03:53 init message: Loading wallet... (58.34 %)
+2017-09-14 12:03:53 keypool added key 585, size=585
+2017-09-14 12:03:53 init message: Loading wallet... (58.44 %)
+2017-09-14 12:03:53 keypool added key 586, size=586
+2017-09-14 12:03:53 init message: Loading wallet... (58.54 %)
+2017-09-14 12:03:53 keypool added key 587, size=587
+2017-09-14 12:03:53 init message: Loading wallet... (58.64 %)
+2017-09-14 12:03:53 keypool added key 588, size=588
+2017-09-14 12:03:53 init message: Loading wallet... (58.74 %)
+2017-09-14 12:03:53 keypool added key 589, size=589
+2017-09-14 12:03:53 init message: Loading wallet... (58.84 %)
+2017-09-14 12:03:53 keypool added key 590, size=590
+2017-09-14 12:03:53 init message: Loading wallet... (58.94 %)
+2017-09-14 12:03:53 keypool added key 591, size=591
+2017-09-14 12:03:53 init message: Loading wallet... (59.04 %)
+2017-09-14 12:03:53 keypool added key 592, size=592
+2017-09-14 12:03:53 init message: Loading wallet... (59.14 %)
+2017-09-14 12:03:53 keypool added key 593, size=593
+2017-09-14 12:03:53 init message: Loading wallet... (59.24 %)
+2017-09-14 12:03:53 keypool added key 594, size=594
+2017-09-14 12:03:53 init message: Loading wallet... (59.34 %)
+2017-09-14 12:03:53 keypool added key 595, size=595
+2017-09-14 12:03:53 init message: Loading wallet... (59.44 %)
+2017-09-14 12:03:53 keypool added key 596, size=596
+2017-09-14 12:03:53 init message: Loading wallet... (59.54 %)
+2017-09-14 12:03:53 keypool added key 597, size=597
+2017-09-14 12:03:53 init message: Loading wallet... (59.64 %)
+2017-09-14 12:03:53 keypool added key 598, size=598
+2017-09-14 12:03:53 init message: Loading wallet... (59.74 %)
+2017-09-14 12:03:53 keypool added key 599, size=599
+2017-09-14 12:03:53 init message: Loading wallet... (59.84 %)
+2017-09-14 12:03:53 keypool added key 600, size=600
+2017-09-14 12:03:53 init message: Loading wallet... (59.94 %)
+2017-09-14 12:03:53 keypool added key 601, size=601
+2017-09-14 12:03:53 init message: Loading wallet... (60.04 %)
+2017-09-14 12:03:53 keypool added key 602, size=602
+2017-09-14 12:03:53 init message: Loading wallet... (60.14 %)
+2017-09-14 12:03:54 keypool added key 603, size=603
+2017-09-14 12:03:54 init message: Loading wallet... (60.24 %)
+2017-09-14 12:03:54 keypool added key 604, size=604
+2017-09-14 12:03:54 init message: Loading wallet... (60.34 %)
+2017-09-14 12:03:54 keypool added key 605, size=605
+2017-09-14 12:03:54 init message: Loading wallet... (60.44 %)
+2017-09-14 12:03:54 keypool added key 606, size=606
+2017-09-14 12:03:54 init message: Loading wallet... (60.54 %)
+2017-09-14 12:03:54 keypool added key 607, size=607
+2017-09-14 12:03:54 init message: Loading wallet... (60.64 %)
+2017-09-14 12:03:54 keypool added key 608, size=608
+2017-09-14 12:03:54 init message: Loading wallet... (60.74 %)
+2017-09-14 12:03:54 keypool added key 609, size=609
+2017-09-14 12:03:54 init message: Loading wallet... (60.84 %)
+2017-09-14 12:03:54 keypool added key 610, size=610
+2017-09-14 12:03:54 init message: Loading wallet... (60.94 %)
+2017-09-14 12:03:54 keypool added key 611, size=611
+2017-09-14 12:03:54 init message: Loading wallet... (61.04 %)
+2017-09-14 12:03:54 keypool added key 612, size=612
+2017-09-14 12:03:54 init message: Loading wallet... (61.14 %)
+2017-09-14 12:03:54 keypool added key 613, size=613
+2017-09-14 12:03:54 init message: Loading wallet... (61.24 %)
+2017-09-14 12:03:54 keypool added key 614, size=614
+2017-09-14 12:03:54 init message: Loading wallet... (61.34 %)
+2017-09-14 12:03:54 keypool added key 615, size=615
+2017-09-14 12:03:54 init message: Loading wallet... (61.44 %)
+2017-09-14 12:03:54 keypool added key 616, size=616
+2017-09-14 12:03:54 init message: Loading wallet... (61.54 %)
+2017-09-14 12:03:54 keypool added key 617, size=617
+2017-09-14 12:03:54 init message: Loading wallet... (61.64 %)
+2017-09-14 12:03:54 keypool added key 618, size=618
+2017-09-14 12:03:54 init message: Loading wallet... (61.74 %)
+2017-09-14 12:03:54 keypool added key 619, size=619
+2017-09-14 12:03:54 init message: Loading wallet... (61.84 %)
+2017-09-14 12:03:54 keypool added key 620, size=620
+2017-09-14 12:03:54 init message: Loading wallet... (61.94 %)
+2017-09-14 12:03:54 keypool added key 621, size=621
+2017-09-14 12:03:54 init message: Loading wallet... (62.04 %)
+2017-09-14 12:03:54 keypool added key 622, size=622
+2017-09-14 12:03:54 init message: Loading wallet... (62.14 %)
+2017-09-14 12:03:54 keypool added key 623, size=623
+2017-09-14 12:03:54 init message: Loading wallet... (62.24 %)
+2017-09-14 12:03:54 keypool added key 624, size=624
+2017-09-14 12:03:54 init message: Loading wallet... (62.34 %)
+2017-09-14 12:03:54 keypool added key 625, size=625
+2017-09-14 12:03:54 init message: Loading wallet... (62.44 %)
+2017-09-14 12:03:54 keypool added key 626, size=626
+2017-09-14 12:03:54 init message: Loading wallet... (62.54 %)
+2017-09-14 12:03:54 keypool added key 627, size=627
+2017-09-14 12:03:54 init message: Loading wallet... (62.64 %)
+2017-09-14 12:03:54 keypool added key 628, size=628
+2017-09-14 12:03:54 init message: Loading wallet... (62.74 %)
+2017-09-14 12:03:54 keypool added key 629, size=629
+2017-09-14 12:03:54 init message: Loading wallet... (62.84 %)
+2017-09-14 12:03:54 keypool added key 630, size=630
+2017-09-14 12:03:54 init message: Loading wallet... (62.94 %)
+2017-09-14 12:03:54 keypool added key 631, size=631
+2017-09-14 12:03:54 init message: Loading wallet... (63.04 %)
+2017-09-14 12:03:54 keypool added key 632, size=632
+2017-09-14 12:03:54 init message: Loading wallet... (63.14 %)
+2017-09-14 12:03:54 keypool added key 633, size=633
+2017-09-14 12:03:54 init message: Loading wallet... (63.24 %)
+2017-09-14 12:03:54 keypool added key 634, size=634
+2017-09-14 12:03:54 init message: Loading wallet... (63.34 %)
+2017-09-14 12:03:54 keypool added key 635, size=635
+2017-09-14 12:03:54 init message: Loading wallet... (63.44 %)
+2017-09-14 12:03:54 keypool added key 636, size=636
+2017-09-14 12:03:54 init message: Loading wallet... (63.54 %)
+2017-09-14 12:03:54 keypool added key 637, size=637
+2017-09-14 12:03:54 init message: Loading wallet... (63.64 %)
+2017-09-14 12:03:54 keypool added key 638, size=638
+2017-09-14 12:03:54 init message: Loading wallet... (63.74 %)
+2017-09-14 12:03:54 keypool added key 639, size=639
+2017-09-14 12:03:54 init message: Loading wallet... (63.84 %)
+2017-09-14 12:03:54 keypool added key 640, size=640
+2017-09-14 12:03:54 init message: Loading wallet... (63.94 %)
+2017-09-14 12:03:54 keypool added key 641, size=641
+2017-09-14 12:03:54 init message: Loading wallet... (64.04 %)
+2017-09-14 12:03:54 keypool added key 642, size=642
+2017-09-14 12:03:54 init message: Loading wallet... (64.14 %)
+2017-09-14 12:03:54 keypool added key 643, size=643
+2017-09-14 12:03:54 init message: Loading wallet... (64.24 %)
+2017-09-14 12:03:54 keypool added key 644, size=644
+2017-09-14 12:03:54 init message: Loading wallet... (64.34 %)
+2017-09-14 12:03:54 keypool added key 645, size=645
+2017-09-14 12:03:54 init message: Loading wallet... (64.44 %)
+2017-09-14 12:03:54 keypool added key 646, size=646
+2017-09-14 12:03:54 init message: Loading wallet... (64.54 %)
+2017-09-14 12:03:54 keypool added key 647, size=647
+2017-09-14 12:03:54 init message: Loading wallet... (64.64 %)
+2017-09-14 12:03:54 keypool added key 648, size=648
+2017-09-14 12:03:54 init message: Loading wallet... (64.74 %)
+2017-09-14 12:03:54 keypool added key 649, size=649
+2017-09-14 12:03:54 init message: Loading wallet... (64.84 %)
+2017-09-14 12:03:54 keypool added key 650, size=650
+2017-09-14 12:03:54 init message: Loading wallet... (64.94 %)
+2017-09-14 12:03:54 keypool added key 651, size=651
+2017-09-14 12:03:54 init message: Loading wallet... (65.03 %)
+2017-09-14 12:03:54 keypool added key 652, size=652
+2017-09-14 12:03:54 init message: Loading wallet... (65.13 %)
+2017-09-14 12:03:54 keypool added key 653, size=653
+2017-09-14 12:03:54 init message: Loading wallet... (65.23 %)
+2017-09-14 12:03:54 keypool added key 654, size=654
+2017-09-14 12:03:54 init message: Loading wallet... (65.33 %)
+2017-09-14 12:03:55 keypool added key 655, size=655
+2017-09-14 12:03:55 init message: Loading wallet... (65.43 %)
+2017-09-14 12:03:55 keypool added key 656, size=656
+2017-09-14 12:03:55 init message: Loading wallet... (65.53 %)
+2017-09-14 12:03:55 keypool added key 657, size=657
+2017-09-14 12:03:55 init message: Loading wallet... (65.63 %)
+2017-09-14 12:03:55 keypool added key 658, size=658
+2017-09-14 12:03:55 init message: Loading wallet... (65.73 %)
+2017-09-14 12:03:55 keypool added key 659, size=659
+2017-09-14 12:03:55 init message: Loading wallet... (65.83 %)
+2017-09-14 12:03:55 keypool added key 660, size=660
+2017-09-14 12:03:55 init message: Loading wallet... (65.93 %)
+2017-09-14 12:03:55 keypool added key 661, size=661
+2017-09-14 12:03:55 init message: Loading wallet... (66.03 %)
+2017-09-14 12:03:55 keypool added key 662, size=662
+2017-09-14 12:03:55 init message: Loading wallet... (66.13 %)
+2017-09-14 12:03:55 keypool added key 663, size=663
+2017-09-14 12:03:55 init message: Loading wallet... (66.23 %)
+2017-09-14 12:03:55 keypool added key 664, size=664
+2017-09-14 12:03:55 init message: Loading wallet... (66.33 %)
+2017-09-14 12:03:55 keypool added key 665, size=665
+2017-09-14 12:03:55 init message: Loading wallet... (66.43 %)
+2017-09-14 12:03:55 keypool added key 666, size=666
+2017-09-14 12:03:55 init message: Loading wallet... (66.53 %)
+2017-09-14 12:03:55 keypool added key 667, size=667
+2017-09-14 12:03:55 init message: Loading wallet... (66.63 %)
+2017-09-14 12:03:55 keypool added key 668, size=668
+2017-09-14 12:03:55 init message: Loading wallet... (66.73 %)
+2017-09-14 12:03:55 keypool added key 669, size=669
+2017-09-14 12:03:55 init message: Loading wallet... (66.83 %)
+2017-09-14 12:03:55 keypool added key 670, size=670
+2017-09-14 12:03:55 init message: Loading wallet... (66.93 %)
+2017-09-14 12:03:55 keypool added key 671, size=671
+2017-09-14 12:03:55 init message: Loading wallet... (67.03 %)
+2017-09-14 12:03:55 keypool added key 672, size=672
+2017-09-14 12:03:55 init message: Loading wallet... (67.13 %)
+2017-09-14 12:03:55 keypool added key 673, size=673
+2017-09-14 12:03:55 init message: Loading wallet... (67.23 %)
+2017-09-14 12:03:55 keypool added key 674, size=674
+2017-09-14 12:03:55 init message: Loading wallet... (67.33 %)
+2017-09-14 12:03:55 keypool added key 675, size=675
+2017-09-14 12:03:55 init message: Loading wallet... (67.43 %)
+2017-09-14 12:03:55 keypool added key 676, size=676
+2017-09-14 12:03:55 init message: Loading wallet... (67.53 %)
+2017-09-14 12:03:55 keypool added key 677, size=677
+2017-09-14 12:03:55 init message: Loading wallet... (67.63 %)
+2017-09-14 12:03:55 keypool added key 678, size=678
+2017-09-14 12:03:55 init message: Loading wallet... (67.73 %)
+2017-09-14 12:03:55 keypool added key 679, size=679
+2017-09-14 12:03:55 init message: Loading wallet... (67.83 %)
+2017-09-14 12:03:55 keypool added key 680, size=680
+2017-09-14 12:03:55 init message: Loading wallet... (67.93 %)
+2017-09-14 12:03:55 keypool added key 681, size=681
+2017-09-14 12:03:55 init message: Loading wallet... (68.03 %)
+2017-09-14 12:03:55 keypool added key 682, size=682
+2017-09-14 12:03:55 init message: Loading wallet... (68.13 %)
+2017-09-14 12:03:55 keypool added key 683, size=683
+2017-09-14 12:03:55 init message: Loading wallet... (68.23 %)
+2017-09-14 12:03:55 keypool added key 684, size=684
+2017-09-14 12:03:55 init message: Loading wallet... (68.33 %)
+2017-09-14 12:03:55 keypool added key 685, size=685
+2017-09-14 12:03:55 init message: Loading wallet... (68.43 %)
+2017-09-14 12:03:55 keypool added key 686, size=686
+2017-09-14 12:03:55 init message: Loading wallet... (68.53 %)
+2017-09-14 12:03:55 keypool added key 687, size=687
+2017-09-14 12:03:55 init message: Loading wallet... (68.63 %)
+2017-09-14 12:03:55 keypool added key 688, size=688
+2017-09-14 12:03:55 init message: Loading wallet... (68.73 %)
+2017-09-14 12:03:55 keypool added key 689, size=689
+2017-09-14 12:03:55 init message: Loading wallet... (68.83 %)
+2017-09-14 12:03:55 keypool added key 690, size=690
+2017-09-14 12:03:55 init message: Loading wallet... (68.93 %)
+2017-09-14 12:03:55 keypool added key 691, size=691
+2017-09-14 12:03:55 init message: Loading wallet... (69.03 %)
+2017-09-14 12:03:55 keypool added key 692, size=692
+2017-09-14 12:03:55 init message: Loading wallet... (69.13 %)
+2017-09-14 12:03:55 keypool added key 693, size=693
+2017-09-14 12:03:55 init message: Loading wallet... (69.23 %)
+2017-09-14 12:03:55 keypool added key 694, size=694
+2017-09-14 12:03:55 init message: Loading wallet... (69.33 %)
+2017-09-14 12:03:55 keypool added key 695, size=695
+2017-09-14 12:03:55 init message: Loading wallet... (69.43 %)
+2017-09-14 12:03:55 keypool added key 696, size=696
+2017-09-14 12:03:55 init message: Loading wallet... (69.53 %)
+2017-09-14 12:03:55 keypool added key 697, size=697
+2017-09-14 12:03:55 init message: Loading wallet... (69.63 %)
+2017-09-14 12:03:55 keypool added key 698, size=698
+2017-09-14 12:03:55 init message: Loading wallet... (69.73 %)
+2017-09-14 12:03:55 keypool added key 699, size=699
+2017-09-14 12:03:55 init message: Loading wallet... (69.83 %)
+2017-09-14 12:03:55 keypool added key 700, size=700
+2017-09-14 12:03:55 init message: Loading wallet... (69.93 %)
+2017-09-14 12:03:55 keypool added key 701, size=701
+2017-09-14 12:03:55 init message: Loading wallet... (70.03 %)
+2017-09-14 12:03:55 keypool added key 702, size=702
+2017-09-14 12:03:55 init message: Loading wallet... (70.13 %)
+2017-09-14 12:03:55 keypool added key 703, size=703
+2017-09-14 12:03:55 init message: Loading wallet... (70.23 %)
+2017-09-14 12:03:55 keypool added key 704, size=704
+2017-09-14 12:03:55 init message: Loading wallet... (70.33 %)
+2017-09-14 12:03:56 keypool added key 705, size=705
+2017-09-14 12:03:56 init message: Loading wallet... (70.43 %)
+2017-09-14 12:03:56 keypool added key 706, size=706
+2017-09-14 12:03:56 init message: Loading wallet... (70.53 %)
+2017-09-14 12:03:56 keypool added key 707, size=707
+2017-09-14 12:03:56 init message: Loading wallet... (70.63 %)
+2017-09-14 12:03:56 keypool added key 708, size=708
+2017-09-14 12:03:56 init message: Loading wallet... (70.73 %)
+2017-09-14 12:03:56 keypool added key 709, size=709
+2017-09-14 12:03:56 init message: Loading wallet... (70.83 %)
+2017-09-14 12:03:56 keypool added key 710, size=710
+2017-09-14 12:03:56 init message: Loading wallet... (70.93 %)
+2017-09-14 12:03:56 keypool added key 711, size=711
+2017-09-14 12:03:56 init message: Loading wallet... (71.03 %)
+2017-09-14 12:03:56 keypool added key 712, size=712
+2017-09-14 12:03:56 init message: Loading wallet... (71.13 %)
+2017-09-14 12:03:56 keypool added key 713, size=713
+2017-09-14 12:03:56 init message: Loading wallet... (71.23 %)
+2017-09-14 12:03:56 keypool added key 714, size=714
+2017-09-14 12:03:56 init message: Loading wallet... (71.33 %)
+2017-09-14 12:03:56 keypool added key 715, size=715
+2017-09-14 12:03:56 init message: Loading wallet... (71.43 %)
+2017-09-14 12:03:56 keypool added key 716, size=716
+2017-09-14 12:03:56 init message: Loading wallet... (71.53 %)
+2017-09-14 12:03:56 keypool added key 717, size=717
+2017-09-14 12:03:56 init message: Loading wallet... (71.63 %)
+2017-09-14 12:03:56 keypool added key 718, size=718
+2017-09-14 12:03:56 init message: Loading wallet... (71.73 %)
+2017-09-14 12:03:56 keypool added key 719, size=719
+2017-09-14 12:03:56 init message: Loading wallet... (71.83 %)
+2017-09-14 12:03:56 keypool added key 720, size=720
+2017-09-14 12:03:56 init message: Loading wallet... (71.93 %)
+2017-09-14 12:03:56 keypool added key 721, size=721
+2017-09-14 12:03:56 init message: Loading wallet... (72.03 %)
+2017-09-14 12:03:56 keypool added key 722, size=722
+2017-09-14 12:03:56 init message: Loading wallet... (72.13 %)
+2017-09-14 12:03:56 keypool added key 723, size=723
+2017-09-14 12:03:56 init message: Loading wallet... (72.23 %)
+2017-09-14 12:03:56 keypool added key 724, size=724
+2017-09-14 12:03:56 init message: Loading wallet... (72.33 %)
+2017-09-14 12:03:56 keypool added key 725, size=725
+2017-09-14 12:03:56 init message: Loading wallet... (72.43 %)
+2017-09-14 12:03:56 keypool added key 726, size=726
+2017-09-14 12:03:56 init message: Loading wallet... (72.53 %)
+2017-09-14 12:03:56 keypool added key 727, size=727
+2017-09-14 12:03:56 init message: Loading wallet... (72.63 %)
+2017-09-14 12:03:56 keypool added key 728, size=728
+2017-09-14 12:03:56 init message: Loading wallet... (72.73 %)
+2017-09-14 12:03:56 keypool added key 729, size=729
+2017-09-14 12:03:56 init message: Loading wallet... (72.83 %)
+2017-09-14 12:03:56 keypool added key 730, size=730
+2017-09-14 12:03:56 init message: Loading wallet... (72.93 %)
+2017-09-14 12:03:56 keypool added key 731, size=731
+2017-09-14 12:03:56 init message: Loading wallet... (73.03 %)
+2017-09-14 12:03:56 keypool added key 732, size=732
+2017-09-14 12:03:56 init message: Loading wallet... (73.13 %)
+2017-09-14 12:03:56 keypool added key 733, size=733
+2017-09-14 12:03:56 init message: Loading wallet... (73.23 %)
+2017-09-14 12:03:56 keypool added key 734, size=734
+2017-09-14 12:03:56 init message: Loading wallet... (73.33 %)
+2017-09-14 12:03:56 keypool added key 735, size=735
+2017-09-14 12:03:56 init message: Loading wallet... (73.43 %)
+2017-09-14 12:03:56 keypool added key 736, size=736
+2017-09-14 12:03:56 init message: Loading wallet... (73.53 %)
+2017-09-14 12:03:56 keypool added key 737, size=737
+2017-09-14 12:03:56 init message: Loading wallet... (73.63 %)
+2017-09-14 12:03:56 keypool added key 738, size=738
+2017-09-14 12:03:56 init message: Loading wallet... (73.73 %)
+2017-09-14 12:03:56 keypool added key 739, size=739
+2017-09-14 12:03:56 init message: Loading wallet... (73.83 %)
+2017-09-14 12:03:56 keypool added key 740, size=740
+2017-09-14 12:03:56 init message: Loading wallet... (73.93 %)
+2017-09-14 12:03:56 keypool added key 741, size=741
+2017-09-14 12:03:56 init message: Loading wallet... (74.03 %)
+2017-09-14 12:03:56 keypool added key 742, size=742
+2017-09-14 12:03:56 init message: Loading wallet... (74.13 %)
+2017-09-14 12:03:56 keypool added key 743, size=743
+2017-09-14 12:03:56 init message: Loading wallet... (74.23 %)
+2017-09-14 12:03:56 keypool added key 744, size=744
+2017-09-14 12:03:56 init message: Loading wallet... (74.33 %)
+2017-09-14 12:03:56 keypool added key 745, size=745
+2017-09-14 12:03:56 init message: Loading wallet... (74.43 %)
+2017-09-14 12:03:56 keypool added key 746, size=746
+2017-09-14 12:03:56 init message: Loading wallet... (74.53 %)
+2017-09-14 12:03:56 keypool added key 747, size=747
+2017-09-14 12:03:56 init message: Loading wallet... (74.63 %)
+2017-09-14 12:03:56 keypool added key 748, size=748
+2017-09-14 12:03:56 init message: Loading wallet... (74.73 %)
+2017-09-14 12:03:56 keypool added key 749, size=749
+2017-09-14 12:03:56 init message: Loading wallet... (74.83 %)
+2017-09-14 12:03:56 keypool added key 750, size=750
+2017-09-14 12:03:56 init message: Loading wallet... (74.93 %)
+2017-09-14 12:03:56 keypool added key 751, size=751
+2017-09-14 12:03:56 init message: Loading wallet... (75.02 %)
+2017-09-14 12:03:56 keypool added key 752, size=752
+2017-09-14 12:03:56 init message: Loading wallet... (75.12 %)
+2017-09-14 12:03:57 keypool added key 753, size=753
+2017-09-14 12:03:57 init message: Loading wallet... (75.22 %)
+2017-09-14 12:03:57 keypool added key 754, size=754
+2017-09-14 12:03:57 init message: Loading wallet... (75.32 %)
+2017-09-14 12:03:57 keypool added key 755, size=755
+2017-09-14 12:03:57 init message: Loading wallet... (75.42 %)
+2017-09-14 12:03:57 keypool added key 756, size=756
+2017-09-14 12:03:57 init message: Loading wallet... (75.52 %)
+2017-09-14 12:03:57 keypool added key 757, size=757
+2017-09-14 12:03:57 init message: Loading wallet... (75.62 %)
+2017-09-14 12:03:57 keypool added key 758, size=758
+2017-09-14 12:03:57 init message: Loading wallet... (75.72 %)
+2017-09-14 12:03:57 keypool added key 759, size=759
+2017-09-14 12:03:57 init message: Loading wallet... (75.82 %)
+2017-09-14 12:03:57 keypool added key 760, size=760
+2017-09-14 12:03:57 init message: Loading wallet... (75.92 %)
+2017-09-14 12:03:57 keypool added key 761, size=761
+2017-09-14 12:03:57 init message: Loading wallet... (76.02 %)
+2017-09-14 12:03:57 keypool added key 762, size=762
+2017-09-14 12:03:57 init message: Loading wallet... (76.12 %)
+2017-09-14 12:03:57 keypool added key 763, size=763
+2017-09-14 12:03:57 init message: Loading wallet... (76.22 %)
+2017-09-14 12:03:57 keypool added key 764, size=764
+2017-09-14 12:03:57 init message: Loading wallet... (76.32 %)
+2017-09-14 12:03:57 keypool added key 765, size=765
+2017-09-14 12:03:57 init message: Loading wallet... (76.42 %)
+2017-09-14 12:03:57 keypool added key 766, size=766
+2017-09-14 12:03:57 init message: Loading wallet... (76.52 %)
+2017-09-14 12:03:57 keypool added key 767, size=767
+2017-09-14 12:03:57 init message: Loading wallet... (76.62 %)
+2017-09-14 12:03:57 keypool added key 768, size=768
+2017-09-14 12:03:57 init message: Loading wallet... (76.72 %)
+2017-09-14 12:03:57 keypool added key 769, size=769
+2017-09-14 12:03:57 init message: Loading wallet... (76.82 %)
+2017-09-14 12:03:57 keypool added key 770, size=770
+2017-09-14 12:03:57 init message: Loading wallet... (76.92 %)
+2017-09-14 12:03:57 keypool added key 771, size=771
+2017-09-14 12:03:57 init message: Loading wallet... (77.02 %)
+2017-09-14 12:03:57 keypool added key 772, size=772
+2017-09-14 12:03:57 init message: Loading wallet... (77.12 %)
+2017-09-14 12:03:57 keypool added key 773, size=773
+2017-09-14 12:03:57 init message: Loading wallet... (77.22 %)
+2017-09-14 12:03:57 keypool added key 774, size=774
+2017-09-14 12:03:57 init message: Loading wallet... (77.32 %)
+2017-09-14 12:03:57 keypool added key 775, size=775
+2017-09-14 12:03:57 init message: Loading wallet... (77.42 %)
+2017-09-14 12:03:57 keypool added key 776, size=776
+2017-09-14 12:03:57 init message: Loading wallet... (77.52 %)
+2017-09-14 12:03:57 keypool added key 777, size=777
+2017-09-14 12:03:57 init message: Loading wallet... (77.62 %)
+2017-09-14 12:03:57 keypool added key 778, size=778
+2017-09-14 12:03:57 init message: Loading wallet... (77.72 %)
+2017-09-14 12:03:57 keypool added key 779, size=779
+2017-09-14 12:03:57 init message: Loading wallet... (77.82 %)
+2017-09-14 12:03:57 keypool added key 780, size=780
+2017-09-14 12:03:57 init message: Loading wallet... (77.92 %)
+2017-09-14 12:03:57 keypool added key 781, size=781
+2017-09-14 12:03:57 init message: Loading wallet... (78.02 %)
+2017-09-14 12:03:57 keypool added key 782, size=782
+2017-09-14 12:03:57 init message: Loading wallet... (78.12 %)
+2017-09-14 12:03:57 keypool added key 783, size=783
+2017-09-14 12:03:57 init message: Loading wallet... (78.22 %)
+2017-09-14 12:03:57 keypool added key 784, size=784
+2017-09-14 12:03:57 init message: Loading wallet... (78.32 %)
+2017-09-14 12:03:57 keypool added key 785, size=785
+2017-09-14 12:03:57 init message: Loading wallet... (78.42 %)
+2017-09-14 12:03:57 keypool added key 786, size=786
+2017-09-14 12:03:57 init message: Loading wallet... (78.52 %)
+2017-09-14 12:03:57 keypool added key 787, size=787
+2017-09-14 12:03:57 init message: Loading wallet... (78.62 %)
+2017-09-14 12:03:57 keypool added key 788, size=788
+2017-09-14 12:03:57 init message: Loading wallet... (78.72 %)
+2017-09-14 12:03:57 keypool added key 789, size=789
+2017-09-14 12:03:57 init message: Loading wallet... (78.82 %)
+2017-09-14 12:03:57 keypool added key 790, size=790
+2017-09-14 12:03:57 init message: Loading wallet... (78.92 %)
+2017-09-14 12:03:57 keypool added key 791, size=791
+2017-09-14 12:03:57 init message: Loading wallet... (79.02 %)
+2017-09-14 12:03:57 keypool added key 792, size=792
+2017-09-14 12:03:57 init message: Loading wallet... (79.12 %)
+2017-09-14 12:03:57 keypool added key 793, size=793
+2017-09-14 12:03:57 init message: Loading wallet... (79.22 %)
+2017-09-14 12:03:57 keypool added key 794, size=794
+2017-09-14 12:03:57 init message: Loading wallet... (79.32 %)
+2017-09-14 12:03:57 keypool added key 795, size=795
+2017-09-14 12:03:57 init message: Loading wallet... (79.42 %)
+2017-09-14 12:03:57 keypool added key 796, size=796
+2017-09-14 12:03:57 init message: Loading wallet... (79.52 %)
+2017-09-14 12:03:57 keypool added key 797, size=797
+2017-09-14 12:03:57 init message: Loading wallet... (79.62 %)
+2017-09-14 12:03:57 keypool added key 798, size=798
+2017-09-14 12:03:57 init message: Loading wallet... (79.72 %)
+2017-09-14 12:03:57 keypool added key 799, size=799
+2017-09-14 12:03:57 init message: Loading wallet... (79.82 %)
+2017-09-14 12:03:57 keypool added key 800, size=800
+2017-09-14 12:03:57 init message: Loading wallet... (79.92 %)
+2017-09-14 12:03:57 keypool added key 801, size=801
+2017-09-14 12:03:57 init message: Loading wallet... (80.02 %)
+2017-09-14 12:03:57 keypool added key 802, size=802
+2017-09-14 12:03:57 init message: Loading wallet... (80.12 %)
+2017-09-14 12:03:57 keypool added key 803, size=803
+2017-09-14 12:03:57 init message: Loading wallet... (80.22 %)
+2017-09-14 12:03:57 keypool added key 804, size=804
+2017-09-14 12:03:57 init message: Loading wallet... (80.32 %)
+2017-09-14 12:03:57 keypool added key 805, size=805
+2017-09-14 12:03:57 init message: Loading wallet... (80.42 %)
+2017-09-14 12:03:57 keypool added key 806, size=806
+2017-09-14 12:03:57 init message: Loading wallet... (80.52 %)
+2017-09-14 12:03:57 keypool added key 807, size=807
+2017-09-14 12:03:57 init message: Loading wallet... (80.62 %)
+2017-09-14 12:03:57 keypool added key 808, size=808
+2017-09-14 12:03:57 init message: Loading wallet... (80.72 %)
+2017-09-14 12:03:58 keypool added key 809, size=809
+2017-09-14 12:03:58 init message: Loading wallet... (80.82 %)
+2017-09-14 12:03:58 keypool added key 810, size=810
+2017-09-14 12:03:58 init message: Loading wallet... (80.92 %)
+2017-09-14 12:03:58 keypool added key 811, size=811
+2017-09-14 12:03:58 init message: Loading wallet... (81.02 %)
+2017-09-14 12:03:58 keypool added key 812, size=812
+2017-09-14 12:03:58 init message: Loading wallet... (81.12 %)
+2017-09-14 12:03:58 keypool added key 813, size=813
+2017-09-14 12:03:58 init message: Loading wallet... (81.22 %)
+2017-09-14 12:03:58 keypool added key 814, size=814
+2017-09-14 12:03:58 init message: Loading wallet... (81.32 %)
+2017-09-14 12:03:58 keypool added key 815, size=815
+2017-09-14 12:03:58 init message: Loading wallet... (81.42 %)
+2017-09-14 12:03:58 keypool added key 816, size=816
+2017-09-14 12:03:58 init message: Loading wallet... (81.52 %)
+2017-09-14 12:03:58 keypool added key 817, size=817
+2017-09-14 12:03:58 init message: Loading wallet... (81.62 %)
+2017-09-14 12:03:58 keypool added key 818, size=818
+2017-09-14 12:03:58 init message: Loading wallet... (81.72 %)
+2017-09-14 12:03:58 keypool added key 819, size=819
+2017-09-14 12:03:58 init message: Loading wallet... (81.82 %)
+2017-09-14 12:03:58 keypool added key 820, size=820
+2017-09-14 12:03:58 init message: Loading wallet... (81.92 %)
+2017-09-14 12:03:58 keypool added key 821, size=821
+2017-09-14 12:03:58 init message: Loading wallet... (82.02 %)
+2017-09-14 12:03:58 keypool added key 822, size=822
+2017-09-14 12:03:58 init message: Loading wallet... (82.12 %)
+2017-09-14 12:03:58 keypool added key 823, size=823
+2017-09-14 12:03:58 init message: Loading wallet... (82.22 %)
+2017-09-14 12:03:58 keypool added key 824, size=824
+2017-09-14 12:03:58 init message: Loading wallet... (82.32 %)
+2017-09-14 12:03:58 keypool added key 825, size=825
+2017-09-14 12:03:58 init message: Loading wallet... (82.42 %)
+2017-09-14 12:03:58 keypool added key 826, size=826
+2017-09-14 12:03:58 init message: Loading wallet... (82.52 %)
+2017-09-14 12:03:58 keypool added key 827, size=827
+2017-09-14 12:03:58 init message: Loading wallet... (82.62 %)
+2017-09-14 12:03:58 keypool added key 828, size=828
+2017-09-14 12:03:58 init message: Loading wallet... (82.72 %)
+2017-09-14 12:03:58 keypool added key 829, size=829
+2017-09-14 12:03:58 init message: Loading wallet... (82.82 %)
+2017-09-14 12:03:58 keypool added key 830, size=830
+2017-09-14 12:03:58 init message: Loading wallet... (82.92 %)
+2017-09-14 12:03:58 keypool added key 831, size=831
+2017-09-14 12:03:58 init message: Loading wallet... (83.02 %)
+2017-09-14 12:03:58 keypool added key 832, size=832
+2017-09-14 12:03:58 init message: Loading wallet... (83.12 %)
+2017-09-14 12:03:58 keypool added key 833, size=833
+2017-09-14 12:03:58 init message: Loading wallet... (83.22 %)
+2017-09-14 12:03:58 keypool added key 834, size=834
+2017-09-14 12:03:58 init message: Loading wallet... (83.32 %)
+2017-09-14 12:03:58 keypool added key 835, size=835
+2017-09-14 12:03:58 init message: Loading wallet... (83.42 %)
+2017-09-14 12:03:58 keypool added key 836, size=836
+2017-09-14 12:03:58 init message: Loading wallet... (83.52 %)
+2017-09-14 12:03:58 keypool added key 837, size=837
+2017-09-14 12:03:58 init message: Loading wallet... (83.62 %)
+2017-09-14 12:03:58 keypool added key 838, size=838
+2017-09-14 12:03:58 init message: Loading wallet... (83.72 %)
+2017-09-14 12:03:58 keypool added key 839, size=839
+2017-09-14 12:03:58 init message: Loading wallet... (83.82 %)
+2017-09-14 12:03:58 keypool added key 840, size=840
+2017-09-14 12:03:58 init message: Loading wallet... (83.92 %)
+2017-09-14 12:03:58 keypool added key 841, size=841
+2017-09-14 12:03:58 init message: Loading wallet... (84.02 %)
+2017-09-14 12:03:58 keypool added key 842, size=842
+2017-09-14 12:03:58 init message: Loading wallet... (84.12 %)
+2017-09-14 12:03:58 keypool added key 843, size=843
+2017-09-14 12:03:58 init message: Loading wallet... (84.22 %)
+2017-09-14 12:03:58 keypool added key 844, size=844
+2017-09-14 12:03:58 init message: Loading wallet... (84.32 %)
+2017-09-14 12:03:58 keypool added key 845, size=845
+2017-09-14 12:03:58 init message: Loading wallet... (84.42 %)
+2017-09-14 12:03:58 keypool added key 846, size=846
+2017-09-14 12:03:58 init message: Loading wallet... (84.52 %)
+2017-09-14 12:03:58 keypool added key 847, size=847
+2017-09-14 12:03:58 init message: Loading wallet... (84.62 %)
+2017-09-14 12:03:58 keypool added key 848, size=848
+2017-09-14 12:03:58 init message: Loading wallet... (84.72 %)
+2017-09-14 12:03:58 keypool added key 849, size=849
+2017-09-14 12:03:58 init message: Loading wallet... (84.82 %)
+2017-09-14 12:03:58 keypool added key 850, size=850
+2017-09-14 12:03:58 init message: Loading wallet... (84.92 %)
+2017-09-14 12:03:58 keypool added key 851, size=851
+2017-09-14 12:03:58 init message: Loading wallet... (85.01 %)
+2017-09-14 12:03:58 keypool added key 852, size=852
+2017-09-14 12:03:58 init message: Loading wallet... (85.11 %)
+2017-09-14 12:03:58 keypool added key 853, size=853
+2017-09-14 12:03:58 init message: Loading wallet... (85.21 %)
+2017-09-14 12:03:58 keypool added key 854, size=854
+2017-09-14 12:03:58 init message: Loading wallet... (85.31 %)
+2017-09-14 12:03:58 keypool added key 855, size=855
+2017-09-14 12:03:58 init message: Loading wallet... (85.41 %)
+2017-09-14 12:03:58 keypool added key 856, size=856
+2017-09-14 12:03:58 init message: Loading wallet... (85.51 %)
+2017-09-14 12:03:58 keypool added key 857, size=857
+2017-09-14 12:03:58 init message: Loading wallet... (85.61 %)
+2017-09-14 12:03:58 keypool added key 858, size=858
+2017-09-14 12:03:58 init message: Loading wallet... (85.71 %)
+2017-09-14 12:03:58 keypool added key 859, size=859
+2017-09-14 12:03:58 init message: Loading wallet... (85.81 %)
+2017-09-14 12:03:59 keypool added key 860, size=860
+2017-09-14 12:03:59 init message: Loading wallet... (85.91 %)
+2017-09-14 12:03:59 keypool added key 861, size=861
+2017-09-14 12:03:59 init message: Loading wallet... (86.01 %)
+2017-09-14 12:03:59 keypool added key 862, size=862
+2017-09-14 12:03:59 init message: Loading wallet... (86.11 %)
+2017-09-14 12:03:59 keypool added key 863, size=863
+2017-09-14 12:03:59 init message: Loading wallet... (86.21 %)
+2017-09-14 12:03:59 keypool added key 864, size=864
+2017-09-14 12:03:59 init message: Loading wallet... (86.31 %)
+2017-09-14 12:03:59 keypool added key 865, size=865
+2017-09-14 12:03:59 init message: Loading wallet... (86.41 %)
+2017-09-14 12:03:59 keypool added key 866, size=866
+2017-09-14 12:03:59 init message: Loading wallet... (86.51 %)
+2017-09-14 12:03:59 keypool added key 867, size=867
+2017-09-14 12:03:59 init message: Loading wallet... (86.61 %)
+2017-09-14 12:03:59 keypool added key 868, size=868
+2017-09-14 12:03:59 init message: Loading wallet... (86.71 %)
+2017-09-14 12:03:59 keypool added key 869, size=869
+2017-09-14 12:03:59 init message: Loading wallet... (86.81 %)
+2017-09-14 12:03:59 keypool added key 870, size=870
+2017-09-14 12:03:59 init message: Loading wallet... (86.91 %)
+2017-09-14 12:03:59 keypool added key 871, size=871
+2017-09-14 12:03:59 init message: Loading wallet... (87.01 %)
+2017-09-14 12:03:59 keypool added key 872, size=872
+2017-09-14 12:03:59 init message: Loading wallet... (87.11 %)
+2017-09-14 12:03:59 keypool added key 873, size=873
+2017-09-14 12:03:59 init message: Loading wallet... (87.21 %)
+2017-09-14 12:03:59 keypool added key 874, size=874
+2017-09-14 12:03:59 init message: Loading wallet... (87.31 %)
+2017-09-14 12:03:59 keypool added key 875, size=875
+2017-09-14 12:03:59 init message: Loading wallet... (87.41 %)
+2017-09-14 12:03:59 keypool added key 876, size=876
+2017-09-14 12:03:59 init message: Loading wallet... (87.51 %)
+2017-09-14 12:03:59 keypool added key 877, size=877
+2017-09-14 12:03:59 init message: Loading wallet... (87.61 %)
+2017-09-14 12:03:59 keypool added key 878, size=878
+2017-09-14 12:03:59 init message: Loading wallet... (87.71 %)
+2017-09-14 12:03:59 keypool added key 879, size=879
+2017-09-14 12:03:59 init message: Loading wallet... (87.81 %)
+2017-09-14 12:03:59 keypool added key 880, size=880
+2017-09-14 12:03:59 init message: Loading wallet... (87.91 %)
+2017-09-14 12:03:59 keypool added key 881, size=881
+2017-09-14 12:03:59 init message: Loading wallet... (88.01 %)
+2017-09-14 12:03:59 keypool added key 882, size=882
+2017-09-14 12:03:59 init message: Loading wallet... (88.11 %)
+2017-09-14 12:03:59 keypool added key 883, size=883
+2017-09-14 12:03:59 init message: Loading wallet... (88.21 %)
+2017-09-14 12:03:59 keypool added key 884, size=884
+2017-09-14 12:03:59 init message: Loading wallet... (88.31 %)
+2017-09-14 12:03:59 keypool added key 885, size=885
+2017-09-14 12:03:59 init message: Loading wallet... (88.41 %)
+2017-09-14 12:03:59 keypool added key 886, size=886
+2017-09-14 12:03:59 init message: Loading wallet... (88.51 %)
+2017-09-14 12:03:59 keypool added key 887, size=887
+2017-09-14 12:03:59 init message: Loading wallet... (88.61 %)
+2017-09-14 12:03:59 keypool added key 888, size=888
+2017-09-14 12:03:59 init message: Loading wallet... (88.71 %)
+2017-09-14 12:03:59 keypool added key 889, size=889
+2017-09-14 12:03:59 init message: Loading wallet... (88.81 %)
+2017-09-14 12:03:59 keypool added key 890, size=890
+2017-09-14 12:03:59 init message: Loading wallet... (88.91 %)
+2017-09-14 12:03:59 keypool added key 891, size=891
+2017-09-14 12:03:59 init message: Loading wallet... (89.01 %)
+2017-09-14 12:03:59 keypool added key 892, size=892
+2017-09-14 12:03:59 init message: Loading wallet... (89.11 %)
+2017-09-14 12:03:59 keypool added key 893, size=893
+2017-09-14 12:03:59 init message: Loading wallet... (89.21 %)
+2017-09-14 12:03:59 keypool added key 894, size=894
+2017-09-14 12:03:59 init message: Loading wallet... (89.31 %)
+2017-09-14 12:03:59 keypool added key 895, size=895
+2017-09-14 12:03:59 init message: Loading wallet... (89.41 %)
+2017-09-14 12:03:59 keypool added key 896, size=896
+2017-09-14 12:03:59 init message: Loading wallet... (89.51 %)
+2017-09-14 12:03:59 keypool added key 897, size=897
+2017-09-14 12:03:59 init message: Loading wallet... (89.61 %)
+2017-09-14 12:03:59 keypool added key 898, size=898
+2017-09-14 12:03:59 init message: Loading wallet... (89.71 %)
+2017-09-14 12:03:59 keypool added key 899, size=899
+2017-09-14 12:03:59 init message: Loading wallet... (89.81 %)
+2017-09-14 12:03:59 keypool added key 900, size=900
+2017-09-14 12:03:59 init message: Loading wallet... (89.91 %)
+2017-09-14 12:03:59 keypool added key 901, size=901
+2017-09-14 12:03:59 init message: Loading wallet... (90.01 %)
+2017-09-14 12:03:59 keypool added key 902, size=902
+2017-09-14 12:03:59 init message: Loading wallet... (90.11 %)
+2017-09-14 12:03:59 keypool added key 903, size=903
+2017-09-14 12:03:59 init message: Loading wallet... (90.21 %)
+2017-09-14 12:03:59 keypool added key 904, size=904
+2017-09-14 12:03:59 init message: Loading wallet... (90.31 %)
+2017-09-14 12:03:59 keypool added key 905, size=905
+2017-09-14 12:03:59 init message: Loading wallet... (90.41 %)
+2017-09-14 12:03:59 keypool added key 906, size=906
+2017-09-14 12:03:59 init message: Loading wallet... (90.51 %)
+2017-09-14 12:03:59 keypool added key 907, size=907
+2017-09-14 12:03:59 init message: Loading wallet... (90.61 %)
+2017-09-14 12:03:59 keypool added key 908, size=908
+2017-09-14 12:03:59 init message: Loading wallet... (90.71 %)
+2017-09-14 12:03:59 keypool added key 909, size=909
+2017-09-14 12:03:59 init message: Loading wallet... (90.81 %)
+2017-09-14 12:03:59 keypool added key 910, size=910
+2017-09-14 12:03:59 init message: Loading wallet... (90.91 %)
+2017-09-14 12:03:59 keypool added key 911, size=911
+2017-09-14 12:03:59 init message: Loading wallet... (91.01 %)
+2017-09-14 12:03:59 keypool added key 912, size=912
+2017-09-14 12:03:59 init message: Loading wallet... (91.11 %)
+2017-09-14 12:03:59 keypool added key 913, size=913
+2017-09-14 12:03:59 init message: Loading wallet... (91.21 %)
+2017-09-14 12:03:59 keypool added key 914, size=914
+2017-09-14 12:03:59 init message: Loading wallet... (91.31 %)
+2017-09-14 12:03:59 keypool added key 915, size=915
+2017-09-14 12:03:59 init message: Loading wallet... (91.41 %)
+2017-09-14 12:03:59 keypool added key 916, size=916
+2017-09-14 12:03:59 init message: Loading wallet... (91.51 %)
+2017-09-14 12:04:00 keypool added key 917, size=917
+2017-09-14 12:04:00 init message: Loading wallet... (91.61 %)
+2017-09-14 12:04:00 keypool added key 918, size=918
+2017-09-14 12:04:00 init message: Loading wallet... (91.71 %)
+2017-09-14 12:04:00 keypool added key 919, size=919
+2017-09-14 12:04:00 init message: Loading wallet... (91.81 %)
+2017-09-14 12:04:00 keypool added key 920, size=920
+2017-09-14 12:04:00 init message: Loading wallet... (91.91 %)
+2017-09-14 12:04:00 keypool added key 921, size=921
+2017-09-14 12:04:00 init message: Loading wallet... (92.01 %)
+2017-09-14 12:04:00 keypool added key 922, size=922
+2017-09-14 12:04:00 init message: Loading wallet... (92.11 %)
+2017-09-14 12:04:00 keypool added key 923, size=923
+2017-09-14 12:04:00 init message: Loading wallet... (92.21 %)
+2017-09-14 12:04:00 keypool added key 924, size=924
+2017-09-14 12:04:00 init message: Loading wallet... (92.31 %)
+2017-09-14 12:04:00 keypool added key 925, size=925
+2017-09-14 12:04:00 init message: Loading wallet... (92.41 %)
+2017-09-14 12:04:00 keypool added key 926, size=926
+2017-09-14 12:04:00 init message: Loading wallet... (92.51 %)
+2017-09-14 12:04:00 keypool added key 927, size=927
+2017-09-14 12:04:00 init message: Loading wallet... (92.61 %)
+2017-09-14 12:04:00 keypool added key 928, size=928
+2017-09-14 12:04:00 init message: Loading wallet... (92.71 %)
+2017-09-14 12:04:00 keypool added key 929, size=929
+2017-09-14 12:04:00 init message: Loading wallet... (92.81 %)
+2017-09-14 12:04:00 keypool added key 930, size=930
+2017-09-14 12:04:00 init message: Loading wallet... (92.91 %)
+2017-09-14 12:04:00 keypool added key 931, size=931
+2017-09-14 12:04:00 init message: Loading wallet... (93.01 %)
+2017-09-14 12:04:00 keypool added key 932, size=932
+2017-09-14 12:04:00 init message: Loading wallet... (93.11 %)
+2017-09-14 12:04:00 keypool added key 933, size=933
+2017-09-14 12:04:00 init message: Loading wallet... (93.21 %)
+2017-09-14 12:04:00 keypool added key 934, size=934
+2017-09-14 12:04:00 init message: Loading wallet... (93.31 %)
+2017-09-14 12:04:00 keypool added key 935, size=935
+2017-09-14 12:04:00 init message: Loading wallet... (93.41 %)
+2017-09-14 12:04:00 keypool added key 936, size=936
+2017-09-14 12:04:00 init message: Loading wallet... (93.51 %)
+2017-09-14 12:04:00 keypool added key 937, size=937
+2017-09-14 12:04:00 init message: Loading wallet... (93.61 %)
+2017-09-14 12:04:00 keypool added key 938, size=938
+2017-09-14 12:04:00 init message: Loading wallet... (93.71 %)
+2017-09-14 12:04:00 keypool added key 939, size=939
+2017-09-14 12:04:00 init message: Loading wallet... (93.81 %)
+2017-09-14 12:04:00 keypool added key 940, size=940
+2017-09-14 12:04:00 init message: Loading wallet... (93.91 %)
+2017-09-14 12:04:00 keypool added key 941, size=941
+2017-09-14 12:04:00 init message: Loading wallet... (94.01 %)
+2017-09-14 12:04:00 keypool added key 942, size=942
+2017-09-14 12:04:00 init message: Loading wallet... (94.11 %)
+2017-09-14 12:04:00 keypool added key 943, size=943
+2017-09-14 12:04:00 init message: Loading wallet... (94.21 %)
+2017-09-14 12:04:00 keypool added key 944, size=944
+2017-09-14 12:04:00 init message: Loading wallet... (94.31 %)
+2017-09-14 12:04:00 keypool added key 945, size=945
+2017-09-14 12:04:00 init message: Loading wallet... (94.41 %)
+2017-09-14 12:04:00 keypool added key 946, size=946
+2017-09-14 12:04:00 init message: Loading wallet... (94.51 %)
+2017-09-14 12:04:00 keypool added key 947, size=947
+2017-09-14 12:04:00 init message: Loading wallet... (94.61 %)
+2017-09-14 12:04:00 keypool added key 948, size=948
+2017-09-14 12:04:00 init message: Loading wallet... (94.71 %)
+2017-09-14 12:04:00 keypool added key 949, size=949
+2017-09-14 12:04:00 init message: Loading wallet... (94.81 %)
+2017-09-14 12:04:00 keypool added key 950, size=950
+2017-09-14 12:04:00 init message: Loading wallet... (94.91 %)
+2017-09-14 12:04:00 keypool added key 951, size=951
+2017-09-14 12:04:00 init message: Loading wallet... (95.00 %)
+2017-09-14 12:04:00 keypool added key 952, size=952
+2017-09-14 12:04:00 init message: Loading wallet... (95.10 %)
+2017-09-14 12:04:00 keypool added key 953, size=953
+2017-09-14 12:04:00 init message: Loading wallet... (95.20 %)
+2017-09-14 12:04:00 keypool added key 954, size=954
+2017-09-14 12:04:00 init message: Loading wallet... (95.30 %)
+2017-09-14 12:04:00 keypool added key 955, size=955
+2017-09-14 12:04:00 init message: Loading wallet... (95.40 %)
+2017-09-14 12:04:00 keypool added key 956, size=956
+2017-09-14 12:04:00 init message: Loading wallet... (95.50 %)
+2017-09-14 12:04:00 keypool added key 957, size=957
+2017-09-14 12:04:00 init message: Loading wallet... (95.60 %)
+2017-09-14 12:04:00 keypool added key 958, size=958
+2017-09-14 12:04:00 init message: Loading wallet... (95.70 %)
+2017-09-14 12:04:00 keypool added key 959, size=959
+2017-09-14 12:04:00 init message: Loading wallet... (95.80 %)
+2017-09-14 12:04:00 keypool added key 960, size=960
+2017-09-14 12:04:00 init message: Loading wallet... (95.90 %)
+2017-09-14 12:04:00 keypool added key 961, size=961
+2017-09-14 12:04:00 init message: Loading wallet... (96.00 %)
+2017-09-14 12:04:00 keypool added key 962, size=962
+2017-09-14 12:04:00 init message: Loading wallet... (96.10 %)
+2017-09-14 12:04:00 keypool added key 963, size=963
+2017-09-14 12:04:00 init message: Loading wallet... (96.20 %)
+2017-09-14 12:04:00 keypool added key 964, size=964
+2017-09-14 12:04:00 init message: Loading wallet... (96.30 %)
+2017-09-14 12:04:00 keypool added key 965, size=965
+2017-09-14 12:04:00 init message: Loading wallet... (96.40 %)
+2017-09-14 12:04:00 keypool added key 966, size=966
+2017-09-14 12:04:00 init message: Loading wallet... (96.50 %)
+2017-09-14 12:04:00 keypool added key 967, size=967
+2017-09-14 12:04:00 init message: Loading wallet... (96.60 %)
+2017-09-14 12:04:00 keypool added key 968, size=968
+2017-09-14 12:04:00 init message: Loading wallet... (96.70 %)
+2017-09-14 12:04:00 keypool added key 969, size=969
+2017-09-14 12:04:00 init message: Loading wallet... (96.80 %)
+2017-09-14 12:04:00 keypool added key 970, size=970
+2017-09-14 12:04:00 init message: Loading wallet... (96.90 %)
+2017-09-14 12:04:01 keypool added key 971, size=971
+2017-09-14 12:04:01 init message: Loading wallet... (97.00 %)
+2017-09-14 12:04:01 keypool added key 972, size=972
+2017-09-14 12:04:01 init message: Loading wallet... (97.10 %)
+2017-09-14 12:04:01 keypool added key 973, size=973
+2017-09-14 12:04:01 init message: Loading wallet... (97.20 %)
+2017-09-14 12:04:01 keypool added key 974, size=974
+2017-09-14 12:04:01 init message: Loading wallet... (97.30 %)
+2017-09-14 12:04:01 keypool added key 975, size=975
+2017-09-14 12:04:01 init message: Loading wallet... (97.40 %)
+2017-09-14 12:04:01 keypool added key 976, size=976
+2017-09-14 12:04:01 init message: Loading wallet... (97.50 %)
+2017-09-14 12:04:01 keypool added key 977, size=977
+2017-09-14 12:04:01 init message: Loading wallet... (97.60 %)
+2017-09-14 12:04:01 keypool added key 978, size=978
+2017-09-14 12:04:01 init message: Loading wallet... (97.70 %)
+2017-09-14 12:04:01 keypool added key 979, size=979
+2017-09-14 12:04:01 init message: Loading wallet... (97.80 %)
+2017-09-14 12:04:01 keypool added key 980, size=980
+2017-09-14 12:04:01 init message: Loading wallet... (97.90 %)
+2017-09-14 12:04:01 keypool added key 981, size=981
+2017-09-14 12:04:01 init message: Loading wallet... (98.00 %)
+2017-09-14 12:04:01 keypool added key 982, size=982
+2017-09-14 12:04:01 init message: Loading wallet... (98.10 %)
+2017-09-14 12:04:01 keypool added key 983, size=983
+2017-09-14 12:04:01 init message: Loading wallet... (98.20 %)
+2017-09-14 12:04:01 keypool added key 984, size=984
+2017-09-14 12:04:01 init message: Loading wallet... (98.30 %)
+2017-09-14 12:04:01 keypool added key 985, size=985
+2017-09-14 12:04:01 init message: Loading wallet... (98.40 %)
+2017-09-14 12:04:01 keypool added key 986, size=986
+2017-09-14 12:04:01 init message: Loading wallet... (98.50 %)
+2017-09-14 12:04:01 keypool added key 987, size=987
+2017-09-14 12:04:01 init message: Loading wallet... (98.60 %)
+2017-09-14 12:04:01 keypool added key 988, size=988
+2017-09-14 12:04:01 init message: Loading wallet... (98.70 %)
+2017-09-14 12:04:01 keypool added key 989, size=989
+2017-09-14 12:04:01 init message: Loading wallet... (98.80 %)
+2017-09-14 12:04:01 keypool added key 990, size=990
+2017-09-14 12:04:01 init message: Loading wallet... (98.90 %)
+2017-09-14 12:04:01 keypool added key 991, size=991
+2017-09-14 12:04:01 init message: Loading wallet... (99.00 %)
+2017-09-14 12:04:01 keypool added key 992, size=992
+2017-09-14 12:04:01 init message: Loading wallet... (99.10 %)
+2017-09-14 12:04:01 keypool added key 993, size=993
+2017-09-14 12:04:01 init message: Loading wallet... (99.20 %)
+2017-09-14 12:04:01 keypool added key 994, size=994
+2017-09-14 12:04:01 init message: Loading wallet... (99.30 %)
+2017-09-14 12:04:01 keypool added key 995, size=995
+2017-09-14 12:04:01 init message: Loading wallet... (99.40 %)
+2017-09-14 12:04:01 keypool added key 996, size=996
+2017-09-14 12:04:01 init message: Loading wallet... (99.50 %)
+2017-09-14 12:04:01 keypool added key 997, size=997
+2017-09-14 12:04:01 init message: Loading wallet... (99.60 %)
+2017-09-14 12:04:01 keypool added key 998, size=998
+2017-09-14 12:04:01 init message: Loading wallet... (99.70 %)
+2017-09-14 12:04:01 keypool added key 999, size=999
+2017-09-14 12:04:01 init message: Loading wallet... (99.80 %)
+2017-09-14 12:04:01 keypool added key 1000, size=1000
+2017-09-14 12:04:01 init message: Loading wallet... (99.90 %)
+2017-09-14 12:04:01 keypool added key 1001, size=1001
+2017-09-14 12:04:01 init message: Loading wallet... (100.00 %)
+2017-09-14 12:04:01 keypool reserve 1
+2017-09-14 12:04:01 keypool keep 1
+2017-09-14 12:04:01 copied wallet.dat to /data/node-alice/regtest/backups/wallet.dat.2017-09-14-12-04
+2017-09-14 12:04:01 nKeysLeftSinceAutoBackup: 1000
+2017-09-14 12:04:01  wallet                20828ms
+2017-09-14 12:04:01 init message: Activating best chain...
+2017-09-14 12:04:01 Using masternode config file /data/node-alice/regtest/masternode.conf
+2017-09-14 12:04:01 fLiteMode 0
+2017-09-14 12:04:01 nInstantSendDepth 5
+2017-09-14 12:04:01 PrivateSend rounds 2
+2017-09-14 12:04:01 PrivateSend amount 1000
+2017-09-14 12:04:01 init message: Loading masternode cache...
+2017-09-14 12:04:01 Reading info from mncache.dat...
+2017-09-14 12:04:01 ERROR: Read: Failed to open file /data/node-alice/regtest/mncache.dat
+2017-09-14 12:04:01 Missing file mncache.dat, will try to recreate
+2017-09-14 12:04:01 init message: Masternode cache is empty, skipping payments and governance cache...
+2017-09-14 12:04:01 init message: Loading fulfilled requests cache...
+2017-09-14 12:04:01 Reading info from netfulfilled.dat...
+2017-09-14 12:04:01 ERROR: Read: Failed to open file /data/node-alice/regtest/netfulfilled.dat
+2017-09-14 12:04:01 Missing file netfulfilled.dat, will try to recreate
+2017-09-14 12:04:01 mapBlockIndex.size() = 1
+2017-09-14 12:04:01 chainActive.Height() = 0
+2017-09-14 12:04:01 setKeyPool.size() = 1000
+2017-09-14 12:04:01 mapWallet.size() = 0
+2017-09-14 12:04:01 mapAddressBook.size() = 1
+2017-09-14 12:04:01 init message: Loading addresses...
+2017-09-14 12:04:01 ERROR: Read: Failed to open file /data/node-alice/regtest/peers.dat
+2017-09-14 12:04:01 Invalid or missing peers.dat; recreating
+2017-09-14 12:04:01 ERROR: Read: Failed to open file /data/node-alice/regtest/banlist.dat
+2017-09-14 12:04:01 torcontrol thread start
+2017-09-14 12:04:01 Invalid or missing banlist.dat; recreating
+2017-09-14 12:04:01 Loaded 0 addresses from peers.dat  0ms
+2017-09-14 12:04:01 dnsseed thread start
+2017-09-14 12:04:01 Loading addresses from DNS seeds (could take a while)
+2017-09-14 12:04:01 0 addresses found from DNS seeds
+2017-09-14 12:04:01 dnsseed thread exit
+2017-09-14 12:04:01 net thread start
+2017-09-14 12:04:01 addcon thread start
+2017-09-14 12:04:01 init message: Done loading
+2017-09-14 12:04:01 opencon thread start
+2017-09-14 12:04:01 msghand thread start
+2017-09-14 12:04:01 mnbcon thread start
+2017-09-14 12:04:01 receive version message: /Dash Core:0.12.1.5/: version 70206, blocks=0, us=0.0.0.0:0, peer=1
+2017-09-14 12:04:02 CMasternodeSync::ProcessTick -- nTick 1 nRequestedMasternodeAssets 0 nRequestedMasternodeAttempt 0 nSyncProgress -0.250000
+2017-09-14 12:04:02 CMasternodeSync::SwitchToNextAsset -- Starting MASTERNODE_SYNC_SPORKS
+2017-09-14 12:04:08 CMasternodeSync::ProcessTick -- nTick 7 nRequestedMasternodeAssets 1 nRequestedMasternodeAttempt 1 nSyncProgress 0.031250
+2017-09-14 12:04:12 keypool added key 1002, size=1001
+2017-09-14 12:04:12 init message: Loading wallet... (100.10 %)
+2017-09-14 12:04:12 keypool reserve 2
+2017-09-14 12:04:12 keypool return 2
+2017-09-14 12:04:15 CMasternodeSync::ProcessTick -- nTick 13 nRequestedMasternodeAssets 1 nRequestedMasternodeAttempt 2 nSyncProgress 0.062500
+2017-09-14 12:04:21 CMasternodeSync::ProcessTick -- nTick 19 nRequestedMasternodeAssets 1 nRequestedMasternodeAttempt 3 nSyncProgress 0.093750
+2017-09-14 12:04:27 CMasternodeSync::ProcessTick -- nTick 25 nRequestedMasternodeAssets 1 nRequestedMasternodeAttempt 4 nSyncProgress 0.125000
+2017-09-14 12:04:33 CMasternodeSync::ProcessTick -- nTick 31 nRequestedMasternodeAssets 1 nRequestedMasternodeAttempt 5 nSyncProgress 0.156250
+2017-09-14 12:04:39 CMasternodeSync::ProcessTick -- nTick 37 nRequestedMasternodeAssets 1 nRequestedMasternodeAttempt 6 nSyncProgress 0.187500
+2017-09-14 12:04:45 CMasternodeSync::ProcessTick -- WARNING: not enough data, restarting sync
+2017-09-14 12:04:45 CMasternodeSync::ProcessTick -- nTick 43 nRequestedMasternodeAssets 0 nRequestedMasternodeAttempt 0 nSyncProgress -0.250000
+2017-09-14 12:04:45 CMasternodeSync::SwitchToNextAsset -- Starting MASTERNODE_SYNC_SPORKS
+2017-09-14 12:04:51 CMasternodeSync::ProcessTick -- nTick 49 nRequestedMasternodeAssets 1 nRequestedMasternodeAttempt 1 nSyncProgress 0.031250
+2017-09-14 12:04:57 CMasternodeSync::ProcessTick -- nTick 55 nRequestedMasternodeAssets 1 nRequestedMasternodeAttempt 2 nSyncProgress 0.062500
+2017-09-14 12:05:02 Adding fixed seed nodes as DNS doesn't seem to be available.
+2017-09-14 12:05:03 CMasternodeSync::ProcessTick -- nTick 61 nRequestedMasternodeAssets 1 nRequestedMasternodeAttempt 3 nSyncProgress 0.093750
+2017-09-14 12:05:09 CMasternodeSync::ProcessTick -- nTick 67 nRequestedMasternodeAssets 1 nRequestedMasternodeAttempt 4 nSyncProgress 0.125000
+2017-09-14 12:05:15 CMasternodeSync::ProcessTick -- nTick 73 nRequestedMasternodeAssets 1 nRequestedMasternodeAttempt 5 nSyncProgress 0.156250
+2017-09-14 12:05:15 keypool reserve 2
+2017-09-14 12:05:15 keypool keep 2
+2017-09-14 12:05:21 CMasternodeSync::ProcessTick -- nTick 79 nRequestedMasternodeAssets 1 nRequestedMasternodeAttempt 6 nSyncProgress 0.187500
+2017-09-14 12:05:27 CMasternodeSync::ProcessTick -- WARNING: not enough data, restarting sync
+2017-09-14 12:05:27 CMasternodeSync::ProcessTick -- nTick 85 nRequestedMasternodeAssets 0 nRequestedMasternodeAttempt 0 nSyncProgress -0.250000
+2017-09-14 12:05:27 CMasternodeSync::SwitchToNextAsset -- Starting MASTERNODE_SYNC_SPORKS
+2017-09-14 12:05:33 CMasternodeSync::ProcessTick -- nTick 91 nRequestedMasternodeAssets 1 nRequestedMasternodeAttempt 1 nSyncProgress 0.031250
+2017-09-14 12:05:39 CMasternodeSync::ProcessTick -- nTick 97 nRequestedMasternodeAssets 1 nRequestedMasternodeAttempt 2 nSyncProgress 0.062500
+2017-09-14 12:05:45 CMasternodeSync::ProcessTick -- nTick 103 nRequestedMasternodeAssets 1 nRequestedMasternodeAttempt 3 nSyncProgress 0.093750
+2017-09-14 12:05:50 Pre-allocating up to position 0x100000 in rev00000.dat
+2017-09-14 12:05:50 UpdateTip: new best=4bbced87ec27b78049c3d2e081bd9139106f8e25abd91178f5b573335791a014  height=1  log2_work=2  tx=2  date=2017-09-14 12:05:50 progress=1.000000  cache=0.0MiB(1tx)
+2017-09-14 12:05:50 ProcessNewBlock : ACCEPTED
+2017-09-14 12:05:51 CMasternodeSync::ProcessTick -- nTick 109 nRequestedMasternodeAssets 1 nRequestedMasternodeAttempt 4 nSyncProgress 0.125000
+2017-09-14 12:05:57 CMasternodeSync::ProcessTick -- nTick 115 nRequestedMasternodeAssets 1 nRequestedMasternodeAttempt 5 nSyncProgress 0.156250
+2017-09-14 12:05:57 CMasternodeSync::SwitchToNextAsset -- Starting MASTERNODE_SYNC_LIST
+2017-09-14 12:06:03 CMasternodeSync::ProcessTick -- nTick 121 nRequestedMasternodeAssets 2 nRequestedMasternodeAttempt 1 nSyncProgress 0.281250
+2017-09-14 12:06:09 CMasternodeSync::ProcessTick -- nTick 127 nRequestedMasternodeAssets 2 nRequestedMasternodeAttempt 2 nSyncProgress 0.312500
+2017-09-14 12:06:15 CMasternodeSync::ProcessTick -- nTick 133 nRequestedMasternodeAssets 2 nRequestedMasternodeAttempt 3 nSyncProgress 0.343750
+2017-09-14 12:06:21 CMasternodeSync::ProcessTick -- nTick 139 nRequestedMasternodeAssets 2 nRequestedMasternodeAttempt 4 nSyncProgress 0.375000
+2017-09-14 12:06:27 CMasternodeSync::ProcessTick -- nTick 145 nRequestedMasternodeAssets 2 nRequestedMasternodeAttempt 5 nSyncProgress 0.406250
+2017-09-14 12:06:33 CMasternodeSync::ProcessTick -- nTick 151 nRequestedMasternodeAssets 2 nRequestedMasternodeAttempt 6 nSyncProgress 0.437500
+2017-09-14 12:06:39 CMasternodeSync::ProcessTick -- WARNING: not enough data, restarting sync
+2017-09-14 12:06:39 CMasternodeSync::ProcessTick -- nTick 157 nRequestedMasternodeAssets 0 nRequestedMasternodeAttempt 0 nSyncProgress -0.250000
+2017-09-14 12:06:39 CMasternodeSync::SwitchToNextAsset -- Starting MASTERNODE_SYNC_SPORKS
+2017-09-14 12:06:45 CMasternodeSync::ProcessTick -- nTick 163 nRequestedMasternodeAssets 1 nRequestedMasternodeAttempt 1 nSyncProgress 0.031250
+2017-09-14 12:06:45 CMasternodeSync::SwitchToNextAsset -- Starting MASTERNODE_SYNC_LIST
+2017-09-14 12:06:51 CMasternodeSync::ProcessTick -- nTick 169 nRequestedMasternodeAssets 2 nRequestedMasternodeAttempt 1 nSyncProgress 0.281250
+2017-09-14 12:06:55 CMasternodePayments::CheckAndRemove -- Votes: 0, Blocks: 0
+2017-09-14 12:06:57 CMasternodeSync::ProcessTick -- nTick 175 nRequestedMasternodeAssets 2 nRequestedMasternodeAttempt 2 nSyncProgress 0.312500
+2017-09-14 12:07:03 CMasternodeSync::ProcessTick -- nTick 181 nRequestedMasternodeAssets 2 nRequestedMasternodeAttempt 3 nSyncProgress 0.343750
+2017-09-14 12:07:09 CMasternodeSync::ProcessTick -- nTick 187 nRequestedMasternodeAssets 2 nRequestedMasternodeAttempt 4 nSyncProgress 0.375000
+2017-09-14 12:07:15 CMasternodeSync::ProcessTick -- nTick 193 nRequestedMasternodeAssets 2 nRequestedMasternodeAttempt 5 nSyncProgress 0.406250
+2017-09-14 12:07:21 CMasternodeSync::ProcessTick -- nTick 199 nRequestedMasternodeAssets 2 nRequestedMasternodeAttempt 6 nSyncProgress 0.437500
+2017-09-14 12:07:27 CMasternodeSync::ProcessTick -- WARNING: not enough data, restarting sync
+2017-09-14 12:07:27 CMasternodeSync::ProcessTick -- nTick 205 nRequestedMasternodeAssets 0 nRequestedMasternodeAttempt 0 nSyncProgress -0.250000
+2017-09-14 12:07:27 CMasternodeSync::SwitchToNextAsset -- Starting MASTERNODE_SYNC_SPORKS
+2017-09-14 12:07:33 CMasternodeSync::ProcessTick -- nTick 211 nRequestedMasternodeAssets 1 nRequestedMasternodeAttempt 1 nSyncProgress 0.031250
+2017-09-14 12:07:33 CMasternodeSync::SwitchToNextAsset -- Starting MASTERNODE_SYNC_LIST
+2017-09-14 12:07:39 CMasternodeSync::ProcessTick -- nTick 217 nRequestedMasternodeAssets 2 nRequestedMasternodeAttempt 1 nSyncProgress 0.281250
+2017-09-14 12:07:45 CMasternodeSync::ProcessTick -- nTick 223 nRequestedMasternodeAssets 2 nRequestedMasternodeAttempt 2 nSyncProgress 0.312500
+2017-09-14 12:07:51 CMasternodeSync::ProcessTick -- nTick 229 nRequestedMasternodeAssets 2 nRequestedMasternodeAttempt 3 nSyncProgress 0.343750
+2017-09-14 12:07:55 CMasternodePayments::CheckAndRemove -- Votes: 0, Blocks: 0
+2017-09-14 12:07:57 CMasternodeSync::ProcessTick -- nTick 235 nRequestedMasternodeAssets 2 nRequestedMasternodeAttempt 4 nSyncProgress 0.375000
+2017-09-14 12:08:03 CMasternodeSync::ProcessTick -- nTick 241 nRequestedMasternodeAssets 2 nRequestedMasternodeAttempt 5 nSyncProgress 0.406250
+2017-09-14 12:08:09 CMasternodeSync::ProcessTick -- nTick 247 nRequestedMasternodeAssets 2 nRequestedMasternodeAttempt 6 nSyncProgress 0.437500
+2017-09-14 12:08:15 CMasternodeSync::ProcessTick -- WARNING: not enough data, restarting sync
+2017-09-14 12:08:15 CMasternodeSync::ProcessTick -- nTick 253 nRequestedMasternodeAssets 0 nRequestedMasternodeAttempt 0 nSyncProgress -0.250000
+2017-09-14 12:08:15 CMasternodeSync::SwitchToNextAsset -- Starting MASTERNODE_SYNC_SPORKS
+2017-09-14 12:08:21 CMasternodeSync::ProcessTick -- nTick 259 nRequestedMasternodeAssets 1 nRequestedMasternodeAttempt 1 nSyncProgress 0.031250
+2017-09-14 12:08:21 CMasternodeSync::SwitchToNextAsset -- Starting MASTERNODE_SYNC_LIST
+2017-09-14 12:08:27 CMasternodeSync::ProcessTick -- nTick 265 nRequestedMasternodeAssets 2 nRequestedMasternodeAttempt 1 nSyncProgress 0.281250
+2017-09-14 12:08:33 CMasternodeSync::ProcessTick -- nTick 271 nRequestedMasternodeAssets 2 nRequestedMasternodeAttempt 2 nSyncProgress 0.312500
+2017-09-14 12:08:39 CMasternodeSync::ProcessTick -- nTick 277 nRequestedMasternodeAssets 2 nRequestedMasternodeAttempt 3 nSyncProgress 0.343750
+2017-09-14 12:08:45 CMasternodeSync::ProcessTick -- nTick 283 nRequestedMasternodeAssets 2 nRequestedMasternodeAttempt 4 nSyncProgress 0.375000
+2017-09-14 12:08:51 CMasternodeSync::ProcessTick -- nTick 289 nRequestedMasternodeAssets 2 nRequestedMasternodeAttempt 5 nSyncProgress 0.406250
+2017-09-14 12:08:55 CMasternodePayments::CheckAndRemove -- Votes: 0, Blocks: 0
+2017-09-14 12:08:57 CMasternodeSync::ProcessTick -- nTick 295 nRequestedMasternodeAssets 2 nRequestedMasternodeAttempt 6 nSyncProgress 0.437500
+2017-09-14 12:09:03 CMasternodeSync::ProcessTick -- WARNING: not enough data, restarting sync
+2017-09-14 12:09:03 CMasternodeSync::ProcessTick -- nTick 301 nRequestedMasternodeAssets 0 nRequestedMasternodeAttempt 0 nSyncProgress -0.250000
+2017-09-14 12:09:03 CMasternodeSync::SwitchToNextAsset -- Starting MASTERNODE_SYNC_SPORKS
+2017-09-14 12:09:09 CMasternodeSync::ProcessTick -- nTick 307 nRequestedMasternodeAssets 1 nRequestedMasternodeAttempt 1 nSyncProgress 0.031250
+2017-09-14 12:09:09 CMasternodeSync::SwitchToNextAsset -- Starting MASTERNODE_SYNC_LIST
+2017-09-14 12:10:10 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2017-09-14 12:10:10 Dash Core version v0.12.1.5 (2017-04-05 19:30:08 +0300)
+2017-09-14 12:10:10 InitParameterInteraction: parameter interaction: -whitelistforcerelay=1 -> setting -whitelistrelay=1
+2017-09-14 12:10:10 Using BerkeleyDB version Berkeley DB 4.8.30: (April  9, 2010)
+2017-09-14 12:10:10 Default data directory /.dashcore
+2017-09-14 12:10:10 Using data directory /data/node-alice/regtest
+2017-09-14 12:10:10 Using config file /data/node-alice/dash.conf
+2017-09-14 12:10:10 Using at most 125 connections (1048576 file descriptors available)
+2017-09-14 12:10:10 Using 2 threads for script verification
+2017-09-14 12:10:10 HTTP: creating work queue of depth 16
+2017-09-14 12:10:10 Config options rpcuser and rpcpassword will soon be deprecated. Locally-run instances may remove rpcuser to use cookie-based auth, or may be replaced with rpcauth. Please see share/rpcuser for rpcauth auth generation.
+2017-09-14 12:10:10 HTTP: starting 4 worker threads
+2017-09-14 12:10:10 Creating backup of /data/node-alice/regtest/wallet.dat -> /data/node-alice/regtest/backups/wallet.dat.2017-09-14-12-10
+2017-09-14 12:10:10 Using wallet wallet.dat
+2017-09-14 12:10:10 init message: Verifying wallet...
+2017-09-14 12:10:10 CDBEnv::Open: LogDir=/data/node-alice/regtest/database ErrorFile=/data/node-alice/regtest/db.log
+2017-09-14 12:10:10 scheduler thread start
+2017-09-14 12:10:10 Bound to [::]:18003
+2017-09-14 12:10:10 Bound to 0.0.0.0:18003
+2017-09-14 12:10:10 Cache configuration:
+2017-09-14 12:10:10 * Using 12.5MiB for block index database
+2017-09-14 12:10:10 * Using 29.9MiB for chain state database
+2017-09-14 12:10:10 * Using 57.6MiB for in-memory UTXO set
+2017-09-14 12:10:10 init message: Loading block index...
+2017-09-14 12:10:10 Opening LevelDB in /data/node-alice/regtest/blocks/index
+2017-09-14 12:10:10 Opened LevelDB successfully
+2017-09-14 12:10:10 Using obfuscation key for /data/node-alice/regtest/blocks/index: 0000000000000000
+2017-09-14 12:10:10 Opening LevelDB in /data/node-alice/regtest/chainstate
+2017-09-14 12:10:10 Opened LevelDB successfully
+2017-09-14 12:10:10 Using obfuscation key for /data/node-alice/regtest/chainstate: 05d63f42b2fe7be2
+2017-09-14 12:10:10 LoadBlockIndexDB: last block file = 0
+2017-09-14 12:10:10 LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=1, size=314, heights=0...0, time=2014-12-04...2014-12-04)
+2017-09-14 12:10:10 Checking all blk files are present...
+2017-09-14 12:10:10 LoadBlockIndexDB: transaction index enabled
+2017-09-14 12:10:10 LoadBlockIndexDB: address index disabled
+2017-09-14 12:10:10 LoadBlockIndexDB: timestamp index disabled
+2017-09-14 12:10:10 LoadBlockIndexDB: spent index disabled
+2017-09-14 12:10:10 LoadBlockIndexDB: hashBestChain=000008ca1832a4baf228eb1553c03d3a2c8e02399550dd6ea8d65cec3ef23d2e height=0 date=2014-12-04 17:15:37 progress=1.000000
+2017-09-14 12:10:10 init message: Verifying blocks...
+2017-09-14 12:10:10  block index              80ms
+2017-09-14 12:10:10 init message: Loading wallet...
+2017-09-14 12:10:10 nKeysLeftSinceAutoBackup: 1000
+2017-09-14 12:10:10 nFileVersion = 120105
+2017-09-14 12:10:10 Keys: 1002 plaintext, 0 encrypted, 1002 w/ metadata, 1002 total
+2017-09-14 12:10:10  wallet                   62ms
+2017-09-14 12:10:10 init message: Activating best chain...
+2017-09-14 12:10:10 Using masternode config file /data/node-alice/regtest/masternode.conf
+2017-09-14 12:10:10 fLiteMode 0
+2017-09-14 12:10:10 nInstantSendDepth 5
+2017-09-14 12:10:10 PrivateSend rounds 2
+2017-09-14 12:10:10 PrivateSend amount 1000
+2017-09-14 12:10:10 init message: Loading masternode cache...
+2017-09-14 12:10:10 Reading info from mncache.dat...
+2017-09-14 12:10:10 ERROR: Read: Failed to open file /data/node-alice/regtest/mncache.dat
+2017-09-14 12:10:10 Missing file mncache.dat, will try to recreate
+2017-09-14 12:10:10 init message: Masternode cache is empty, skipping payments and governance cache...
+2017-09-14 12:10:10 init message: Loading fulfilled requests cache...
+2017-09-14 12:10:10 Reading info from netfulfilled.dat...
+2017-09-14 12:10:10 ERROR: Read: Failed to open file /data/node-alice/regtest/netfulfilled.dat
+2017-09-14 12:10:10 Missing file netfulfilled.dat, will try to recreate
+2017-09-14 12:10:10 mapBlockIndex.size() = 1
+2017-09-14 12:10:10 chainActive.Height() = 0
+2017-09-14 12:10:10 setKeyPool.size() = 1000
+2017-09-14 12:10:10 mapWallet.size() = 0
+2017-09-14 12:10:10 mapAddressBook.size() = 2
+2017-09-14 12:10:10 init message: Loading addresses...
+2017-09-14 12:10:10 ERROR: Read: Failed to open file /data/node-alice/regtest/peers.dat
+2017-09-14 12:10:10 Invalid or missing peers.dat; recreating
+2017-09-14 12:10:10 torcontrol thread start
+2017-09-14 12:10:10 ERROR: Read: Failed to open file /data/node-alice/regtest/banlist.dat
+2017-09-14 12:10:10 Invalid or missing banlist.dat; recreating
+2017-09-14 12:10:10 Loaded 0 addresses from peers.dat  1ms
+2017-09-14 12:10:10 net thread start
+2017-09-14 12:10:10 addcon thread start
+2017-09-14 12:10:10 opencon thread start
+2017-09-14 12:10:10 init message: Done loading
+2017-09-14 12:10:10 dnsseed thread start
+2017-09-14 12:10:10 Loading addresses from DNS seeds (could take a while)
+2017-09-14 12:10:10 0 addresses found from DNS seeds
+2017-09-14 12:10:10 dnsseed thread exit
+2017-09-14 12:10:10 msghand thread start
+2017-09-14 12:10:10 mnbcon thread start
+2017-09-14 12:10:10 receive version message: /Dash Core:0.12.1.5/: version 70206, blocks=0, us=0.0.0.0:0, peer=1
+2017-09-14 12:10:11 CMasternodeSync::ProcessTick -- nTick 1 nRequestedMasternodeAssets 0 nRequestedMasternodeAttempt 0 nSyncProgress -0.250000
+2017-09-14 12:10:11 CMasternodeSync::SwitchToNextAsset -- Starting MASTERNODE_SYNC_SPORKS
+2017-09-14 12:10:17 CMasternodeSync::ProcessTick -- nTick 7 nRequestedMasternodeAssets 1 nRequestedMasternodeAttempt 1 nSyncProgress 0.031250
+2017-09-14 12:10:23 CMasternodeSync::ProcessTick -- nTick 13 nRequestedMasternodeAssets 1 nRequestedMasternodeAttempt 2 nSyncProgress 0.062500
+2017-09-14 12:10:29 CMasternodeSync::ProcessTick -- nTick 19 nRequestedMasternodeAssets 1 nRequestedMasternodeAttempt 3 nSyncProgress 0.093750
+2017-09-14 12:10:35 CMasternodeSync::ProcessTick -- nTick 25 nRequestedMasternodeAssets 1 nRequestedMasternodeAttempt 4 nSyncProgress 0.125000
+2017-09-14 12:10:41 CMasternodeSync::ProcessTick -- nTick 31 nRequestedMasternodeAssets 1 nRequestedMasternodeAttempt 5 nSyncProgress 0.156250
+2017-09-14 12:10:47 CMasternodeSync::ProcessTick -- nTick 37 nRequestedMasternodeAssets 1 nRequestedMasternodeAttempt 6 nSyncProgress 0.187500
+2017-09-14 12:10:53 CMasternodeSync::ProcessTick -- WARNING: not enough data, restarting sync
+2017-09-14 12:10:53 CMasternodeSync::ProcessTick -- nTick 43 nRequestedMasternodeAssets 0 nRequestedMasternodeAttempt 0 nSyncProgress -0.250000
+2017-09-14 12:10:53 CMasternodeSync::SwitchToNextAsset -- Starting MASTERNODE_SYNC_SPORKS
+2017-09-14 12:10:59 CMasternodeSync::ProcessTick -- nTick 49 nRequestedMasternodeAssets 1 nRequestedMasternodeAttempt 1 nSyncProgress 0.031250
+2017-09-14 12:11:05 CMasternodeSync::ProcessTick -- nTick 55 nRequestedMasternodeAssets 1 nRequestedMasternodeAttempt 2 nSyncProgress 0.062500
+2017-09-14 12:11:11 Adding fixed seed nodes as DNS doesn't seem to be available.
+2017-09-14 12:11:11 CMasternodeSync::ProcessTick -- nTick 61 nRequestedMasternodeAssets 1 nRequestedMasternodeAttempt 3 nSyncProgress 0.093750
+2017-09-14 12:11:17 CMasternodeSync::ProcessTick -- nTick 67 nRequestedMasternodeAssets 1 nRequestedMasternodeAttempt 4 nSyncProgress 0.125000
+2017-09-14 12:11:23 CMasternodeSync::ProcessTick -- nTick 73 nRequestedMasternodeAssets 1 nRequestedMasternodeAttempt 5 nSyncProgress 0.156250
+2017-09-14 12:11:29 CMasternodeSync::ProcessTick -- nTick 79 nRequestedMasternodeAssets 1 nRequestedMasternodeAttempt 6 nSyncProgress 0.187500
+2017-09-14 12:11:35 CMasternodeSync::ProcessTick -- WARNING: not enough data, restarting sync
+2017-09-14 12:11:35 CMasternodeSync::ProcessTick -- nTick 85 nRequestedMasternodeAssets 0 nRequestedMasternodeAttempt 0 nSyncProgress -0.250000
+2017-09-14 12:11:35 CMasternodeSync::SwitchToNextAsset -- Starting MASTERNODE_SYNC_SPORKS
+2017-09-14 12:11:41 CMasternodeSync::ProcessTick -- nTick 91 nRequestedMasternodeAssets 1 nRequestedMasternodeAttempt 1 nSyncProgress 0.031250
+2017-09-14 12:11:47 CMasternodeSync::ProcessTick -- nTick 97 nRequestedMasternodeAssets 1 nRequestedMasternodeAttempt 2 nSyncProgress 0.062500
+2017-09-14 12:11:51 Pre-allocating up to position 0x100000 in rev00000.dat
+2017-09-14 12:11:51 UpdateTip: new best=61e5e19aa4ffa0f6119039c67a3f5b49f769fd4e1fb81eefc329289f7594a911  height=1  log2_work=2  tx=2  date=2017-09-14 12:11:50 progress=1.000000  cache=0.0MiB(1tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=67bd9d37e3e394d653a5b469f00a2c02ecfccaa8513acf5861f74e055be7bf06  height=2  log2_work=2.5849625  tx=3  date=2017-09-14 12:11:51 progress=1.000000  cache=0.0MiB(2tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=49e04ac1e95d2bf69f681bcc42f47d718611e04f48549a38f49d8d0c7dfadda1  height=3  log2_work=3  tx=4  date=2017-09-14 12:11:51 progress=1.000000  cache=0.0MiB(3tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=502a76efb6594a2a32ba81b5604c9d2bfc5fbb76b177bfdcdba6fdd6b9854d6a  height=4  log2_work=3.3219281  tx=5  date=2017-09-14 12:11:52 progress=1.000000  cache=0.0MiB(4tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=339bc51efb6dfc4b063a0928049f66c704032ad4e77d9d0eff47b832de7bcde3  height=5  log2_work=3.5849625  tx=6  date=2017-09-14 12:11:52 progress=1.000000  cache=0.0MiB(5tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=48f0814d3f0e5f2663a2dd4af16b196028d5ed6e5d9366bc87c0db4a1cebd28c  height=6  log2_work=3.8073549  tx=7  date=2017-09-14 12:11:52 progress=1.000000  cache=0.0MiB(6tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=4c8df54a8a042cde51f5e11240464976eb750ed968cd5a46fc3e55558d1f04d4  height=7  log2_work=4  tx=8  date=2017-09-14 12:11:52 progress=1.000000  cache=0.0MiB(7tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=2d64d44c996e55721e10c50d7418894751da232c9c528c889068cc9fca59e03c  height=8  log2_work=4.169925  tx=9  date=2017-09-14 12:11:53 progress=1.000000  cache=0.0MiB(8tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=1e574389af8ebe036a9b20aba251b8ec7edf9bc90c2275847dbea2658139e25c  height=9  log2_work=4.3219281  tx=10  date=2017-09-14 12:11:53 progress=1.000000  cache=0.0MiB(9tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=63f314aae8ce5753a9b2b2803379cfa8efd107020497d226731afe0861645422  height=10  log2_work=4.4594316  tx=11  date=2017-09-14 12:11:53 progress=1.000000  cache=0.0MiB(10tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=56b2c8f6e3496c16460a759ca16f6a8a830d873cd00a3420d33e764f8a5a5a7b  height=11  log2_work=4.5849625  tx=12  date=2017-09-14 12:11:53 progress=1.000000  cache=0.0MiB(11tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=6ed67261dc6d199f0f9935c96ac3336e6ddf5b1312cdb245b022542a38c890a0  height=12  log2_work=4.7004397  tx=13  date=2017-09-14 12:11:53 progress=1.000000  cache=0.0MiB(12tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=7b6b7233b74a87121019934868864c3e173bfe7d9680155a5d5fcc5401f8ada6  height=13  log2_work=4.8073549  tx=14  date=2017-09-14 12:11:53 progress=1.000000  cache=0.0MiB(13tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=3d2b7b0b7a53bc1b5347057768dd930a0dea6bbea78e4b445c5dc77b391f6ab5  height=14  log2_work=4.9068906  tx=15  date=2017-09-14 12:11:54 progress=1.000000  cache=0.0MiB(14tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=566126ecb5aa170691fb603c49995d2886c3682461300b25e822f1e4a9d79066  height=15  log2_work=5  tx=16  date=2017-09-14 12:11:54 progress=1.000000  cache=0.0MiB(15tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=4aa4d223a015c73248dce2c434a546f50abd4399e461c169a5d7f132de4fde50  height=16  log2_work=5.0874628  tx=17  date=2017-09-14 12:11:54 progress=1.000000  cache=0.0MiB(16tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=6a87c787c458c019ac6a9bf81f98d8614b11b4ff72435fd363c710d50c2f1700  height=17  log2_work=5.169925  tx=18  date=2017-09-14 12:11:54 progress=1.000000  cache=0.0MiB(17tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=076f27a480c6dfa54f0dd7d08a92f23c102fd456423be8a754094d896ef077ee  height=18  log2_work=5.2479275  tx=19  date=2017-09-14 12:11:54 progress=1.000000  cache=0.0MiB(18tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=0e76b31112cf66b2c450af6a009a29cb93672d80d4d388183664a884ae51a514  height=19  log2_work=5.3219281  tx=20  date=2017-09-14 12:11:54 progress=1.000000  cache=0.0MiB(19tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=31c7ef1c5a8cabdd8b584440c547b0fc53744e7a4a1d56860e7acf6e784abe95  height=20  log2_work=5.3923174  tx=21  date=2017-09-14 12:11:55 progress=1.000000  cache=0.0MiB(20tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=2faee41ade42818ce5293369ecf57d323472985e0c119a46d39ef73609b9123a  height=21  log2_work=5.4594316  tx=22  date=2017-09-14 12:11:55 progress=1.000000  cache=0.0MiB(21tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=2aad75f62269648d9982bdbabe45789d7c81f620876943637c97a79cbf534951  height=22  log2_work=5.523562  tx=23  date=2017-09-14 12:11:55 progress=1.000000  cache=0.0MiB(22tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=07a8d0824dc3f29d8d835520744b1eee2ca17a8b23e8e78e37a9176ec0fbbe2c  height=23  log2_work=5.5849625  tx=24  date=2017-09-14 12:11:55 progress=1.000000  cache=0.0MiB(23tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=5b14e98b3d9d321e80956b2fb1e55128ab10e3e67920b8636f74987bc9842a74  height=24  log2_work=5.6438562  tx=25  date=2017-09-14 12:11:55 progress=1.000000  cache=0.0MiB(24tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=6cbf14fb23aca9b239e8b8d9d7f48b5a0e0bd0126d2f9adb6c36b3dcd5c70751  height=25  log2_work=5.7004397  tx=26  date=2017-09-14 12:11:55 progress=1.000000  cache=0.0MiB(25tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=22d2ac6bad3b3eb2ff5f9cb11b7a35047973d7eab36947d7e835907e16e0a772  height=26  log2_work=5.7548875  tx=27  date=2017-09-14 12:11:56 progress=1.000000  cache=0.0MiB(26tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=6462df68d0677f5b339ea13cd6dd432d3f8e454696d4d1b0374fb9337acb0c7a  height=27  log2_work=5.8073549  tx=28  date=2017-09-14 12:11:56 progress=1.000000  cache=0.0MiB(27tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=11cfb83a1ad784a5bda7683c1b1f1b5cc5d0155bd865060f04fbeb0ac3ac35a7  height=28  log2_work=5.857981  tx=29  date=2017-09-14 12:11:56 progress=1.000000  cache=0.0MiB(28tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=096e80d17fcc4797f38a82346ee801b176e04e4e57a69b13f0c042dbc66d7b7c  height=29  log2_work=5.9068906  tx=30  date=2017-09-14 12:11:56 progress=1.000000  cache=0.0MiB(29tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=3cf0b5aa74b12e004dcec55518009760cc38329b177228a0353dd7f91f986453  height=30  log2_work=5.9541963  tx=31  date=2017-09-14 12:11:56 progress=1.000000  cache=0.0MiB(30tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=60993da870f8cafd70e3ce82f9cb8a058cddd2a7f625e3685ed91d96e6ae149f  height=31  log2_work=6  tx=32  date=2017-09-14 12:11:56 progress=1.000000  cache=0.0MiB(31tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=716aafbd9aad90b60b1da0dc43a33477d11cd95c5b05ec916cc824d1d6407b9b  height=32  log2_work=6.0443941  tx=33  date=2017-09-14 12:11:57 progress=1.000000  cache=0.0MiB(32tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=60666a49c362a1a57f30af08650a282a0e513d8d1077833bd40c7ec7a6721a2e  height=33  log2_work=6.0874628  tx=34  date=2017-09-14 12:11:57 progress=1.000000  cache=0.0MiB(33tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=50d1155d72680a126836f329e6215adbdb5dc694d720c2c246f226bc31547ebb  height=34  log2_work=6.129283  tx=35  date=2017-09-14 12:11:57 progress=1.000000  cache=0.0MiB(34tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=259d2139d72703f6577da325bcaef2386d51a6d618d19621baaf9e35acfb8ae7  height=35  log2_work=6.169925  tx=36  date=2017-09-14 12:11:57 progress=1.000000  cache=0.0MiB(35tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=7f28e1e6a02e91391a50ee644a6b494535005006c3a7e819674d7592ea7b27e2  height=36  log2_work=6.2094534  tx=37  date=2017-09-14 12:11:57 progress=1.000000  cache=0.0MiB(36tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=762fd4781b020087958eda9e9784f6184a4b18a3047d03a071d86a0b8177482e  height=37  log2_work=6.2479275  tx=38  date=2017-09-14 12:11:57 progress=1.000000  cache=0.0MiB(37tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=46d96e56060b55d2a531b97ae19b392d020e586f8d65c2be8d3845cca11706a2  height=38  log2_work=6.2854022  tx=39  date=2017-09-14 12:11:58 progress=1.000000  cache=0.0MiB(38tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=38b08e5fdd8c73d47c875980df6c1fb7d3ccbb088478667f77a82a8364af5bc1  height=39  log2_work=6.3219281  tx=40  date=2017-09-14 12:11:58 progress=1.000000  cache=0.0MiB(39tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=7c46928fa90d60420be77b0112ad964a6ab789d8906fe4ec350950be692f0e8c  height=40  log2_work=6.357552  tx=41  date=2017-09-14 12:11:58 progress=1.000000  cache=0.0MiB(40tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=47a5501dfe793e6f7e4991255a3b933d33c310c23c9ea84f386c2609511b8d24  height=41  log2_work=6.3923174  tx=42  date=2017-09-14 12:11:58 progress=1.000000  cache=0.0MiB(41tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=4dd3b3371d1b4753c890eebb9079bb6f39a73514b9f6d65a476ef95299b4d431  height=42  log2_work=6.4262648  tx=43  date=2017-09-14 12:11:58 progress=1.000000  cache=0.0MiB(42tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=08b13a4dd63ed99c58ce5c5a39956696906ce654f1538bad60b01cb574d70a87  height=43  log2_work=6.4594316  tx=44  date=2017-09-14 12:11:58 progress=1.000000  cache=0.0MiB(43tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=6cb8e1cfb6a74338fe129882ad11da1ffc947f3ec2ba8af5b44e52b9959089f5  height=44  log2_work=6.4918531  tx=45  date=2017-09-14 12:11:59 progress=1.000000  cache=0.0MiB(44tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=6e997070f25817a51a8bd7b09e3e2057f13a2416b49aaf1cd47dcd0dc089b0f4  height=45  log2_work=6.523562  tx=46  date=2017-09-14 12:11:59 progress=1.000000  cache=0.0MiB(45tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=31d36c7ae97513ae28f89a730dbdd487488e6ab3329505e549f8266469165755  height=46  log2_work=6.5545889  tx=47  date=2017-09-14 12:11:59 progress=1.000000  cache=0.0MiB(46tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=549a597369459c857b996dc23357b55c7b0d38d32071d6d785703e3ba776c916  height=47  log2_work=6.5849625  tx=48  date=2017-09-14 12:11:59 progress=1.000000  cache=0.0MiB(47tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=5faf987c105630a79ca772575c72c2ec695381e212cf5370b0be8a8497045e42  height=48  log2_work=6.6147098  tx=49  date=2017-09-14 12:11:59 progress=1.000000  cache=0.0MiB(48tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=29bafc629fe68730e44c6e1d363440d5254f4f3ab1537cca0375530a48957d4e  height=49  log2_work=6.6438562  tx=50  date=2017-09-14 12:11:59 progress=1.000000  cache=0.0MiB(49tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=33fb99eddfa1b9b521db4c5ad72ec457475c76a4365b0471e66a9090a2c328c2  height=50  log2_work=6.6724253  tx=51  date=2017-09-14 12:12:00 progress=1.000000  cache=0.0MiB(50tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=19d7dc4a1402104611e0867b486cf0946d8a8663500ac0d136563591e5cba1e2  height=51  log2_work=6.7004397  tx=52  date=2017-09-14 12:12:00 progress=1.000000  cache=0.0MiB(51tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=6de859279514c696413d013ebbabfdd436d17123578360745d7d6f04e6c8be69  height=52  log2_work=6.7279205  tx=53  date=2017-09-14 12:12:00 progress=1.000000  cache=0.0MiB(52tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=47b79a332f1fa57cce026101ef98009568385a2ba3525e065a3478e0668a7384  height=53  log2_work=6.7548875  tx=54  date=2017-09-14 12:12:00 progress=1.000000  cache=0.0MiB(53tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=5ac32eec3d067a5fbab6cea1905c4a0ebabb5d2eeb10574838089e9d21add8aa  height=54  log2_work=6.7813597  tx=55  date=2017-09-14 12:12:00 progress=1.000000  cache=0.0MiB(54tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=31c1b3eb1b5268241e3de2377435755eadf8c2eb47dc0def14b0119a25360b30  height=55  log2_work=6.8073549  tx=56  date=2017-09-14 12:12:00 progress=1.000000  cache=0.0MiB(55tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=37a1bb65d9eb9e5f076cb82b69c39743f80e01e70fb99c24204a73bddc1a82ab  height=56  log2_work=6.83289  tx=57  date=2017-09-14 12:12:01 progress=1.000000  cache=0.0MiB(56tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=2216494d8f51830bafb4b50cfa7bfa3441b9cb1c44089dc5591b17879c6bb1fd  height=57  log2_work=6.857981  tx=58  date=2017-09-14 12:12:01 progress=1.000000  cache=0.0MiB(57tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=79898c092b241d77987ff9dd1a3092742fd243e6d3130eeb924bb1e951db4f6b  height=58  log2_work=6.882643  tx=59  date=2017-09-14 12:12:01 progress=1.000000  cache=0.0MiB(58tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=33d836e159113f492d194ff4377058245719a67ffa86c4135cd4588b79f0be63  height=59  log2_work=6.9068906  tx=60  date=2017-09-14 12:12:01 progress=1.000000  cache=0.0MiB(59tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=7647c3b988d4164cddb2103e6532a714f3263b8a6a8b8739d22e05115fdb3828  height=60  log2_work=6.9307373  tx=61  date=2017-09-14 12:12:01 progress=1.000000  cache=0.0MiB(60tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=2f218ac85b1ad0255703dd15ab84043cd098714d6963ddb74c84096de16268f1  height=61  log2_work=6.9541963  tx=62  date=2017-09-14 12:12:01 progress=1.000000  cache=0.0MiB(61tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=2ae775b48e011e009e3bfee8ed7c1c309a1f5523d584a7ff5f02fc3fdb792488  height=62  log2_work=6.9772799  tx=63  date=2017-09-14 12:12:02 progress=1.000000  cache=0.0MiB(62tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=63307e761675adc78ec529ad4aeaba0244760f74d9e0ac11b362575b717545fd  height=63  log2_work=7  tx=64  date=2017-09-14 12:12:02 progress=1.000000  cache=0.0MiB(63tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=47a3801bba17f47ff8841e23ca8be862a876cb148ee7ebcb47a696247a7b743c  height=64  log2_work=7.0223678  tx=65  date=2017-09-14 12:12:02 progress=1.000000  cache=0.0MiB(64tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=6761b3c47931b8b848add929e08525afbce2b3040508798f4e572e6f3dfa952d  height=65  log2_work=7.0443941  tx=66  date=2017-09-14 12:12:02 progress=1.000000  cache=0.0MiB(65tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=3f3ea9fce7ae68608f049ea738fc50bddb0bc898f82f1372eaed7fcbcbc61f5c  height=66  log2_work=7.0660892  tx=67  date=2017-09-14 12:12:02 progress=1.000000  cache=0.0MiB(66tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=4a4f5c788501c12928347c272f33ac34b92db4074254434638932b7f58685324  height=67  log2_work=7.0874628  tx=68  date=2017-09-14 12:12:02 progress=1.000000  cache=0.0MiB(67tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=243e1608b0485589cc1f6ebc3aa25b3eda73a8cbd7ef169d444d6319112c633a  height=68  log2_work=7.1085245  tx=69  date=2017-09-14 12:12:03 progress=1.000000  cache=0.0MiB(68tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=1d06aefb1e638e1c3dafa37e0289617dfcb1ae9cdd8d959ff5ec25aaaad6bbb0  height=69  log2_work=7.129283  tx=70  date=2017-09-14 12:12:03 progress=1.000000  cache=0.0MiB(69tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=51f84becd7acdeda29c78100ab130db75e37786b8596806be692c78b3c7ab2d3  height=70  log2_work=7.1497471  tx=71  date=2017-09-14 12:12:03 progress=1.000000  cache=0.0MiB(70tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=1ef83d67a5dedb69738cae635e4277b6cdb6148f61492020d0f537f621a7eb98  height=71  log2_work=7.169925  tx=72  date=2017-09-14 12:12:03 progress=1.000000  cache=0.0MiB(71tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=0424637758824577900c45c844d05af01c51cd7e73aca9c8396d65f37ab241bd  height=72  log2_work=7.1898246  tx=73  date=2017-09-14 12:12:03 progress=1.000000  cache=0.0MiB(72tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=740bad65f0fc80ef3bf8043969b7b2877f00125ed3432b370a415295240f69ea  height=73  log2_work=7.2094534  tx=74  date=2017-09-14 12:12:03 progress=1.000000  cache=0.0MiB(73tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=49f32d1353f0532a1af27ee6a1830316e09c9713731391f5cf2a1b81ad8209bf  height=74  log2_work=7.2288187  tx=75  date=2017-09-14 12:12:04 progress=1.000000  cache=0.0MiB(74tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=20e7e12126c7e85428d5c7b2a757f483d72fc67d0ac286df287ef0aaf48ec23a  height=75  log2_work=7.2479275  tx=76  date=2017-09-14 12:12:04 progress=1.000000  cache=0.0MiB(75tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=24637c27b3131013e1ad06c38548e96f987d476c94c8a75bb34ea7ac716cba59  height=76  log2_work=7.2667865  tx=77  date=2017-09-14 12:12:04 progress=1.000000  cache=0.0MiB(76tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=44440fd6c0c5112e8cc8d274704b6ec8efee617b9b6d2e04bd51839c424f9645  height=77  log2_work=7.2854022  tx=78  date=2017-09-14 12:12:04 progress=1.000000  cache=0.0MiB(77tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=27d925dcd78d380ee3d346ab2fe1987f77a7be41bbc70e01ceb7a0e3f4e535f0  height=78  log2_work=7.3037807  tx=79  date=2017-09-14 12:12:04 progress=1.000000  cache=0.0MiB(78tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=00bf505b3ffbbcee14221322229d4640cfacea81a326515c9759f5d7ccbec530  height=79  log2_work=7.3219281  tx=80  date=2017-09-14 12:12:04 progress=1.000000  cache=0.0MiB(79tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=45c881f424527a9ddf4b3686db4899ffce53dd100c0826ce79c9b096811e9029  height=80  log2_work=7.33985  tx=81  date=2017-09-14 12:12:05 progress=1.000000  cache=0.0MiB(80tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=34826dbbc74cca67e92b4f91695a98b30a09eb95b85340bea360ab18630e87bb  height=81  log2_work=7.357552  tx=82  date=2017-09-14 12:12:05 progress=1.000000  cache=0.0MiB(81tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=7c4a5d5d542c834eb790d952685fef629f60a61eeb098460534ae8b7491a77ee  height=82  log2_work=7.3750394  tx=83  date=2017-09-14 12:12:05 progress=1.000000  cache=0.0MiB(82tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=2231e487eff7efb6eac0b7e002cf0ef241e88b74e395f444b6b13f994da84922  height=83  log2_work=7.3923174  tx=84  date=2017-09-14 12:12:05 progress=1.000000  cache=0.0MiB(83tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=271af90f43eb5b98af285bd35c8e65d9a665feae2392f1e56171a89ea72fe8a3  height=84  log2_work=7.4093909  tx=85  date=2017-09-14 12:12:05 progress=1.000000  cache=0.0MiB(84tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=235f8521f3e02eca2fabafc18e0a503209b1ed6977c31d235c7c3b61a5aa3c58  height=85  log2_work=7.4262648  tx=86  date=2017-09-14 12:12:05 progress=1.000000  cache=0.0MiB(85tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=2a05437bd27fcecd6c42eee08f45dbeb53481fbd7976015466ce29a1d677f9e3  height=86  log2_work=7.4429435  tx=87  date=2017-09-14 12:12:06 progress=1.000000  cache=0.0MiB(86tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=1bb82f7a52e946b31350546ff0282c6a3bf729d0b799fe29036bdc69008c56c9  height=87  log2_work=7.4594316  tx=88  date=2017-09-14 12:12:06 progress=1.000000  cache=0.0MiB(87tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=57407b955c9807f63d40b07010d74bc6c94cf6067b8d1bd6668b59154fb4325f  height=88  log2_work=7.4757334  tx=89  date=2017-09-14 12:12:06 progress=1.000000  cache=0.0MiB(88tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=0587f79d1b058c4fc7d5a347d939bdef4e30787a94d4050e4ea28b737717412d  height=89  log2_work=7.4918531  tx=90  date=2017-09-14 12:12:06 progress=1.000000  cache=0.0MiB(89tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=0b8e14c27932fe13f7e6534d94bb90cb716651bd10d75b4536acb86131a4ea5a  height=90  log2_work=7.5077946  tx=91  date=2017-09-14 12:12:06 progress=1.000000  cache=0.0MiB(90tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=0ff7c04c618c4d8ccad0fbeb603e3c99676ed6494897b6fc8fb43558588770e6  height=91  log2_work=7.523562  tx=92  date=2017-09-14 12:12:06 progress=1.000000  cache=0.0MiB(91tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=5a392f94ef4a643891843c5f2c64adabefc5860f2d033f0745b55c34f306189f  height=92  log2_work=7.5391588  tx=93  date=2017-09-14 12:12:07 progress=1.000000  cache=0.0MiB(92tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=02fa9231569a45c6d785a8f803dd8b33e7482ff96d59bd82061f64c9e6263633  height=93  log2_work=7.5545889  tx=94  date=2017-09-14 12:12:07 progress=1.000000  cache=0.0MiB(93tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=299818096d0e0f4ddad8f88ccd6ec828409e0b8836e91ba832296d0eac4e745d  height=94  log2_work=7.5698556  tx=95  date=2017-09-14 12:12:07 progress=1.000000  cache=0.0MiB(94tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=139b2fed97ad0ddf8455e4092d78fd9c9805ca426cc47175c4e1881474934772  height=95  log2_work=7.5849625  tx=96  date=2017-09-14 12:12:07 progress=1.000000  cache=0.0MiB(95tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=0519c5adc0b240c8455740a83e45e1b4a26f7f32ca2e9d7906ba36dc4b1b6208  height=96  log2_work=7.5999128  tx=97  date=2017-09-14 12:12:07 progress=1.000000  cache=0.0MiB(96tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=722254ed0d7f04cb9cdca24977b0c5a38b6532cac1c7f405e69439b46a9963b9  height=97  log2_work=7.6147098  tx=98  date=2017-09-14 12:12:07 progress=1.000000  cache=0.0MiB(97tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=2fb83168266217ce0771423ea85d7e8f97418f0613ee32c8f56ffc5240c4e725  height=98  log2_work=7.6293566  tx=99  date=2017-09-14 12:12:08 progress=1.000000  cache=0.0MiB(98tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=25f6e80a2da60b3aedc94ccdf757e4c7662274e9ec732e157ffcc315186e3c98  height=99  log2_work=7.6438562  tx=100  date=2017-09-14 12:12:08 progress=1.000000  cache=0.0MiB(99tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:51 UpdateTip: new best=12a81ae625611c75567dab43f04a7df687a4309e6e1ccdee9ecb502ba84bc7b3  height=100  log2_work=7.6582115  tx=101  date=2017-09-14 12:12:08 progress=1.000000  cache=0.0MiB(100tx)
+2017-09-14 12:11:51 ProcessNewBlock : ACCEPTED
+2017-09-14 12:11:53 CMasternodeSync::ProcessTick -- nTick 103 nRequestedMasternodeAssets 1 nRequestedMasternodeAttempt 3 nSyncProgress 0.093750
+2017-09-14 12:11:59 CMasternodeSync::ProcessTick -- nTick 109 nRequestedMasternodeAssets 1 nRequestedMasternodeAttempt 4 nSyncProgress 0.125000
+2017-09-14 12:11:59 CMasternodeSync::SwitchToNextAsset -- Starting MASTERNODE_SYNC_LIST
+2017-09-14 12:12:05 CMasternodeSync::ProcessTick -- nTick 115 nRequestedMasternodeAssets 2 nRequestedMasternodeAttempt 1 nSyncProgress 0.281250
+2017-09-14 12:12:11 CMasternodeSync::ProcessTick -- nTick 121 nRequestedMasternodeAssets 2 nRequestedMasternodeAttempt 2 nSyncProgress 0.312500
+2017-09-14 12:12:17 CMasternodeSync::ProcessTick -- nTick 127 nRequestedMasternodeAssets 2 nRequestedMasternodeAttempt 3 nSyncProgress 0.343750
+2017-09-14 12:12:23 CMasternodeSync::ProcessTick -- nTick 133 nRequestedMasternodeAssets 2 nRequestedMasternodeAttempt 4 nSyncProgress 0.375000
+2017-09-14 12:12:29 CMasternodeSync::ProcessTick -- nTick 139 nRequestedMasternodeAssets 2 nRequestedMasternodeAttempt 5 nSyncProgress 0.406250
+2017-09-14 12:12:35 CMasternodeSync::ProcessTick -- nTick 145 nRequestedMasternodeAssets 2 nRequestedMasternodeAttempt 6 nSyncProgress 0.437500
+2017-09-14 12:12:41 CMasternodeSync::ProcessTick -- WARNING: not enough data, restarting sync
+2017-09-14 12:12:41 CMasternodeSync::ProcessTick -- nTick 151 nRequestedMasternodeAssets 0 nRequestedMasternodeAttempt 0 nSyncProgress -0.250000
+2017-09-14 12:12:41 CMasternodeSync::SwitchToNextAsset -- Starting MASTERNODE_SYNC_SPORKS
+2017-09-14 12:12:47 CMasternodeSync::ProcessTick -- nTick 157 nRequestedMasternodeAssets 1 nRequestedMasternodeAttempt 1 nSyncProgress 0.031250
+2017-09-14 12:12:47 CMasternodeSync::SwitchToNextAsset -- Starting MASTERNODE_SYNC_LIST
+2017-09-14 12:12:53 CMasternodeSync::ProcessTick -- nTick 163 nRequestedMasternodeAssets 2 nRequestedMasternodeAttempt 1 nSyncProgress 0.281250
+2017-09-14 12:12:56 CMasternodePayments::CheckAndRemove -- Votes: 0, Blocks: 0
+2017-09-14 12:12:59 CMasternodeSync::ProcessTick -- nTick 169 nRequestedMasternodeAssets 2 nRequestedMasternodeAttempt 2 nSyncProgress 0.312500
+2017-09-14 12:13:05 CMasternodeSync::ProcessTick -- nTick 175 nRequestedMasternodeAssets 2 nRequestedMasternodeAttempt 3 nSyncProgress 0.343750
+2017-09-14 12:13:11 CMasternodeSync::ProcessTick -- nTick 181 nRequestedMasternodeAssets 2 nRequestedMasternodeAttempt 4 nSyncProgress 0.375000
+2017-09-14 12:13:17 CMasternodeSync::ProcessTick -- nTick 187 nRequestedMasternodeAssets 2 nRequestedMasternodeAttempt 5 nSyncProgress 0.406250
+2017-09-14 12:13:23 CMasternodeSync::ProcessTick -- nTick 193 nRequestedMasternodeAssets 2 nRequestedMasternodeAttempt 6 nSyncProgress 0.437500
+2017-09-14 12:13:29 CMasternodeSync::ProcessTick -- WARNING: not enough data, restarting sync
+2017-09-14 12:13:29 CMasternodeSync::ProcessTick -- nTick 199 nRequestedMasternodeAssets 0 nRequestedMasternodeAttempt 0 nSyncProgress -0.250000
+2017-09-14 12:13:29 CMasternodeSync::SwitchToNextAsset -- Starting MASTERNODE_SYNC_SPORKS
+2017-09-14 12:13:35 CMasternodeSync::ProcessTick -- nTick 205 nRequestedMasternodeAssets 1 nRequestedMasternodeAttempt 1 nSyncProgress 0.031250
+2017-09-14 12:13:35 CMasternodeSync::SwitchToNextAsset -- Starting MASTERNODE_SYNC_LIST
+2017-09-14 12:14:02 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2017-09-14 12:14:02 Dash Core version v0.12.1.5 (2017-04-05 19:30:08 +0300)
+2017-09-14 12:14:02 InitParameterInteraction: parameter interaction: -whitelistforcerelay=1 -> setting -whitelistrelay=1
+2017-09-14 12:14:02 Using BerkeleyDB version Berkeley DB 4.8.30: (April  9, 2010)
+2017-09-14 12:14:02 Default data directory /.dashcore
+2017-09-14 12:14:02 Using data directory /data/node-alice/regtest
+2017-09-14 12:14:02 Using config file /data/node-alice/dash.conf
+2017-09-14 12:14:02 Using at most 125 connections (1048576 file descriptors available)
+2017-09-14 12:14:02 Using 2 threads for script verification
+2017-09-14 12:14:02 HTTP: creating work queue of depth 16
+2017-09-14 12:14:02 Config options rpcuser and rpcpassword will soon be deprecated. Locally-run instances may remove rpcuser to use cookie-based auth, or may be replaced with rpcauth. Please see share/rpcuser for rpcauth auth generation.
+2017-09-14 12:14:02 HTTP: starting 4 worker threads
+2017-09-14 12:14:02 Creating backup of /data/node-alice/regtest/wallet.dat -> /data/node-alice/regtest/backups/wallet.dat.2017-09-14-12-14
+2017-09-14 12:14:02 Using wallet wallet.dat
+2017-09-14 12:14:02 init message: Verifying wallet...
+2017-09-14 12:14:02 CDBEnv::Open: LogDir=/data/node-alice/regtest/database ErrorFile=/data/node-alice/regtest/db.log
+2017-09-14 12:14:02 scheduler thread start
+2017-09-14 12:14:02 Bound to [::]:18003
+2017-09-14 12:14:02 Bound to 0.0.0.0:18003
+2017-09-14 12:14:02 Cache configuration:
+2017-09-14 12:14:02 * Using 12.5MiB for block index database
+2017-09-14 12:14:02 * Using 29.9MiB for chain state database
+2017-09-14 12:14:02 * Using 57.6MiB for in-memory UTXO set
+2017-09-14 12:14:02 init message: Loading block index...
+2017-09-14 12:14:02 Opening LevelDB in /data/node-alice/regtest/blocks/index
+2017-09-14 12:14:02 Opened LevelDB successfully
+2017-09-14 12:14:02 Using obfuscation key for /data/node-alice/regtest/blocks/index: 0000000000000000
+2017-09-14 12:14:02 Opening LevelDB in /data/node-alice/regtest/chainstate
+2017-09-14 12:14:02 Opened LevelDB successfully
+2017-09-14 12:14:02 Using obfuscation key for /data/node-alice/regtest/chainstate: 05d63f42b2fe7be2
+2017-09-14 12:14:02 LoadBlockIndexDB: last block file = 0
+2017-09-14 12:14:02 LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=1, size=314, heights=0...0, time=2014-12-04...2014-12-04)
+2017-09-14 12:14:02 Checking all blk files are present...
+2017-09-14 12:14:02 LoadBlockIndexDB: transaction index enabled
+2017-09-14 12:14:02 LoadBlockIndexDB: address index disabled
+2017-09-14 12:14:02 LoadBlockIndexDB: timestamp index disabled
+2017-09-14 12:14:02 LoadBlockIndexDB: spent index disabled
+2017-09-14 12:14:02 LoadBlockIndexDB: hashBestChain=000008ca1832a4baf228eb1553c03d3a2c8e02399550dd6ea8d65cec3ef23d2e height=0 date=2014-12-04 17:15:37 progress=1.000000
+2017-09-14 12:14:02 init message: Verifying blocks...
+2017-09-14 12:14:02  block index              64ms
+2017-09-14 12:14:02 init message: Loading wallet...
+2017-09-14 12:14:02 nKeysLeftSinceAutoBackup: 1000
+2017-09-14 12:14:02 nFileVersion = 120105
+2017-09-14 12:14:02 Keys: 1002 plaintext, 0 encrypted, 1002 w/ metadata, 1002 total
+2017-09-14 12:14:02  wallet                   30ms
+2017-09-14 12:14:02 init message: Activating best chain...
+2017-09-14 12:14:02 Using masternode config file /data/node-alice/regtest/masternode.conf
+2017-09-14 12:14:02 fLiteMode 0
+2017-09-14 12:14:02 nInstantSendDepth 5
+2017-09-14 12:14:02 PrivateSend rounds 2
+2017-09-14 12:14:02 PrivateSend amount 1000
+2017-09-14 12:14:02 init message: Loading masternode cache...
+2017-09-14 12:14:02 Reading info from mncache.dat...
+2017-09-14 12:14:02 ERROR: Read: Failed to open file /data/node-alice/regtest/mncache.dat
+2017-09-14 12:14:02 Missing file mncache.dat, will try to recreate
+2017-09-14 12:14:02 init message: Masternode cache is empty, skipping payments and governance cache...
+2017-09-14 12:14:02 init message: Loading fulfilled requests cache...
+2017-09-14 12:14:02 Reading info from netfulfilled.dat...
+2017-09-14 12:14:02 ERROR: Read: Failed to open file /data/node-alice/regtest/netfulfilled.dat
+2017-09-14 12:14:02 Missing file netfulfilled.dat, will try to recreate
+2017-09-14 12:14:02 mapBlockIndex.size() = 1
+2017-09-14 12:14:02 chainActive.Height() = 0
+2017-09-14 12:14:02 setKeyPool.size() = 1000
+2017-09-14 12:14:02 mapWallet.size() = 0
+2017-09-14 12:14:02 mapAddressBook.size() = 2
+2017-09-14 12:14:02 init message: Loading addresses...
+2017-09-14 12:14:02 ERROR: Read: Failed to open file /data/node-alice/regtest/peers.dat
+2017-09-14 12:14:02 Invalid or missing peers.dat; recreating
+2017-09-14 12:14:02 ERROR: Read: Failed to open file /data/node-alice/regtest/banlist.dat
+2017-09-14 12:14:02 Invalid or missing banlist.dat; recreating
+2017-09-14 12:14:02 Loaded 0 addresses from peers.dat  0ms
+2017-09-14 12:14:02 torcontrol thread start
+2017-09-14 12:14:02 init message: Done loading
+2017-09-14 12:14:02 msghand thread start
+2017-09-14 12:14:02 mnbcon thread start
+2017-09-14 12:14:02 opencon thread start
+2017-09-14 12:14:02 addcon thread start
+2017-09-14 12:14:02 net thread start
+2017-09-14 12:14:02 dnsseed thread start
+2017-09-14 12:14:02 Loading addresses from DNS seeds (could take a while)
+2017-09-14 12:14:02 0 addresses found from DNS seeds
+2017-09-14 12:14:02 dnsseed thread exit
+2017-09-14 12:14:02 receive version message: /Dash Core:0.12.1.5/: version 70206, blocks=0, us=0.0.0.0:0, peer=1
+2017-09-14 12:14:03 CMasternodeSync::ProcessTick -- nTick 1 nRequestedMasternodeAssets 0 nRequestedMasternodeAttempt 0 nSyncProgress -0.250000
+2017-09-14 12:14:03 CMasternodeSync::SwitchToNextAsset -- Starting MASTERNODE_SYNC_SPORKS
+2017-09-14 12:14:09 CMasternodeSync::ProcessTick -- nTick 7 nRequestedMasternodeAssets 1 nRequestedMasternodeAttempt 1 nSyncProgress 0.031250
+2017-09-14 12:14:15 CMasternodeSync::ProcessTick -- nTick 13 nRequestedMasternodeAssets 1 nRequestedMasternodeAttempt 2 nSyncProgress 0.062500
+2017-09-14 12:14:21 CMasternodeSync::ProcessTick -- nTick 19 nRequestedMasternodeAssets 1 nRequestedMasternodeAttempt 3 nSyncProgress 0.093750
+2017-09-14 12:14:27 CMasternodeSync::ProcessTick -- nTick 25 nRequestedMasternodeAssets 1 nRequestedMasternodeAttempt 4 nSyncProgress 0.125000
+2017-09-14 12:14:33 CMasternodeSync::ProcessTick -- nTick 31 nRequestedMasternodeAssets 1 nRequestedMasternodeAttempt 5 nSyncProgress 0.156250
+2017-09-14 12:14:39 CMasternodeSync::ProcessTick -- nTick 37 nRequestedMasternodeAssets 1 nRequestedMasternodeAttempt 6 nSyncProgress 0.187500
+2017-09-14 12:14:45 CMasternodeSync::ProcessTick -- WARNING: not enough data, restarting sync
+2017-09-14 12:14:45 CMasternodeSync::ProcessTick -- nTick 43 nRequestedMasternodeAssets 0 nRequestedMasternodeAttempt 0 nSyncProgress -0.250000
+2017-09-14 12:14:45 CMasternodeSync::SwitchToNextAsset -- Starting MASTERNODE_SYNC_SPORKS
+2017-09-14 12:14:51 CMasternodeSync::ProcessTick -- nTick 49 nRequestedMasternodeAssets 1 nRequestedMasternodeAttempt 1 nSyncProgress 0.031250
+2017-09-14 12:14:57 CMasternodeSync::ProcessTick -- nTick 55 nRequestedMasternodeAssets 1 nRequestedMasternodeAttempt 2 nSyncProgress 0.062500
+2017-09-14 12:15:03 Adding fixed seed nodes as DNS doesn't seem to be available.
+2017-09-14 12:15:03 CMasternodeSync::ProcessTick -- nTick 61 nRequestedMasternodeAssets 1 nRequestedMasternodeAttempt 3 nSyncProgress 0.093750
+2017-09-14 12:15:09 CMasternodeSync::ProcessTick -- nTick 67 nRequestedMasternodeAssets 1 nRequestedMasternodeAttempt 4 nSyncProgress 0.125000
+2017-09-14 12:15:15 CMasternodeSync::ProcessTick -- nTick 73 nRequestedMasternodeAssets 1 nRequestedMasternodeAttempt 5 nSyncProgress 0.156250
+2017-09-14 12:15:21 CMasternodeSync::ProcessTick -- nTick 79 nRequestedMasternodeAssets 1 nRequestedMasternodeAttempt 6 nSyncProgress 0.187500
+2017-09-14 12:15:27 CMasternodeSync::ProcessTick -- WARNING: not enough data, restarting sync
+2017-09-14 12:15:27 CMasternodeSync::ProcessTick -- nTick 85 nRequestedMasternodeAssets 0 nRequestedMasternodeAttempt 0 nSyncProgress -0.250000
+2017-09-14 12:15:27 CMasternodeSync::SwitchToNextAsset -- Starting MASTERNODE_SYNC_SPORKS
+2017-09-14 12:15:33 CMasternodeSync::ProcessTick -- nTick 91 nRequestedMasternodeAssets 1 nRequestedMasternodeAttempt 1 nSyncProgress 0.031250
+2017-09-14 12:15:37 Pre-allocating up to position 0x100000 in rev00000.dat
+2017-09-14 12:15:37 UpdateTip: new best=0d98aeb89d461f13cc3cf2d183d8b03cad7cae7e155449201caa274824189907  height=1  log2_work=2  tx=2  date=2017-09-14 12:15:37 progress=1.000000  cache=0.0MiB(1tx)
+2017-09-14 12:15:37 ProcessNewBlock : ACCEPTED
+2017-09-14 12:15:39 CMasternodeSync::ProcessTick -- nTick 97 nRequestedMasternodeAssets 1 nRequestedMasternodeAttempt 2 nSyncProgress 0.062500
+2017-09-14 12:15:45 CMasternodeSync::ProcessTick -- nTick 103 nRequestedMasternodeAssets 1 nRequestedMasternodeAttempt 3 nSyncProgress 0.093750
+2017-09-14 12:15:45 CMasternodeSync::SwitchToNextAsset -- Starting MASTERNODE_SYNC_LIST
+2017-09-14 12:15:51 CMasternodeSync::ProcessTick -- nTick 109 nRequestedMasternodeAssets 2 nRequestedMasternodeAttempt 1 nSyncProgress 0.281250
+2017-09-14 12:15:57 CMasternodeSync::ProcessTick -- nTick 115 nRequestedMasternodeAssets 2 nRequestedMasternodeAttempt 2 nSyncProgress 0.312500
+2017-09-14 12:16:03 CMasternodeSync::ProcessTick -- nTick 121 nRequestedMasternodeAssets 2 nRequestedMasternodeAttempt 3 nSyncProgress 0.343750
+2017-09-14 12:16:09 CMasternodeSync::ProcessTick -- nTick 127 nRequestedMasternodeAssets 2 nRequestedMasternodeAttempt 4 nSyncProgress 0.375000
+2017-09-14 12:16:15 CMasternodeSync::ProcessTick -- nTick 133 nRequestedMasternodeAssets 2 nRequestedMasternodeAttempt 5 nSyncProgress 0.406250
+2017-09-14 12:16:21 CMasternodeSync::ProcessTick -- nTick 139 nRequestedMasternodeAssets 2 nRequestedMasternodeAttempt 6 nSyncProgress 0.437500
+2017-09-14 12:16:27 CMasternodeSync::ProcessTick -- WARNING: not enough data, restarting sync
+2017-09-14 12:16:27 CMasternodeSync::ProcessTick -- nTick 145 nRequestedMasternodeAssets 0 nRequestedMasternodeAttempt 0 nSyncProgress -0.250000
+2017-09-14 12:16:27 CMasternodeSync::SwitchToNextAsset -- Starting MASTERNODE_SYNC_SPORKS
+2017-09-14 12:16:33 CMasternodeSync::ProcessTick -- nTick 151 nRequestedMasternodeAssets 1 nRequestedMasternodeAttempt 1 nSyncProgress 0.031250
+2017-09-14 12:16:33 CMasternodeSync::SwitchToNextAsset -- Starting MASTERNODE_SYNC_LIST
+2017-09-14 12:21:26 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2017-09-14 12:21:26 Dash Core version v0.12.1.5 (2017-04-05 19:30:08 +0300)
+2017-09-14 12:21:26 InitParameterInteraction: parameter interaction: -whitelistforcerelay=1 -> setting -whitelistrelay=1
+2017-09-14 12:21:26 Using BerkeleyDB version Berkeley DB 4.8.30: (April  9, 2010)
+2017-09-14 12:21:26 Default data directory /.dashcore
+2017-09-14 12:21:26 Using data directory /data/node-alice/regtest
+2017-09-14 12:21:26 Using config file /data/node-alice/dash.conf
+2017-09-14 12:21:26 Using at most 125 connections (1048576 file descriptors available)
+2017-09-14 12:21:26 Using 2 threads for script verification
+2017-09-14 12:21:26 HTTP: creating work queue of depth 16
+2017-09-14 12:21:26 Config options rpcuser and rpcpassword will soon be deprecated. Locally-run instances may remove rpcuser to use cookie-based auth, or may be replaced with rpcauth. Please see share/rpcuser for rpcauth auth generation.
+2017-09-14 12:21:26 HTTP: starting 4 worker threads
+2017-09-14 12:21:26 Creating backup of /data/node-alice/regtest/wallet.dat -> /data/node-alice/regtest/backups/wallet.dat.2017-09-14-12-21
+2017-09-14 12:21:26 Using wallet wallet.dat
+2017-09-14 12:21:26 init message: Verifying wallet...
+2017-09-14 12:21:26 CDBEnv::Open: LogDir=/data/node-alice/regtest/database ErrorFile=/data/node-alice/regtest/db.log
+2017-09-14 12:21:26 scheduler thread start
+2017-09-14 12:21:26 Bound to [::]:18003
+2017-09-14 12:21:26 Bound to 0.0.0.0:18003
+2017-09-14 12:21:26 Cache configuration:
+2017-09-14 12:21:26 * Using 12.5MiB for block index database
+2017-09-14 12:21:26 * Using 29.9MiB for chain state database
+2017-09-14 12:21:26 * Using 57.6MiB for in-memory UTXO set
+2017-09-14 12:21:26 init message: Loading block index...
+2017-09-14 12:21:26 Opening LevelDB in /data/node-alice/regtest/blocks/index
+2017-09-14 12:21:26 Opened LevelDB successfully
+2017-09-14 12:21:26 Using obfuscation key for /data/node-alice/regtest/blocks/index: 0000000000000000
+2017-09-14 12:21:26 Opening LevelDB in /data/node-alice/regtest/chainstate
+2017-09-14 12:21:26 Opened LevelDB successfully
+2017-09-14 12:21:26 Using obfuscation key for /data/node-alice/regtest/chainstate: 05d63f42b2fe7be2
+2017-09-14 12:21:26 LoadBlockIndexDB: last block file = 0
+2017-09-14 12:21:26 LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=1, size=314, heights=0...0, time=2014-12-04...2014-12-04)
+2017-09-14 12:21:26 Checking all blk files are present...
+2017-09-14 12:21:26 LoadBlockIndexDB: transaction index enabled
+2017-09-14 12:21:26 LoadBlockIndexDB: address index disabled
+2017-09-14 12:21:26 LoadBlockIndexDB: timestamp index disabled
+2017-09-14 12:21:26 LoadBlockIndexDB: spent index disabled
+2017-09-14 12:21:26 LoadBlockIndexDB: hashBestChain=000008ca1832a4baf228eb1553c03d3a2c8e02399550dd6ea8d65cec3ef23d2e height=0 date=2014-12-04 17:15:37 progress=1.000000
+2017-09-14 12:21:26 init message: Verifying blocks...
+2017-09-14 12:21:26  block index              78ms
+2017-09-14 12:21:26 init message: Loading wallet...
+2017-09-14 12:21:26 nKeysLeftSinceAutoBackup: 1000
+2017-09-14 12:21:26 nFileVersion = 120105
+2017-09-14 12:21:26 Keys: 1002 plaintext, 0 encrypted, 1002 w/ metadata, 1002 total
+2017-09-14 12:21:26  wallet                   33ms
+2017-09-14 12:21:26 init message: Activating best chain...
+2017-09-14 12:21:26 Using masternode config file /data/node-alice/regtest/masternode.conf
+2017-09-14 12:21:26 fLiteMode 0
+2017-09-14 12:21:26 nInstantSendDepth 5
+2017-09-14 12:21:26 PrivateSend rounds 2
+2017-09-14 12:21:26 PrivateSend amount 1000
+2017-09-14 12:21:26 init message: Loading masternode cache...
+2017-09-14 12:21:26 Reading info from mncache.dat...
+2017-09-14 12:21:26 ERROR: Read: Failed to open file /data/node-alice/regtest/mncache.dat
+2017-09-14 12:21:26 Missing file mncache.dat, will try to recreate
+2017-09-14 12:21:26 init message: Masternode cache is empty, skipping payments and governance cache...
+2017-09-14 12:21:26 init message: Loading fulfilled requests cache...
+2017-09-14 12:21:26 Reading info from netfulfilled.dat...
+2017-09-14 12:21:26 ERROR: Read: Failed to open file /data/node-alice/regtest/netfulfilled.dat
+2017-09-14 12:21:26 Missing file netfulfilled.dat, will try to recreate
+2017-09-14 12:21:26 mapBlockIndex.size() = 1
+2017-09-14 12:21:26 chainActive.Height() = 0
+2017-09-14 12:21:26 setKeyPool.size() = 1000
+2017-09-14 12:21:26 mapWallet.size() = 0
+2017-09-14 12:21:26 mapAddressBook.size() = 2
+2017-09-14 12:21:26 init message: Loading addresses...
+2017-09-14 12:21:26 torcontrol thread start
+2017-09-14 12:21:26 ERROR: Read: Failed to open file /data/node-alice/regtest/peers.dat
+2017-09-14 12:21:26 Invalid or missing peers.dat; recreating
+2017-09-14 12:21:26 ERROR: Read: Failed to open file /data/node-alice/regtest/banlist.dat
+2017-09-14 12:21:26 Invalid or missing banlist.dat; recreating
+2017-09-14 12:21:26 Loaded 0 addresses from peers.dat  0ms
+2017-09-14 12:21:26 dnsseed thread start
+2017-09-14 12:21:26 init message: Done loading
+2017-09-14 12:21:26 Loading addresses from DNS seeds (could take a while)
+2017-09-14 12:21:26 opencon thread start
+2017-09-14 12:21:26 0 addresses found from DNS seeds
+2017-09-14 12:21:26 addcon thread start
+2017-09-14 12:21:26 dnsseed thread exit
+2017-09-14 12:21:26 net thread start
+2017-09-14 12:21:26 mnbcon thread start
+2017-09-14 12:21:26 msghand thread start
+2017-09-14 12:21:26 receive version message: /Dash Core:0.12.1.5/: version 70206, blocks=0, us=0.0.0.0:0, peer=1
+2017-09-14 12:21:27 CMasternodeSync::ProcessTick -- nTick 1 nRequestedMasternodeAssets 0 nRequestedMasternodeAttempt 0 nSyncProgress -0.250000
+2017-09-14 12:21:27 CMasternodeSync::SwitchToNextAsset -- Starting MASTERNODE_SYNC_SPORKS
+2017-09-14 12:21:33 CMasternodeSync::ProcessTick -- nTick 7 nRequestedMasternodeAssets 1 nRequestedMasternodeAttempt 1 nSyncProgress 0.031250
+2017-09-14 12:21:39 CMasternodeSync::ProcessTick -- nTick 13 nRequestedMasternodeAssets 1 nRequestedMasternodeAttempt 2 nSyncProgress 0.062500
+2017-09-14 12:21:45 CMasternodeSync::ProcessTick -- nTick 19 nRequestedMasternodeAssets 1 nRequestedMasternodeAttempt 3 nSyncProgress 0.093750
+2017-09-14 12:21:48 Pre-allocating up to position 0x100000 in rev00000.dat
+2017-09-14 12:21:48 UpdateTip: new best=0db6707d02ae3f675cdc4ebb37d3aeec122ea74e28163db12b2a22710d079a32  height=1  log2_work=2  tx=2  date=2017-09-14 12:21:48 progress=1.000000  cache=0.0MiB(1tx)
+2017-09-14 12:21:48 ProcessNewBlock : ACCEPTED
+2017-09-14 12:21:51 CMasternodeSync::ProcessTick -- nTick 25 nRequestedMasternodeAssets 1 nRequestedMasternodeAttempt 4 nSyncProgress 0.125000
+2017-09-14 12:21:57 CMasternodeSync::ProcessTick -- nTick 31 nRequestedMasternodeAssets 1 nRequestedMasternodeAttempt 5 nSyncProgress 0.156250
+2017-09-14 12:21:57 CMasternodeSync::SwitchToNextAsset -- Starting MASTERNODE_SYNC_LIST
+2017-09-14 12:22:03 CMasternodeSync::ProcessTick -- nTick 37 nRequestedMasternodeAssets 2 nRequestedMasternodeAttempt 1 nSyncProgress 0.281250
+2017-09-14 12:22:09 CMasternodeSync::ProcessTick -- nTick 43 nRequestedMasternodeAssets 2 nRequestedMasternodeAttempt 2 nSyncProgress 0.312500
+2017-09-14 12:22:15 CMasternodeSync::ProcessTick -- nTick 49 nRequestedMasternodeAssets 2 nRequestedMasternodeAttempt 3 nSyncProgress 0.343750
+2017-09-14 12:22:21 CMasternodeSync::ProcessTick -- nTick 55 nRequestedMasternodeAssets 2 nRequestedMasternodeAttempt 4 nSyncProgress 0.375000
+2017-09-14 12:22:27 Adding fixed seed nodes as DNS doesn't seem to be available.
+2017-09-14 12:22:27 CMasternodeSync::ProcessTick -- nTick 61 nRequestedMasternodeAssets 2 nRequestedMasternodeAttempt 5 nSyncProgress 0.406250
+2017-09-14 12:22:33 CMasternodeSync::ProcessTick -- nTick 67 nRequestedMasternodeAssets 2 nRequestedMasternodeAttempt 6 nSyncProgress 0.437500
+2017-09-14 12:22:39 CMasternodeSync::ProcessTick -- WARNING: not enough data, restarting sync
+2017-09-14 12:22:39 CMasternodeSync::ProcessTick -- nTick 73 nRequestedMasternodeAssets 0 nRequestedMasternodeAttempt 0 nSyncProgress -0.250000
+2017-09-14 12:22:39 CMasternodeSync::SwitchToNextAsset -- Starting MASTERNODE_SYNC_SPORKS
+2017-09-14 12:22:45 CMasternodeSync::ProcessTick -- nTick 79 nRequestedMasternodeAssets 1 nRequestedMasternodeAttempt 1 nSyncProgress 0.031250
+2017-09-14 12:22:45 CMasternodeSync::SwitchToNextAsset -- Starting MASTERNODE_SYNC_LIST
+2017-09-14 12:22:51 CMasternodeSync::ProcessTick -- nTick 85 nRequestedMasternodeAssets 2 nRequestedMasternodeAttempt 1 nSyncProgress 0.281250
+2017-09-14 12:22:53 CMasternodePayments::CheckAndRemove -- Votes: 0, Blocks: 0
+2017-09-14 12:22:57 CMasternodeSync::ProcessTick -- nTick 91 nRequestedMasternodeAssets 2 nRequestedMasternodeAttempt 2 nSyncProgress 0.312500
+2017-09-14 12:23:03 CMasternodeSync::ProcessTick -- nTick 97 nRequestedMasternodeAssets 2 nRequestedMasternodeAttempt 3 nSyncProgress 0.343750
+2017-09-14 12:23:09 CMasternodeSync::ProcessTick -- nTick 103 nRequestedMasternodeAssets 2 nRequestedMasternodeAttempt 4 nSyncProgress 0.375000
+2017-09-14 12:23:15 CMasternodeSync::ProcessTick -- nTick 109 nRequestedMasternodeAssets 2 nRequestedMasternodeAttempt 5 nSyncProgress 0.406250
+2017-09-14 12:23:21 CMasternodeSync::ProcessTick -- nTick 115 nRequestedMasternodeAssets 2 nRequestedMasternodeAttempt 6 nSyncProgress 0.437500
+2017-09-14 12:23:27 CMasternodeSync::ProcessTick -- WARNING: not enough data, restarting sync
+2017-09-14 12:23:27 CMasternodeSync::ProcessTick -- nTick 121 nRequestedMasternodeAssets 0 nRequestedMasternodeAttempt 0 nSyncProgress -0.250000
+2017-09-14 12:23:27 CMasternodeSync::SwitchToNextAsset -- Starting MASTERNODE_SYNC_SPORKS
+2017-09-14 12:23:33 CMasternodeSync::ProcessTick -- nTick 127 nRequestedMasternodeAssets 1 nRequestedMasternodeAttempt 1 nSyncProgress 0.031250
+2017-09-14 12:23:33 CMasternodeSync::SwitchToNextAsset -- Starting MASTERNODE_SYNC_LIST
+2017-09-14 12:23:39 CMasternodeSync::ProcessTick -- nTick 133 nRequestedMasternodeAssets 2 nRequestedMasternodeAttempt 1 nSyncProgress 0.281250
+2017-09-14 12:23:45 CMasternodeSync::ProcessTick -- nTick 139 nRequestedMasternodeAssets 2 nRequestedMasternodeAttempt 2 nSyncProgress 0.312500
+2017-09-14 12:23:51 CMasternodeSync::ProcessTick -- nTick 145 nRequestedMasternodeAssets 2 nRequestedMasternodeAttempt 3 nSyncProgress 0.343750
+2017-09-14 12:23:53 CMasternodePayments::CheckAndRemove -- Votes: 0, Blocks: 0
+2017-09-14 12:23:57 CMasternodeSync::ProcessTick -- nTick 151 nRequestedMasternodeAssets 2 nRequestedMasternodeAttempt 4 nSyncProgress 0.375000
+2017-09-14 12:23:57 ThreadSocketHandler -- removing node: peer=1 addr=127.0.0.1:18001 nRefCount=1 fNetworkNode=1 fInbound=0 fMasternode=0
+2017-09-14 12:24:03 CMasternodeSync::ProcessTick -- nTick 157 nRequestedMasternodeAssets 2 nRequestedMasternodeAttempt 5 nSyncProgress 0.406250
+2017-09-14 12:24:05 tor: Thread interrupt
+2017-09-14 12:24:05 opencon thread interrupt
+2017-09-14 12:24:05 mnbcon thread interrupt
+2017-09-14 12:24:05 addcon thread interrupt
+2017-09-14 12:24:05 scheduler thread interrupt
+2017-09-14 12:24:05 msghand thread interrupt
+2017-09-14 12:24:05 torcontrol thread exit
+2017-09-14 12:24:06 net thread interrupt
+2017-09-14 12:24:06 PrepareShutdown: In progress...
+2017-09-14 12:24:06 StopNode()
+2017-09-14 12:24:06 Verifying mncache.dat format...
+2017-09-14 12:24:06 ERROR: Read: Failed to open file /data/node-alice/regtest/mncache.dat
+2017-09-14 12:24:06 Missing file mncache.dat, will try to recreate
+2017-09-14 12:24:06 Writting info to mncache.dat...
+2017-09-14 12:24:06 Written info to mncache.dat  0ms
+2017-09-14 12:24:06      Masternodes: 0, peers who asked us for Masternode list: 0, peers we asked for Masternode list: 1, entries in Masternode list we asked for: 0, masternode index size: 0, nDsqCount: 0
+2017-09-14 12:24:06 mncache.dat dump finished  0ms
+2017-09-14 12:24:06 Verifying mnpayments.dat format...
+2017-09-14 12:24:06 ERROR: Read: Failed to open file /data/node-alice/regtest/mnpayments.dat
+2017-09-14 12:24:06 Missing file mnpayments.dat, will try to recreate
+2017-09-14 12:24:06 Writting info to mnpayments.dat...
+2017-09-14 12:24:06 Written info to mnpayments.dat  0ms
+2017-09-14 12:24:06      Votes: 0, Blocks: 0
+2017-09-14 12:24:06 mnpayments.dat dump finished  0ms
+2017-09-14 12:24:06 Verifying governance.dat format...
+2017-09-14 12:24:06 ERROR: Read: Failed to open file /data/node-alice/regtest/governance.dat
+2017-09-14 12:24:06 Missing file governance.dat, will try to recreate
+2017-09-14 12:24:06 Writting info to governance.dat...
+2017-09-14 12:24:06 Written info to governance.dat  0ms
+2017-09-14 12:24:06      Governance Objects: 0 (Proposals: 0, Triggers: 0, Watchdogs: 0/0, Other: 0; Seen: 0), Votes: 0
+2017-09-14 12:24:06 governance.dat dump finished  0ms
+2017-09-14 12:24:06 Verifying netfulfilled.dat format...
+2017-09-14 12:24:06 ERROR: Read: Failed to open file /data/node-alice/regtest/netfulfilled.dat
+2017-09-14 12:24:06 Missing file netfulfilled.dat, will try to recreate
+2017-09-14 12:24:06 Writting info to netfulfilled.dat...
+2017-09-14 12:24:06 Written info to netfulfilled.dat  0ms
+2017-09-14 12:24:06      Nodes with fulfilled requests: 0
+2017-09-14 12:24:06 netfulfilled.dat dump finished  0ms
+2017-09-14 12:24:06 Shutdown: done

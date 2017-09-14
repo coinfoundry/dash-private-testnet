@@ -1,4 +1,4 @@
-## Dashcoin three nodes private network in regtest mode
+## Dashcoin three-node private network in regtest mode
 ---------------------------------------------------
 
 - Node Pool

@@ -1,5 +1,7 @@
 ## Dashcoin three-node private network in regtest mode
 
+**NOTE:** For some unknown reason getblocktemplate always returns "Dash Core is syncing with network..."
+
 - Node Pool
   - RPC Port 16001, Username: user, Password: pass
 - Node Bob
